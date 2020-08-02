@@ -1,0 +1,47 @@
+STDOUT:
+iles/LLVMSupport.dir/ItaniumManglingCanonicalizer.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/ItaniumManglingCanonicalizer.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/ItaniumManglingCanonicalizer.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ItaniumManglingCanonicalizer.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ItaniumManglingCanonicalizer.cpp:9:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ItaniumManglingCanonicalizer.h:71:15: error: ‘uintptr_t’ does not name a type; did you mean ‘nullptr_t’?
+   using Key = uintptr_t;
+               ^~~~~~~~~
+               nullptr_t
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ItaniumManglingCanonicalizer.h:81:3: error: ‘Key’ does not name a type
+   Key canonicalize(StringRef Mangling);
+   ^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ItaniumManglingCanonicalizer.h:85:3: error: ‘Key’ does not name a type
+   Key lookup(StringRef Mangling);
+   ^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ItaniumManglingCanonicalizer.cpp:294:38: error: ‘Key’ in ‘class llvm::ItaniumManglingCanonicalizer’ does not name a type
+ static ItaniumManglingCanonicalizer::Key
+                                      ^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ItaniumManglingCanonicalizer.cpp:314:31: error: ‘Key’ in ‘class llvm::ItaniumManglingCanonicalizer’ does not name a type
+ ItaniumManglingCanonicalizer::Key
+                               ^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ItaniumManglingCanonicalizer.cpp:319:31: error: ‘Key’ in ‘class llvm::ItaniumManglingCanonicalizer’ does not name a type
+ ItaniumManglingCanonicalizer::Key
+                               ^~~
+[114/2531] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+4.55user 1.06system 0:02.98elapsed 188%CPU (0avgtext+0avgdata 188404maxresident)k
+0inputs+22688outputs (0major+139481minor)pagefaults 0swaps

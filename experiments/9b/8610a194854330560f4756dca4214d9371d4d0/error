@@ -1,0 +1,29 @@
+STDOUT:
+++0x18d5e33)
+#27 0x0000564fa3a0f2f0 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.148) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1f922f0)
+#28 0x0000564fa39e9b45 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1f6cb45)
+#29 0x0000564fa39ea5a1 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1f6d5a1)
+#30 0x0000564fa39f3235 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1f76235)
+#31 0x0000564fa23b096a main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x93396a)
+#32 0x00007f945fcceb97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#33 0x0000564fa2423eaa _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x9a6eaa)
+clang-11: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 11.0.0 
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-11: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-11: note: diagnostic msg: /tmp/btBoxBoxDetector-4693a7.cpp
+clang-11: note: diagnostic msg: /tmp/btBoxBoxDetector-4693a7.sh
+clang-11: note: diagnostic msg: 
+
+********************
+[232/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/terminator.c.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

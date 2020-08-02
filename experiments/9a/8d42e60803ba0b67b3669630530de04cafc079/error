@@ -1,0 +1,147 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+                 from /usr/include/c++/7/bits/unique_ptr.h:37,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/bits/basic_string.h:654:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const basic_string& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:654:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const std::__cxx11::basic_string<char>&’
+/usr/include/c++/7/bits/basic_string.h:693:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:693:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const char*’
+/usr/include/c++/7/bits/basic_string.h:704:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(_CharT __c)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:704:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘char’
+/usr/include/c++/7/bits/basic_string.h:722:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(basic_string&& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:722:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::__cxx11::basic_string<char>&&’
+/usr/include/c++/7/bits/basic_string.h:785:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(initializer_list<_CharT> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:785:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::initializer_list<char>’
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:304:52: error: no match for ‘operator=’ (operand types are ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ and ‘llvm::StringRef’)
+       stats_file = opt.substr(strlen("stats-file="));
+                                                    ^
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /usr/include/c++/7/tuple:39,
+                 from /usr/include/c++/7/bits/unique_ptr.h:37,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/bits/basic_string.h:654:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const basic_string& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:654:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const std::__cxx11::basic_string<char>&’
+/usr/include/c++/7/bits/basic_string.h:693:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:693:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const char*’
+/usr/include/c++/7/bits/basic_string.h:704:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(_CharT __c)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:704:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘char’
+/usr/include/c++/7/bits/basic_string.h:722:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(basic_string&& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:722:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::__cxx11::basic_string<char>&&’
+/usr/include/c++/7/bits/basic_string.h:785:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(initializer_list<_CharT> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:785:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::initializer_list<char>’
+In file included from /usr/include/c++/7/bits/unique_ptr.h:37:0,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/tuple: In instantiation of ‘std::tuple<_T1, _T2>& std::tuple<_T1, _T2>::operator=(std::pair<_U1, _U2>&&) [with _U1 = llvm::StringRef; _U2 = llvm::StringRef; _T1 = std::__cxx11::basic_string<char>&; _T2 = std::__cxx11::basic_string<char>&]’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:686:59:   required from here
+/usr/include/c++/7/tuple:1252:25: error: no match for ‘operator=’ (operand types are ‘std::__cxx11::basic_string<char>’ and ‘llvm::StringRef’)
+    this->_M_head(*this) = std::forward<_U1>(__in.first);
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /usr/include/c++/7/tuple:39,
+                 from /usr/include/c++/7/bits/unique_ptr.h:37,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/bits/basic_string.h:654:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const basic_string& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:654:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const std::__cxx11::basic_string<char>&’
+/usr/include/c++/7/bits/basic_string.h:693:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:693:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const char*’
+/usr/include/c++/7/bits/basic_string.h:704:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(_CharT __c)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:704:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘char’
+/usr/include/c++/7/bits/basic_string.h:722:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(basic_string&& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:722:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::__cxx11::basic_string<char>&&’
+/usr/include/c++/7/bits/basic_string.h:785:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(initializer_list<_CharT> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:785:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::initializer_list<char>’
+In file included from /usr/include/c++/7/bits/unique_ptr.h:37:0,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/tuple:1253:40: error: no match for ‘operator=’ (operand types are ‘std::__cxx11::basic_string<char>’ and ‘llvm::StringRef’)
+    this->_M_tail(*this)._M_head(*this) = std::forward<_U2>(__in.second);
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/stdexcept:39,
+                 from /usr/include/c++/7/array:39,
+                 from /usr/include/c++/7/tuple:39,
+                 from /usr/include/c++/7/bits/unique_ptr.h:37,
+                 from /usr/include/c++/7/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Statistic.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:14:
+/usr/include/c++/7/bits/basic_string.h:654:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const basic_string& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:654:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const std::__cxx11::basic_string<char>&’
+/usr/include/c++/7/bits/basic_string.h:693:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:693:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘const char*’
+/usr/include/c++/7/bits/basic_string.h:704:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(_CharT __c)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:704:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘char’
+/usr/include/c++/7/bits/basic_string.h:722:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(basic_string&& __str)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:722:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::__cxx11::basic_string<char>&&’
+/usr/include/c++/7/bits/basic_string.h:785:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator=(initializer_list<_CharT> __l)
+       ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:785:7: note:   no known conversion for argument 1 from ‘llvm::StringRef’ to ‘std::initializer_list<char>’
+[1496/2465] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+/usr/bin/ar: creating t.a
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+5910.57user 392.29system 52:38.25elapsed 199%CPU (0avgtext+0avgdata 1631720maxresident)k
+122856inputs+9534560outputs (21major+124676529minor)pagefaults 0swaps

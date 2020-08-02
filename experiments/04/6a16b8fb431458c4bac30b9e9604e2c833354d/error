@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1874/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/DeclSpec.cpp.o
+[1875/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/MultiplexExternalSemaSource.cpp.o
+[1876/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/JumpDiagnostics.cpp.o
+[1877/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Scope.cpp.o
+[1878/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ScopeInfo.cpp.o
+[1879/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ParsedAttr.cpp.o
+[1880/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAccess.cpp.o
+[1881/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Sema.cpp.o
+[1882/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAttr.cpp.o
+[1883/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCXXScopeSpec.cpp.o
+[1884/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCast.cpp.o
+[1885/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o
+[1886/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCodeComplete.cpp.o
+[1887/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaExprObjC.cpp.o
+[1888/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaFixItUtils.cpp.o
+[1889/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaInit.cpp.o
+[1890/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaLambda.cpp.o
+[1891/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaModule.cpp.o
+[1892/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaLookup.cpp.o
+[1893/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaObjCProperty.cpp.o
+[1894/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOverload.cpp.o
+[1895/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenMP.cpp.o
+[1896/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaPseudoObject.cpp.o
+[1897/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmtAsm.cpp.o
+[1898/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmt.cpp.o
+[1899/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmtAttr.cpp.o
+[1900/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateDeduction.cpp.o
+[1901/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplate.cpp.o
+[1902/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateInstantiate.cpp.o
+[1903/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateInstantiateDecl.cpp.o
+[1904/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateVariadic.cpp.o
+[1905/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/TypeLocBuilder.cpp.o
+[1906/2361] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaType.cpp.o
+[1907/2361] Linking CXX static library lib/libclangSema.a
+[1908/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o
+[1909/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGAtomic.cpp.o
+[1910/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o
+[1911/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBuiltin.cpp.o
+[1912/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCUDANV.cpp.o
+[1913/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCUDARuntime.cpp.o
+[1914/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCXX.cpp.o
+[1915/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCXXABI.cpp.o
+[1916/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o
+FAILED: tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++14 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -MD -MT tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o -MF tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o.d -o tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp: In member function ‘clang::CodeGen::RValue clang::CodeGen::CodeGenFunction::EmitCall(const clang::CodeGen::CGFunctionInfo&, const clang::CodeGen::CGCallee&, clang::CodeGen::ReturnValueSlot, const clang::CodeGen::CallArgList&, llvm::CallBase**, clang::SourceLocation)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: error: no matching function for call to ‘max(llvm::Align, unsigned int&)’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:61:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note: candidate: template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   deduced conflicting types for parameter ‘const _Tp’ (‘llvm::Align’ and ‘unsigned int’)
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:61:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note: candidate: template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   deduced conflicting types for parameter ‘const _Tp’ (‘llvm::Align’ and ‘unsigned int’)
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algo.h:3462:5: note: candidate: template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)
+     max(initializer_list<_Tp> __l)
+     ^~~
+/usr/include/c++/7/bits/stl_algo.h:3462:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   ‘llvm::Align’ is not derived from ‘std::initializer_list<_Tp>’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algo.h:3468:5: note: candidate: template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)
+     max(initializer_list<_Tp> __l, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algo.h:3468:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   ‘llvm::Align’ is not derived from ‘std::initializer_list<_Tp>’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+[1917/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGClass.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+7031.86user 402.04system 1:02:08elapsed 199%CPU (0avgtext+0avgdata 1774376maxresident)k
+389648inputs+9820744outputs (535major+130234057minor)pagefaults 0swaps

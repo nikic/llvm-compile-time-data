@@ -1,0 +1,37 @@
+STDOUT:
+tReader.dir/MetadataLoader.cpp.o
+[309/2557] Building CXX object lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/ValueList.cpp.o
+[310/2557] Building CXX object lib/Bitcode/Writer/CMakeFiles/LLVMBitWriter.dir/BitWriter.cpp.o
+[311/2557] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/IR -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/Value.cpp
+/tmp/cc4v3xhR.s: Assembler messages:
+/tmp/cc4v3xhR.s:111: Error: symbol `_ZN4llvm12function_refIFvPKNS_5ValueEEE11callback_fnIN12_GLOBAL__N_1UlS3_E1_EEEvlS3_' is already defined
+/tmp/cc4v3xhR.s:120: Error: symbol `_ZN4llvm12function_refIFvPKNS_5ValueEEE11callback_fnIN12_GLOBAL__N_1UlS3_E1_EEEvlS3_' is already defined
+/tmp/cc4v3xhR.s:129: Error: symbol `_ZN4llvm12function_refIFvPKNS_5ValueEEE11callback_fnIN12_GLOBAL__N_1UlS3_E1_EEEvlS3_' is already defined
+/tmp/cc4v3xhR.s:138: Error: symbol `_ZN4llvm12function_refIFvPKNS_5ValueEEE11callback_fnIN12_GLOBAL__N_1UlS3_E1_EEEvlS3_' is already defined
+[312/2557] Building CXX object lib/Bitcode/Writer/CMakeFiles/LLVMBitWriter.dir/BitcodeWriter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+28.53user 3.26system 0:20.21elapsed 157%CPU (0avgtext+0avgdata 564712maxresident)k
+16inputs+120704outputs (11major+632723minor)pagefaults 0swaps

@@ -1,0 +1,145 @@
+STDOUT:
+[1440/2414] Building DiagnosticASTKinds.inc...
+[1441/2414] Building X86GenSubtargetInfo.inc...
+[1442/2414] Building arm_mve_builtin_sema.inc...
+[1443/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[1444/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[1445/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[1446/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallLowering.cpp.o
+[1447/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[1448/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CondBrFolding.cpp.o
+[1449/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DomainReassignment.cpp.o
+[1450/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DiscriminateMemOps.cpp.o
+[1451/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ExpandPseudo.cpp.o
+[1452/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.o
+[1453/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupBWInsts.cpp.o
+[1454/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupLEAs.cpp.o
+[1455/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidStoreForwardingBlocks.cpp.o
+[1456/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupSetCC.cpp.o
+[1457/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FlagsCopyLowering.cpp.o
+[1458/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.o
+[1459/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FrameLowering.cpp.o
+[1460/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstructionSelector.cpp.o
+[1461/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.o
+[1462/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+[1463/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectBranchTracking.cpp.o
+[1464/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[1465/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertPrefetch.cpp.o
+[1466/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[1467/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[1468/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[1469/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86EvexToVex.cpp.o
+[1470/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LegalizerInfo.cpp.o
+[1471/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[1472/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[1473/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[1474/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[1475/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1476/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterBankInfo.cpp.o
+[1477/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1478/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[1479/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RetpolineThunks.cpp.o
+[1480/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1481/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1482/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1483/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1484/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1485/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1486/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1487/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1488/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1489/2414] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1490/2414] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1491/2414] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1492/2414] Linking CXX static library lib/libLLVMX86CodeGen.a
+[1493/2414] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1494/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1495/2414] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86DisassemblerDecoder.cpp.o
+[1496/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1497/2414] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1498/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1499/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1500/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1501/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1502/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1503/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1504/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1505/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1506/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1507/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1508/2414] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1509/2414] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1510/2414] Linking CXX static library lib/libLLVMX86Info.a
+[1511/2414] Building CXX object lib/Target/X86/Utils/CMakeFiles/LLVMX86Utils.dir/X86ShuffleDecode.cpp.o
+[1512/2414] Linking CXX static library lib/libLLVMX86Desc.a
+[1513/2414] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1514/2414] Linking CXX static library lib/libLLVMX86Utils.a
+[1515/2414] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1516/2414] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+[1517/2414] Linking CXX shared library lib/libLTO.so.10git
+[1518/2414] Creating library symlink lib/libLTO.so
+[1519/2414] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1520/2414] Linking CXX shared module lib/LLVMgold.so
+[1521/2414] Building DiagnosticFrontendKinds.inc...
+[1522/2414] Building DiagnosticSemaKinds.inc...
+[1523/2414] Building DiagnosticParseKinds.inc...
+[1524/2414] Building DiagnosticLexKinds.inc...
+[1525/2414] Building DiagnosticRefactoringKinds.inc...
+[1526/2414] Linking CXX executable bin/llvm-ar
+[1527/2414] Generating ../../bin/llvm-ranlib
+[1528/2414] Building DiagnosticSerializationKinds.inc...
+[1529/2414] Generating ../../bin/llvm-lib
+[1530/2414] Generating ../../bin/llvm-dlltool
+[1531/2414] Building DiagnosticIndexName.inc...
+[1532/2414] Building DiagnosticGroups.inc...
+[1533/2414] Building AttrSubMatchRulesList.inc...
+[1534/2414] Building DiagnosticCommentKinds.inc...
+[1535/2414] Building Options.inc...
+[1536/2414] Building AttrSubMatchRulesParserStringSwitches.inc...
+[1537/2414] Building AttrParserStringSwitches.inc...
+[1538/2414] Building AttrParsedAttrList.inc...
+[1539/2414] Building AttrTemplateInstantiate.inc...
+[1540/2414] Building AttrSpellingListIndex.inc...
+[1541/2414] Building AttrPCHWrite.inc...
+[1542/2414] Building AttrPCHRead.inc...
+[1543/2414] Building Checkers.inc...
+[1544/2414] Copying clang's altivec.h...
+[1545/2414] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/BodyFarm.cpp.o
+FAILED: tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/BodyFarm.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Analysis -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/BodyFarm.cpp.o -MF tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/BodyFarm.cpp.o.d -o tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/BodyFarm.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/BodyFarm.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/BodyFarm.cpp:15:0:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:2826:3: error: ‘TargetAttr’ does not name a type; did you mean ‘TargetInfo’?
+   TargetAttr::ParsedTargetAttr
+   ^~~~~~~~~~
+   TargetInfo
+[1546/2414] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/AnalysisDeclContext.cpp.o
+FAILED: tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/AnalysisDeclContext.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Analysis -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/AnalysisDeclContext.cpp.o -MF tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/AnalysisDeclContext.cpp.o.d -o tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/AnalysisDeclContext.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/AnalysisDeclContext.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:18:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ExprCXX.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Analysis/ConstructionContext.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Analysis/CFG.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Analysis/AnalysisDeclContext.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/AnalysisDeclContext.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:2826:3: error: ‘TargetAttr’ does not name a type; did you mean ‘TargetInfo’?
+   TargetAttr::ParsedTargetAttr
+   ^~~~~~~~~~
+   TargetInfo
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+/usr/bin/ar: creating t.a
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+93.57user 11.85system 0:54.77elapsed 192%CPU (0avgtext+0avgdata 508068maxresident)k
+270312inputs+1153352outputs (234major+2346741minor)pagefaults 0swaps

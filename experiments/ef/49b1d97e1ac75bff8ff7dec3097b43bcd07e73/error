@@ -1,0 +1,38 @@
+STDOUT:
+n function ‘void AddReturnAttributes(llvm::CallSite, llvm::ValueToValueMapTy&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp:1176:47: error: ‘CB’ was not declared in this scope
+   AttrBuilder Valid = IdentifyValidAttributes(CB);
+                                               ^~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp:1176:47: note: suggested alternative: ‘CS’
+   AttrBuilder Valid = IdentifyValidAttributes(CB);
+                                               ^~
+                                               CS
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp: In function ‘llvm::InlineResult llvm::InlineFunction(llvm::CallBase&, llvm::InlineFunctionInfo&, llvm::AAResults*, bool, llvm::Function*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp:1896:25: error: could not convert ‘CB’ from ‘llvm::CallBase’ to ‘llvm::CallSite’
+     AddReturnAttributes(CB, VMap);
+                         ^~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp: At global scope:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp:1152:20: warning: ‘llvm::AttrBuilder IdentifyValidAttributes(llvm::CallBase&)’ defined but not used [-Wunused-function]
+ static AttrBuilder IdentifyValidAttributes(CallBase &CB) {
+                    ^~~~~~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/InlineFunction.cpp:1137:13: warning: ‘bool MayContainThrowingOrExitingCall(llvm::Instruction*, llvm::Instruction*)’ defined but not used [-Wunused-function]
+ static bool MayContainThrowingOrExitingCall(Instruction *Begin,
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[482/2525] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveStacks.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+28.19user 3.88system 0:16.26elapsed 197%CPU (0avgtext+0avgdata 605444maxresident)k
+0inputs+143992outputs (15major+560583minor)pagefaults 0swaps

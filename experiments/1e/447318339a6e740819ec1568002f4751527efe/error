@@ -1,0 +1,37 @@
+STDOUT:
+ache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp: In member function ‘llvm::MachineBasicBlock* llvm::TargetLoweringBase::emitPatchPoint(llvm::MachineInstr&, llvm::MachineBasicBlock*) const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp:1037:30: error: ‘OperIdx’ was not declared in this scope
+       MIB.add(MI->getOperand(OperIdx));
+                              ^~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp:1054:30: error: ‘OperIdx’ was not declared in this scope
+       MIB.add(MI->getOperand(OperIdx));
+                              ^~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp:1060:30: error: ‘OperIdx’ was not declared in this scope
+       MIB.add(MI->getOperand(OperIdx));
+                              ^~~~~~~
+[932/2545] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+24.59user 6.40system 0:15.89elapsed 195%CPU (0avgtext+0avgdata 435984maxresident)k
+34704inputs+257576outputs (14major+569731minor)pagefaults 0swaps

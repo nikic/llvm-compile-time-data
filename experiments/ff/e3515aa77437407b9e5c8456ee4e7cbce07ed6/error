@@ -1,0 +1,24 @@
+STDOUT:
+ C object CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o
+[393/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o
+[394/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o
+[395/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o
+[396/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o
+[397/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o
+[398/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/output.c.o
+[399/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o
+[400/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o
+[401/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o
+[402/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o
+[403/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o
+[404/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o
+[405/650] Linking CXX executable CTMark/tramp3d-v4/tramp3d-v4
+FAILED: CTMark/tramp3d-v4/tramp3d-v4 
+: && /root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/tramp3d-v4/tramp3d-v4.link.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -O3 -fomit-frame-pointer -flto -DNDEBUG -g   CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o  -o CTMark/tramp3d-v4/tramp3d-v4  -lstdc++ && cd /root/llvm-compile-time-tracker/llvm-test-suite-build/CTMark/tramp3d-v4 && /usr/bin/cmake -E create_symlink /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.reference_output /root/llvm-compile-time-tracker/llvm-test-suite-build/CTMark/tramp3d-v4/tramp3d-v4.reference_output
+clang-11: error: unable to execute command: Segmentation fault (core dumped)
+clang-11: error: linker command failed due to signal (use -v to see invocation)
+[406/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

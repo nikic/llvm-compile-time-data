@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[856/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionInfo.cpp.o
+[857/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPass.cpp.o
+[858/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPrinter.cpp.o
+[859/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+[860/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionAliasAnalysis.cpp.o
+[861/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionExpander.cpp.o
+[862/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionNormalization.cpp.o
+[863/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+[864/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyncDependenceAnalysis.cpp.o
+[865/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyntheticCountsUtils.cpp.o
+[866/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetLibraryInfo.cpp.o
+[867/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetTransformInfo.cpp.o
+[868/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Trace.cpp.o
+[869/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeBasedAliasAnalysis.cpp.o
+[870/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeMetadataUtils.cpp.o
+[871/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScopedNoAliasAA.cpp.o
+[872/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLattice.cpp.o
+[873/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLatticeUtils.cpp.o
+[874/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueTracking.cpp.o
+[875/2318] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VectorUtils.cpp.o
+[876/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/Caching.cpp.o
+[877/2318] Linking CXX static library lib/libLLVMAnalysis.a
+[878/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTO.cpp.o
+[879/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o
+[880/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOModule.cpp.o
+[881/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOCodeGenerator.cpp.o
+[882/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/SummaryBasedOptimizations.cpp.o
+[883/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/UpdateCompilerUsed.cpp.o
+[884/2318] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/ThinLTOCodeGenerator.cpp.o
+[885/2318] Linking CXX static library lib/libLLVMLTO.a
+[886/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ConstantPools.cpp.o
+[887/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ELFObjectWriter.cpp.o
+[888/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmBackend.cpp.o
+[889/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfo.cpp.o
+[890/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoCOFF.cpp.o
+[891/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoDarwin.cpp.o
+[892/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoELF.cpp.o
+[893/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoWasm.cpp.o
+[894/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoXCOFF.cpp.o
+[895/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmMacro.cpp.o
+[896/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmStreamer.cpp.o
+[897/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAssembler.cpp.o
+[898/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeEmitter.cpp.o
+[899/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodePadder.cpp.o
+[900/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeView.cpp.o
+[901/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCContext.cpp.o
+[902/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCDwarf.cpp.o
+[903/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFObjectTargetWriter.cpp.o
+[904/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFStreamer.cpp.o
+[905/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCExpr.cpp.o
+[906/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCFragment.cpp.o
+[907/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInst.cpp.o
+[908/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstPrinter.cpp.o
+[909/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrAnalysis.cpp.o
+[910/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrDesc.cpp.o
+[911/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLabel.cpp.o
+[912/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLinkerOptimizationHint.cpp.o
+[913/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachOStreamer.cpp.o
+[914/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachObjectTargetWriter.cpp.o
+[915/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCNullStreamer.cpp.o
+[916/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectFileInfo.cpp.o
+[917/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectStreamer.cpp.o
+[918/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectWriter.cpp.o
+[919/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCRegisterInfo.cpp.o
+[920/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSchedule.cpp.o
+[921/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSection.cpp.o
+[922/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionCOFF.cpp.o
+[923/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionELF.cpp.o
+[924/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionMachO.cpp.o
+[925/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionWasm.cpp.o
+[926/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionXCOFF.cpp.o
+[927/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCStreamer.cpp.o
+[928/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSubtargetInfo.cpp.o
+[929/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbol.cpp.o
+[930/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolELF.cpp.o
+[931/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptions.cpp.o
+[932/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCValue.cpp.o
+[933/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmObjectTargetWriter.cpp.o
+[934/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmStreamer.cpp.o
+[935/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWin64EH.cpp.o
+[936/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinCOFFStreamer.cpp.o
+[937/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinEH.cpp.o
+[938/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFObjectTargetWriter.cpp.o
+[939/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFStreamer.cpp.o
+[940/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MachObjectWriter.cpp.o
+[941/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/StringTableBuilder.cpp.o
+[942/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/SubtargetFeature.cpp.o
+[943/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WasmObjectWriter.cpp.o
+[944/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WinCOFFObjectWriter.cpp.o
+[945/2318] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/XCOFFObjectWriter.cpp.o
+[946/2318] Linking CXX static library lib/libLLVMMC.a
+[947/2318] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o
+[948/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+FAILED: lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Coroutines -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -MD -MT lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o -MF lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o.d -o lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp: In function ‘void replacePrepare(llvm::CallInst*, llvm::CallGraph&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:1531:46: error: no matching function for call to ‘llvm::CallGraphNode::removeCallEdgeFor(llvm::CallSite&)’
+         PrepareUserNode->removeCallEdgeFor(CS);
+                                              ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:28:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:249:8: note: candidate: void llvm::CallGraphNode::removeCallEdgeFor(llvm::CallBase&)
+   void removeCallEdgeFor(CallBase &Call);
+        ^~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:249:8: note:   no known conversion for argument 1 from ‘llvm::CallSite’ to ‘llvm::CallBase&’
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:1532:54: error: no matching function for call to ‘llvm::CallGraphNode::addCalledFunction(llvm::CallSite&, llvm::CallGraphNode*&)’
+         PrepareUserNode->addCalledFunction(CS, FnNode);
+                                                      ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:28:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:232:8: note: candidate: void llvm::CallGraphNode::addCalledFunction(llvm::CallBase*, llvm::CallGraphNode*)
+   void addCalledFunction(CallBase *Call, CallGraphNode *M) {
+        ^~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:232:8: note:   no known conversion for argument 1 from ‘llvm::CallSite’ to ‘llvm::CallBase*’
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:22:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h: In member function ‘llvm::FunctionType* llvm::coro::Shape::getResumeFunctionType() const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h:168:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h: In member function ‘llvm::CallingConv::ID llvm::coro::Shape::getResumeFunctionCC() const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h:201:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp: In member function ‘bool {anonymous}::CoroCloner::isSwitchDestroyFunction()’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:143:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+[949/2318] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+22.72user 6.05system 0:17.07elapsed 168%CPU (0avgtext+0avgdata 417832maxresident)k
+0inputs+512800outputs (11major+663904minor)pagefaults 0swaps

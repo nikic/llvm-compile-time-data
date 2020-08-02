@@ -1,0 +1,29 @@
+STDOUT:
+ibLLVMObjCARCOpts.a lib/libLLVMOption.a lib/libLLVMScalarOpts.a lib/libLLVMSupport.a lib/libLLVMTransformUtils.a lib/libLLVMVectorize.a -lpthread lib/libclangBasic.a lib/libclangCodeGen.a lib/libclangDriver.a lib/libclangFrontend.a lib/libclangFrontendTool.a lib/libclangSerialization.a lib/libLLVMAsmPrinter.a lib/libLLVMDebugInfoDWARF.a lib/libLLVMCFGuard.a lib/libLLVMGlobalISel.a lib/libLLVMSelectionDAG.a lib/libLLVMMCDisassembler.a lib/libclangCodeGen.a lib/libLLVMCoverage.a lib/libLLVMLTO.a lib/libLLVMObjCARCOpts.a lib/libLLVMExtensions.a lib/libLLVMPasses.a lib/libLLVMCodeGen.a lib/libLLVMTarget.a lib/libLLVMCoroutines.a lib/libLLVMipo.a lib/libLLVMInstrumentation.a lib/libLLVMVectorize.a lib/libLLVMBitWriter.a lib/libLLVMIRReader.a lib/libLLVMAsmParser.a lib/libLLVMLinker.a lib/libLLVMScalarOpts.a lib/libLLVMAggressiveInstCombine.a lib/libLLVMInstCombine.a lib/libclangRewriteFrontend.a lib/libclangFrontend.a lib/libclangDriver.a lib/libLLVMOption.a lib/libclangParse.a lib/libclangSerialization.a lib/libclangSema.a lib/libclangAnalysis.a lib/libclangASTMatchers.a lib/libclangEdit.a lib/libclangAST.a lib/libLLVMFrontendOpenMP.a lib/libLLVMTransformUtils.a lib/libLLVMAnalysis.a lib/libLLVMProfileData.a lib/libLLVMObject.a lib/libLLVMMCParser.a lib/libLLVMBitReader.a lib/libLLVMTextAPI.a lib/libclangRewrite.a lib/libclangLex.a lib/libclangBasic.a lib/libLLVMCore.a lib/libLLVMRemarks.a lib/libLLVMBitstreamReader.a lib/libLLVMMC.a lib/libLLVMBinaryFormat.a lib/libLLVMDebugInfoCodeView.a lib/libLLVMDebugInfoMSF.a lib/libLLVMSupport.a -lz -lrt -ldl -lpthread -lm lib/libLLVMDemangle.a && :
+lib/libLLVMAnalysis.a(InlineCost.cpp.o):InlineCost.cpp:function llvm::InlineCostAnnotationPrinterPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&): error: undefined reference to '(anonymous namespace)::InlineCostCallAnalyzer::dump()'
+collect2: error: ld returned 1 exit status
+[2395/2556] Linking CXX executable bin/clang-rename
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+169.43user 30.05system 1:42.47elapsed 194%CPU (0avgtext+0avgdata 661116maxresident)k
+367088inputs+3753168outputs (952major+4521505minor)pagefaults 0swaps

@@ -1,0 +1,38 @@
+STDOUT:
+542] Linking CXX static library lib/libLLVMMCA.a
+[1201/2542] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/GenericError.cpp.o
+[1202/2542] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/IPDBSourceFile.cpp.o
+[1203/2542] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDB.cpp.o
+[1204/2542] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o
+FAILED: lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/DebugInfo/PDB -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o -MF lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o.d -o lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB/PDBContext.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB/PDBContext.cpp:11:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/PDB/IPDBLineNumber.h:12:10: fatal error: cstdint.: No such file or directory
+ #include <cstdint.>
+          ^~~~~~~~~~
+compilation terminated.
+[1205/2542] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+27.06user 7.32system 0:20.28elapsed 169%CPU (0avgtext+0avgdata 431216maxresident)k
+81784inputs+357408outputs (14major+684031minor)pagefaults 0swaps

@@ -1,0 +1,32 @@
+STDOUT:
+itch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_Object’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_Treelang’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_Image’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_dSYM’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_Dependencies’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_CUDA_FATBIN’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_HIP_FATBIN’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_Nothing’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:104:10: warning: enumeration value ‘TY_LAST’ not handled in switch [-Wswitch]
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp:123:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[2248/2520] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetInfo.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+6482.53user 413.11system 57:34.08elapsed 199%CPU (0avgtext+0avgdata 1643096maxresident)k
+59072inputs+8377472outputs (251major+95316561minor)pagefaults 0swaps

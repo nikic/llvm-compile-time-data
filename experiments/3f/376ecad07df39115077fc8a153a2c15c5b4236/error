@@ -1,0 +1,36 @@
+STDOUT:
+ct tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticOptions.cpp.o
+[1812/2537] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o
+[1813/2537] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileSystemStatCache.cpp.o
+[1814/2537] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+FAILED: tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/gold -I/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fPIC    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o -MF tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o.d -o tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘std::unique_ptr<llvm::lto::LTO> createLTO(llvm::lto::IndexWriteCallback, llvm::raw_fd_ostream*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:888:29: error: ‘getDefaultTargetTriple’ is not a member of ‘llvm::sys’
+   Conf.DefaultTriple = sys::getDefaultTargetTriple();
+                             ^~~~~~~~~~~~~~~~~~~~~~
+[1815/2537] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FixedPoint.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+98.25user 14.62system 0:56.95elapsed 198%CPU (0avgtext+0avgdata 639096maxresident)k
+7704inputs+1130424outputs (143major+2374968minor)pagefaults 0swaps

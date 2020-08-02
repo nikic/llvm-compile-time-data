@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh O3" failed
+
+STDOUT:
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Adding directory CTMark
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/llvm-compile-time-tracker/llvm-test-suite-build
+ninja: Entering directory `./llvm-test-suite-build'
+[1/650] [TEST_SUITE_HOST_CC] Compiling host source fpcmp.c
+[2/650] [TEST_SUITE_HOST_CC] Linking host executable fpcmp
+[3/650] Generating HashProgramOutput.sh
+[4/650] Generating timeit
+[5/650] Generating timeit-target
+[6/650] Building C object tools/CMakeFiles/fpcmp-target.dir/fpcmp.c.o
+[7/650] Linking C executable tools/fpcmp-target
+[8/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o
+[9/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o
+[10/650] Generating sqlite test inputs
+[11/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+[12/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -O3   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10 -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name BenchCon.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -resource-dir /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0 -dependency-file CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.d -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -sys-header-deps -D NDEBUG -D BREAK_HANDLER -D UNICODE -D _UNICODE -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I . -D _FILE_OFFSET_BITS=64 -D _LARGEFILE_SOURCE -D NDEBUG -D _REENTRANT -D ENV_UNIX -D _7ZIP_LARGE_PAGES -D BREAK_HANDLER -D UNICODE -D _UNICODE -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I . -D _FILE_OFFSET_BITS=64 -D _LARGEFILE_SOURCE -D NDEBUG -D _REENTRANT -D ENV_UNIX -D _7ZIP_LARGE_PAGES -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -Werror=date-time -Wno-error=c++11-narrowing -w -fdeprecated-macro -fdebug-compilation-dir /root/llvm-compile-time-tracker/llvm-test-suite-build -ferror-limit 19 -fmessage-length 0 -pthread -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -vectorize-loops -vectorize-slp -faddrsig -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -x c++ /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp 
+1.	<eof> parser at end of file
+2.	Per-module optimization passes
+3.	Running pass 'CallGraph Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp'.
+4.	Releasing pass 'Memory SSA'
+ #0 0x00005654d7d6da6a llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185ea6a)
+ #1 0x00005654d7d6b754 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185c754)
+ #2 0x00005654d7d6b8a3 SignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185c8a3)
+ #3 0x00007fc4d38aa8a0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x128a0)
+ #4 0x00007fc4d29fbcbf free (/lib/x86_64-linux-gnu/libc.so.6+0x97cbf)
+ #5 0x00005654d72e663f llvm::MemorySSA::~MemorySSA() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0xdd763f)
+ #6 0x00005654d72e67aa llvm::MemorySSAWrapperPass::releaseMemory() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0xdd77aa)
+ #7 0x00005654d7792cca llvm::PMDataManager::freePass(llvm::Pass*, llvm::StringRef, llvm::PassDebuggingString) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1283cca)
+ #8 0x00005654d7792dc8 llvm::PMDataManager::removeDeadPasses(llvm::Pass*, llvm::StringRef, llvm::PassDebuggingString) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1283dc8)
+ #9 0x00005654d7795b4e llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1286b4e)
+#10 0x00005654d9880900 (anonymous namespace)::CGPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x3371900)
+#11 0x00005654d7796821 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1287821)
+#12 0x00005654d7f97da1 (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1a88da1)
+#13 0x00005654d7f9980b clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1a8a80b)
+#14 0x00005654d8a3fc2c clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2530c2c)
+#15 0x00005654d8d28d19 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2819d19)
+#16 0x00005654d84c09a9 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1fb19a9)
+#17 0x00005654d847fd2a clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1f70d2a)
+#18 0x00005654d8587997 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2078997)
+#19 0x00005654d6e48187 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x939187)
+#20 0x00005654d6de0e75 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x8d1e75)
+#21 0x00007fc4d2985b97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#22 0x00005654d6e459aa _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x9369aa)
+clang-10: error: unable to execute command: Segmentation fault (core dumped)
+clang-10: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 10.0.0 (https://github.com/llvm/llvm-project.git a4088c75cc1034307400076d29b35905d0ae58b2)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-10: note: diagnostic msg: PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+clang-10: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-10: note: diagnostic msg: /tmp/BenchCon-54eb21.cpp
+clang-10: note: diagnostic msg: /tmp/BenchCon-54eb21.sh
+clang-10: note: diagnostic msg: 
+
+********************
+[13/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -O3   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/mySplitCommandLine.cpp
+munmap_chunk(): invalid pointer
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10 -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name mySplitCommandLine.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -resource-dir /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0 -dependency-file CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o.d -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -sys-header-deps -D NDEBUG -D BREAK_HANDLER -D UNICODE -D _UNICODE -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I . -D _FILE_OFFSET_BITS=64 -D _LARGEFILE_SOURCE -D NDEBUG -D _REENTRANT -D ENV_UNIX -D _7ZIP_LARGE_PAGES -D BREAK_HANDLER -D UNICODE -D _UNICODE -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I . -D _FILE_OFFSET_BITS=64 -D _LARGEFILE_SOURCE -D NDEBUG -D _REENTRANT -D ENV_UNIX -D _7ZIP_LARGE_PAGES -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/local/include -internal-isystem /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -Werror=date-time -Wno-error=c++11-narrowing -w -fdeprecated-macro -fdebug-compilation-dir /root/llvm-compile-time-tracker/llvm-test-suite-build -ferror-limit 19 -fmessage-length 0 -pthread -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -vectorize-loops -vectorize-slp -faddrsig -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -x c++ /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/mySplitCommandLine.cpp 
+1.	<eof> parser at end of file
+2.	Per-module optimization passes
+3.	Running pass 'CallGraph Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/mySplitCommandLine.cpp'.
+4.	Running pass 'Loop-Closed SSA Form Pass' on function '@_ZN11CStringBaseIcEC2EPKc'
+ #0 0x000055b3607ada6a llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185ea6a)
+ #1 0x000055b3607ab754 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185c754)
+ #2 0x000055b3607ab8a3 SignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x185c8a3)
+ #3 0x00007f6e45f1c8a0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x128a0)
+ #4 0x00007f6e45014f47 raise (/lib/x86_64-linux-gnu/libc.so.6+0x3ef47)
+ #5 0x00007f6e450168b1 abort (/lib/x86_64-linux-gnu/libc.so.6+0x408b1)
+ #6 0x00007f6e4505f907 (/lib/x86_64-linux-gnu/libc.so.6+0x89907)
+ #7 0x00007f6e4506697a (/lib/x86_64-linux-gnu/libc.so.6+0x9097a)
+ #8 0x00007f6e4506df3c free (/lib/x86_64-linux-gnu/libc.so.6+0x97f3c)
+ #9 0x000055b36089ae41 llvm::SSAUpdater::~SSAUpdater() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x194be41)
+#10 0x000055b360826e90 llvm::formLCSSAForInstructions(llvm::SmallVectorImpl<llvm::Instruction*>&, llvm::DominatorTree&, llvm::LoopInfo&, llvm::ScalarEvolution*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x18d7e90)
+#11 0x000055b360829506 llvm::formLCSSA(llvm::Loop&, llvm::DominatorTree&, llvm::LoopInfo*, llvm::ScalarEvolution*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x18da506)
+#12 0x000055b36082a4a0 llvm::formLCSSARecursively(llvm::Loop&, llvm::DominatorTree&, llvm::LoopInfo*, llvm::ScalarEvolution*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x18db4a0)
+#13 0x000055b36082a5ed (anonymous namespace)::LCSSAWrapperPass::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x18db5ed)
+#14 0x000055b3601d5c4f llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1286c4f)
+#15 0x000055b3622c0900 (anonymous namespace)::CGPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x3371900)
+#16 0x000055b3601d6821 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1287821)
+#17 0x000055b3609d7da1 (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1a88da1)
+#18 0x000055b3609d980b clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1a8a80b)
+#19 0x000055b36147fc2c clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2530c2c)
+#20 0x000055b361768d19 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2819d19)
+#21 0x000055b360f009a9 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1fb19a9)
+#22 0x000055b360ebfd2a clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1f70d2a)
+#23 0x000055b360fc7997 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2078997)
+#24 0x000055b35f888187 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x939187)
+#25 0x000055b35f820e75 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x8d1e75)
+#26 0x00007f6e44ff7b97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#27 0x000055b35f8859aa _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x9369aa)
+clang-10: error: unable to execute command: Aborted (core dumped)
+clang-10: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 10.0.0 (https://github.com/llvm/llvm-project.git a4088c75cc1034307400076d29b35905d0ae58b2)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-10: note: diagnostic msg: PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+clang-10: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-10: note: diagnostic msg: /tmp/mySplitCommandLine-921329.cpp
+clang-10: note: diagnostic msg: /tmp/mySplitCommandLine-921329.sh
+clang-10: note: diagnostic msg: 
+
+********************
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

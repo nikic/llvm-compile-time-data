@@ -1,0 +1,10 @@
+{
+    "config": 0,
+    "clang_size": {
+        "size-text": 63964394,
+        "size-data": 2837208,
+        "size-bss": 255280,
+        "size-total": 67056882
+    },
+    "data": []
+}

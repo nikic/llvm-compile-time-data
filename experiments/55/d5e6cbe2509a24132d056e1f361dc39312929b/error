@@ -1,0 +1,6 @@
+STDOUT:
+
+
+STDERR:
+CMake Error: The source directory "/root/llvm-compile-time-tracker/llvm-project/llvm" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.

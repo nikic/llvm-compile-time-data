@@ -1,0 +1,140 @@
+{
+    "config": 0,
+    "clang_size": [],
+    "data": {
+        "O3": {
+            "kimwitu++": {
+                "task-clock": 31752.493634000006,
+                "context-switches": 745,
+                "cpu-migrations": 1,
+                "page-faults": 143960,
+                "cycles": 98698931885,
+                "instructions": 66323801734,
+                "branches": 14336291315,
+                "branch-misses": 468642735,
+                "max-rss": 1233296,
+                "wall-time": 32.34
+            },
+            "sqlite3": {
+                "task-clock": 38655.536886,
+                "context-switches": 164,
+                "cpu-migrations": 1,
+                "page-faults": 40871,
+                "cycles": 120430981182,
+                "instructions": 94634155930,
+                "branches": 20215849430,
+                "branch-misses": 592344366,
+                "max-rss": 257072,
+                "wall-time": 38.81
+            },
+            "consumer-typeset": {
+                "task-clock": 24635.130434,
+                "context-switches": 828,
+                "cpu-migrations": 1,
+                "page-faults": 215434,
+                "cycles": 76659915725,
+                "instructions": 60580133212,
+                "branches": 12824356721,
+                "branch-misses": 380871666,
+                "max-rss": 3168588,
+                "wall-time": 26.420000000000005
+            },
+            "Bullet": {
+                "task-clock": 63305.89566300001,
+                "context-switches": 3441,
+                "cpu-migrations": 8,
+                "page-faults": 537988,
+                "cycles": 199053021470,
+                "instructions": 145089927661,
+                "branches": 30560476530,
+                "branch-misses": 874186072,
+                "max-rss": 7864848,
+                "wall-time": 67.60999999999999
+            },
+            "tramp3d-v4": {
+                "task-clock": 59470.141867,
+                "context-switches": 857,
+                "cpu-migrations": 1,
+                "page-faults": 89410,
+                "cycles": 185031947768,
+                "instructions": 141957969668,
+                "branches": 30637774203,
+                "branch-misses": 833219017,
+                "max-rss": 366696,
+                "wall-time": 59.599999999999994
+            },
+            "mafft": {
+                "task-clock": 23852.696741999996,
+                "context-switches": 684,
+                "cpu-migrations": 1,
+                "page-faults": 134630,
+                "cycles": 74739591892,
+                "instructions": 62282825563,
+                "branches": 13082383573,
+                "branch-misses": 380281044,
+                "max-rss": 1754452,
+                "wall-time": 24.8
+            },
+            "ClamAV": {
+                "task-clock": 36240.175194,
+                "context-switches": 1636,
+                "cpu-migrations": 5,
+                "page-faults": 349683,
+                "cycles": 112244863215,
+                "instructions": 90488514889,
+                "branches": 19101143949,
+                "branch-misses": 595640389,
+                "max-rss": 5837364,
+                "wall-time": 39.630000000000024
+            },
+            "lencod": {
+                "task-clock": 43012.146238,
+                "context-switches": 1109,
+                "cpu-migrations": 2,
+                "page-faults": 254734,
+                "cycles": 133614057164,
+                "instructions": 118198103818,
+                "branches": 24625315544,
+                "branch-misses": 575664805,
+                "max-rss": 3421036,
+                "wall-time": 44.91000000000002
+            },
+            "SPASS": {
+                "task-clock": 32117.398928999995,
+                "context-switches": 1230,
+                "cpu-migrations": 1,
+                "page-faults": 192847,
+                "cycles": 99567869293,
+                "instructions": 74489499969,
+                "branches": 16000953643,
+                "branch-misses": 537492680,
+                "max-rss": 3113068,
+                "wall-time": 33.980000000000004
+            },
+            "7zip": {
+                "task-clock": 97449.71801299999,
+                "context-switches": 5408,
+                "cpu-migrations": 12,
+                "page-faults": 903309,
+                "cycles": 312212508866,
+                "instructions": 218011698734,
+                "branches": 46192961850,
+                "branch-misses": 1495312591,
+                "max-rss": 13607372,
+                "wall-time": 104.88000000000004
+            },
+            "geomean": {
+                "task-clock": 40946.11847602348,
+                "context-switches": 1094.3112635746272,
+                "cpu-migrations": 1.987133858518253,
+                "page-faults": 204412.87832502447,
+                "cycles": 127878442197.10948,
+                "instructions": 98355618272.20392,
+                "branches": 20890226419.461884,
+                "branch-misses": 617578390.2722329,
+                "max-rss": 2308587.370380361,
+                "wall-time": 42.88059993546621
+            }
+        }
+    }
+}

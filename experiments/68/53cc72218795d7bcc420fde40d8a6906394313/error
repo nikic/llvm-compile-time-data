@@ -1,0 +1,29 @@
+STDOUT:
+ lib/libLLVMExtensions.a lib/libLLVMObjCARCOpts.a lib/libLLVMPasses.a lib/libLLVMCoroutines.a lib/libLLVMipo.a lib/libLLVMIRReader.a lib/libLLVMAsmParser.a lib/libLLVMLinker.a lib/libLLVMInstrumentation.a lib/libLLVMVectorize.a lib/libclangRewriteFrontend.a lib/libclangIndex.a lib/libclangFrontend.a lib/libclangDriver.a lib/libLLVMOption.a lib/libclangParse.a lib/libclangSerialization.a lib/libclangSema.a lib/libclangAnalysis.a lib/libclangASTMatchers.a lib/libclangEdit.a lib/libclangFormat.a lib/libclangToolingInclusions.a lib/libclangToolingCore.a lib/libclangAST.a lib/libLLVMFrontendOpenMP.a lib/libclangRewrite.a lib/libclangLex.a lib/libclangBasic.a lib/libLLVMAsmPrinter.a lib/libLLVMDebugInfoDWARF.a lib/libLLVMCFGuard.a lib/libLLVMGlobalISel.a lib/libLLVMSelectionDAG.a lib/libLLVMCodeGen.a lib/libLLVMBitWriter.a lib/libLLVMScalarOpts.a lib/libLLVMAggressiveInstCombine.a lib/libLLVMInstCombine.a lib/libLLVMTransformUtils.a lib/libLLVMMCDisassembler.a lib/libLLVMExecutionEngine.a lib/libLLVMTarget.a lib/libLLVMAnalysis.a lib/libLLVMProfileData.a lib/libLLVMRuntimeDyld.a lib/libLLVMObject.a lib/libLLVMMCParser.a lib/libLLVMMC.a lib/libLLVMDebugInfoCodeView.a lib/libLLVMDebugInfoMSF.a lib/libLLVMBitReader.a lib/libLLVMCore.a lib/libLLVMRemarks.a lib/libLLVMBitstreamReader.a lib/libLLVMTextAPI.a lib/libLLVMBinaryFormat.a lib/libLLVMSupport.a -lz -lrt -ldl -lpthread -lm lib/libLLVMDemangle.a && :
+tools/clang/tools/clang-fuzzer/handle-cxx/CMakeFiles/obj.clangHandleCXX.dir/handle_cxx.cpp.o:handle_cxx.cpp:function clang_fuzzer::HandleCXX(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, std::vector<char const*, std::allocator<char const*> > const&): error: undefined reference to 'clang::tooling::newInvocation(clang::DiagnosticsEngine*, llvm::SmallVector<char const*, 16u> const&)'
+collect2: error: ld returned 1 exit status
+[2426/2556] Linking CXX shared library lib/libclang.so.11
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+385.38user 42.42system 3:35.30elapsed 198%CPU (0avgtext+0avgdata 934376maxresident)k
+9640inputs+3964416outputs (1397major+8043924minor)pagefaults 0swaps

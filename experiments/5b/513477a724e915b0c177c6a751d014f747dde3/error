@@ -1,0 +1,18 @@
+STDOUT:
+name: "ReadHeaders", linkageName: "_ZN8NArchive4NZip10CInArchive11ReadHeadersER13CObjectVectorINS0_7CItemExEEPNS0_13CProgressVirtE", scope: !165651, file: !173593, line: 757, type: !176321, scopeLine: 758, flags: DIFlagPrototyped | DIFlagAllCallsDescribed, spFlags: DISPFlagDefinition | DISPFlagOptimized, unit: !18600, declaration: !165758, retainedNodes: !176323)
+mismatched subprogram between llvm.dbg.value variable and !dbg attachment
+  call void @llvm.dbg.value(metadata i32 0, metadata !174069, metadata !DIExpression()), !dbg !176388
+label %250
+i32 (%"class.NArchive::NZip::CInArchive"*, %class.CObjectVector*, %struct.IBenchCallback*)* @_ZN8NArchive4NZip10CInArchive11ReadHeadersER13CObjectVectorINS0_7CItemExEEPNS0_13CProgressVirtE
+!174069 = !DILocalVariable(name: "cause", arg: 2, scope: !174067, file: !18101, line: 33, type: !18100)
+!174067 = distinct !DISubprogram(name: "CInArchiveException", linkageName: "_ZN8NArchive4NZip19CInArchiveExceptionC2ENS1_10ECauseTypeE", scope: !18102, file: !18101, line: 33, type: !18106, scopeLine: 33, flags: DIFlagPrototyped | DIFlagAllCallsDescribed, spFlags: DISPFlagDefinition | DISPFlagOptimized, unit: !18600, declaration: !18105, retainedNodes: !174068)
+!176388 = !DILocation(line: 0, scope: !176320)
+!176320 = distinct !DISubprogram(name: "ReadHeaders", linkageName: "_ZN8NArchive4NZip10CInArchive11ReadHeadersER13CObjectVectorINS0_7CItemExEEPNS0_13CProgressVirtE", scope: !165651, file: !173593, line: 757, type: !176321, scopeLine: 758, flags: DIFlagPrototyped | DIFlagAllCallsDescribed, spFlags: DISPFlagDefinition | DISPFlagOptimized, unit: !18600, declaration: !165758, retainedNodes: !176323)
+LLVM ERROR: Broken module found, compilation aborted!
+clang-11: error: unable to execute command: Aborted (core dumped)
+clang-11: error: linker command failed due to signal (use -v to see invocation)
+[288/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

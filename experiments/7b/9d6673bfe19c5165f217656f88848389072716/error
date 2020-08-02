@@ -1,0 +1,42 @@
+STDOUT:
+-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:15:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/AccelTable.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFLinker.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1446:13: note: candidate: void llvm::sort(IteratorTy, IteratorTy, Compare) [with IteratorTy = __gnu_cxx::__normal_iterator<std::pair<llvm::StringRef, llvm::DebugInfoSize>*, std::vector<std::pair<llvm::StringRef, llvm::DebugInfoSize> > >; Compare = llvm::DWARFLinker::link()::<lambda(auto:1&, auto:2&)>]
+ inline void sort(IteratorTy Start, IteratorTy End, Compare Comp) {
+             ^~~~
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:51,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/AccelTable.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFLinker.cpp:9:
+/usr/include/c++/7/bits/stl_algo.h:4856:5: note: candidate: void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<llvm::StringRef, llvm::DebugInfoSize>*, std::vector<std::pair<llvm::StringRef, llvm::DebugInfoSize> > >; _Compare = llvm::DWARFLinker::link()::<lambda(auto:1&, auto:2&)>]
+     sort(_RandomAccessIterator __first, _RandomAccessIterator __last,
+     ^~~~
+[1011/2531] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+30.10user 6.55system 0:21.96elapsed 166%CPU (0avgtext+0avgdata 439572maxresident)k
+0inputs+276720outputs (12major+718808minor)pagefaults 0swaps

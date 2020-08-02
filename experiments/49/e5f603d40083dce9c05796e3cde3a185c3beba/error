@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1889/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+[1890/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+[1891/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+[1892/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o
+[1893/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o
+[1894/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseInit.cpp.o
+[1895/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseObjc.cpp.o
+[1896/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenMP.cpp.o
+[1897/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParsePragma.cpp.o
+[1898/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmt.cpp.o
+[1899/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmtAsm.cpp.o
+[1900/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTemplate.cpp.o
+[1901/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTentative.cpp.o
+[1902/2567] Building Opcodes.inc...
+[1903/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/SelectorLocationsKind.cpp.o
+[1904/2567] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/Parser.cpp.o
+[1905/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtCXX.cpp.o
+[1906/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtIterator.cpp.o
+[1907/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Stmt.cpp.o
+[1908/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtObjC.cpp.o
+[1909/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenMP.cpp.o
+[1910/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtPrinter.cpp.o
+[1911/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtViz.cpp.o
+[1912/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtProfile.cpp.o
+[1913/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateBase.cpp.o
+[1914/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateName.cpp.o
+[1915/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Type.cpp.o
+[1916/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TextNodeDumper.cpp.o
+[1917/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypeLoc.cpp.o
+[1918/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypePrinter.cpp.o
+[1919/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTTBuilder.cpp.o
+[1920/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTableBuilder.cpp.o
+[1921/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/APValue.cpp.o
+[1922/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConcept.cpp.o
+[1923/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConsumer.cpp.o
+[1924/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o
+[1925/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDiagnostic.cpp.o
+[1926/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+[1927/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDumper.cpp.o
+[1928/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporterLookupTable.cpp.o
+[1929/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTStructuralEquivalence.cpp.o
+[1930/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTTypeTraits.cpp.o
+[1931/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Comment.cpp.o
+[1932/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentBriefParser.cpp.o
+[1933/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentCommandTraits.cpp.o
+[1934/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentLexer.cpp.o
+[1935/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentParser.cpp.o
+[1936/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentSema.cpp.o
+[1937/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/AttrImpl.cpp.o
+[1938/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComparisonCategories.cpp.o
+[1939/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComputeDependence.cpp.o
+[1940/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DataCollection.cpp.o
+[1941/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CXXInheritance.cpp.o
+[1942/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclarationName.cpp.o
+[1943/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o
+[1944/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclBase.cpp.o
+[1945/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclFriend.cpp.o
+[1946/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclGroup.cpp.o
+[1947/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclObjC.cpp.o
+[1948/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclCXX.cpp.o
+[1949/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenMP.cpp.o
+[1950/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o
+[1951/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o
+[1952/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o
+[1953/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMapContext.cpp.o
+[1954/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprClassification.cpp.o
+[1955/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConcepts.cpp.o
+[1956/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprCXX.cpp.o
+[1957/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprObjC.cpp.o
+[1958/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTMerger.cpp.o
+[1959/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o
+[1960/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o
+[1961/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o
+[1962/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeEmitter.cpp.o
+[1963/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+[1964/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeGenError.cpp.o
+[1965/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeStmtGen.cpp.o
+[1966/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeExprGen.cpp.o
+[1967/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Descriptor.cpp.o
+[1968/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Context.cpp.o
+[1969/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Disasm.cpp.o
+[1970/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Frame.cpp.o
+[1971/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Function.cpp.o
+[1972/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/EvalEmitter.cpp.o
+[1973/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/InterpBlock.cpp.o
+[1974/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Interp.cpp.o
+[1975/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/InterpStack.cpp.o
+[1976/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/InterpFrame.cpp.o
+[1977/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/InterpState.cpp.o
+[1978/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Pointer.cpp.o
+[1979/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/PrimType.cpp.o
+[1980/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Record.cpp.o
+[1981/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Source.cpp.o
+[1982/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/Program.cpp.o
+[1983/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/State.cpp.o
+[1984/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumCXXABI.cpp.o
+[1985/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumMangle.cpp.o
+[1986/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/JSONNodeDumper.cpp.o
+[1987/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Mangle.cpp.o
+[1988/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftCXXABI.cpp.o
+[1989/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NestedNameSpecifier.cpp.o
+[1990/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NSAPI.cpp.o
+[1991/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftMangle.cpp.o
+[1992/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/AST -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp: In member function ‘void clang::OMPTraitInfo::getAsVariantMatchInfo(clang::ASTContext&, llvm::omp::VariantMatchInfo&) const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp:2131:77: error: no matching function for call to ‘clang::Expr::isIntegerConstantExpr(llvm::APSInt&, clang::ASTContext&)’
+         if (Selector.ScoreOrCondition->isIntegerConstantExpr(CondVal, ASTCtx))
+                                                                             ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/OpenMPClause.h:21:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:522:8: note: candidate: bool clang::Expr::isIntegerConstantExpr(const clang::ASTContext&, clang::SourceLocation*) const
+   bool isIntegerConstantExpr(const ASTContext &Ctx,
+        ^~~~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:522:8: note:   no known conversion for argument 1 from ‘llvm::APSInt’ to ‘const clang::ASTContext&’
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp:2143:75: error: no matching function for call to ‘clang::Expr::isIntegerConstantExpr(llvm::APSInt&, clang::ASTContext&)’
+         if (Selector.ScoreOrCondition->isIntegerConstantExpr(Score, ASTCtx))
+                                                                           ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/OpenMPClause.h:21:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/OpenMPClause.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:522:8: note: candidate: bool clang::Expr::isIntegerConstantExpr(const clang::ASTContext&, clang::SourceLocation*) const
+   bool isIntegerConstantExpr(const ASTContext &Ctx,
+        ^~~~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:522:8: note:   no known conversion for argument 1 from ‘llvm::APSInt’ to ‘const clang::ASTContext&’
+[1993/2567] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+855.76user 59.53system 7:38.80elapsed 199%CPU (0avgtext+0avgdata 849528maxresident)k
+21840inputs+2201496outputs (250major+13771342minor)pagefaults 0swaps

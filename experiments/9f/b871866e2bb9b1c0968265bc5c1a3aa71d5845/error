@@ -1,0 +1,33 @@
+STDOUT:
+mpile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o -MF tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o.d -o tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.cpp:125:1: error: prototype for ‘llvm::exegesis::pfm::Counter::Counter(const llvm::exegesis::pfm::PerfEvent&)’ does not match any in class ‘llvm::exegesis::pfm::Counter’
+ Counter::Counter(const PerfEvent &Event) {}
+ ^~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.cpp:9:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.h:71:3: error: candidates are: llvm::exegesis::pfm::Counter::Counter(llvm::exegesis::pfm::Counter&&)
+   Counter(Counter &&other) = default;
+   ^~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.h:70:3: error:                 llvm::exegesis::pfm::Counter::Counter(const llvm::exegesis::pfm::Counter&)
+   Counter(const Counter &) = delete;
+   ^~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-exegesis/lib/PerfHelper.h:68:12: error:                 llvm::exegesis::pfm::Counter::Counter(llvm::exegesis::pfm::PerfEvent&&)
+   explicit Counter(PerfEvent &&event);
+            ^~~~~~~
+[2407/2517] Linking CXX executable bin/c-index-test
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+203.90user 36.50system 2:03.33elapsed 194%CPU (0avgtext+0avgdata 675912maxresident)k
+459552inputs+4457128outputs (1456major+5234137minor)pagefaults 0swaps

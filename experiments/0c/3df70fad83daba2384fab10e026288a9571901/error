@@ -1,0 +1,34 @@
+STDOUT:
+achDeclRef(clang::Decl const*, clang::Stmt const* (clang::ExprMutationAnalyzer::*)(clang::Expr const*)): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Expr>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::findRangeLoopMutation(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Decl>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::findRangeLoopMutation(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Decl>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::isUnevaluated(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Expr>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::isUnevaluated(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Expr>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::findReferenceMutation(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Decl>::value'
+tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o:ExprMutationAnalyzer.cpp:function clang::ExprMutationAnalyzer::findReferenceMutation(clang::Expr const*): error: undefined reference to 'clang::(anonymous namespace)::NodeID<clang::Decl>::value'
+collect2: error: ld returned 1 exit status
+[2419/2550] Linking CXX shared library lib/libclang.so.11
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+190.00user 31.10system 1:52.31elapsed 196%CPU (0avgtext+0avgdata 817524maxresident)k
+132808inputs+3950672outputs (1422major+4757747minor)pagefaults 0swaps

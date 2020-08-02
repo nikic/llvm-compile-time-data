@@ -1,0 +1,37 @@
+STDOUT:
+ject lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/ObjectYAML -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/COFFEmitter.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/MachOYAML.h:20:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/COFFEmitter.cpp:21:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DWARFYAML.h:162:23: error: declaration of ‘std::vector<llvm::DWARFYAML::Ranges> llvm::DWARFYAML::Data::Ranges’ [-fpermissive]
+   std::vector<Ranges> Ranges;
+                       ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DWARFYAML.h:82:8: error: changes meaning of ‘Ranges’ from ‘struct llvm::DWARFYAML::Ranges’ [-fpermissive]
+ struct Ranges {
+        ^~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+11.35user 2.48system 0:08.12elapsed 170%CPU (0avgtext+0avgdata 348588maxresident)k
+8inputs+105080outputs (13major+346849minor)pagefaults 0swaps

@@ -1,0 +1,145 @@
+STDOUT:
+[1403/2432] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1404/2432] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1405/2432] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86DisassemblerDecoder.cpp.o
+[1406/2432] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1407/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1408/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1409/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1410/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1411/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1412/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1413/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1414/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1415/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1416/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1417/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1418/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1419/2432] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1420/2432] Linking CXX static library lib/libLLVMX86Desc.a
+[1421/2432] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1422/2432] Linking CXX static library lib/libLLVMX86Info.a
+[1423/2432] Building CXX object lib/Target/X86/Utils/CMakeFiles/LLVMX86Utils.dir/X86ShuffleDecode.cpp.o
+[1424/2432] Linking CXX static library lib/libLLVMX86Utils.a
+[1425/2432] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassPlugin.cpp.o
+[1426/2432] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+[1427/2432] Linking CXX static library lib/libLLVMPasses.a
+[1428/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ELF/ELFStub.cpp.o
+[1429/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ELF/TBEHandler.cpp.o
+[1430/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Architecture.cpp.o
+[1431/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/ArchitectureSet.cpp.o
+[1432/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/InterfaceFile.cpp.o
+[1433/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/PackedVersion.cpp.o
+[1434/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Platform.cpp.o
+[1435/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Symbol.cpp.o
+[1436/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Target.cpp.o
+[1437/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/TextStub.cpp.o
+[1438/2432] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/TextStubCommon.cpp.o
+[1439/2432] Linking CXX static library lib/libLLVMTextAPI.a
+[1440/2432] Linking CXX static library lib/libLLVMOrcJIT.a
+[1441/2432] Building Options.inc...
+[1442/2432] Building CXX object lib/ToolDrivers/llvm-dlltool/CMakeFiles/LLVMDlltoolDriver.dir/DlltoolDriver.cpp.o
+[1443/2432] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[1444/2432] Building Options.inc...
+[1445/2432] Building CXX object lib/ToolDrivers/llvm-lib/CMakeFiles/LLVMLibDriver.dir/LibDriver.cpp.o
+[1446/2432] Linking CXX static library lib/libLLVMLibDriver.a
+[1447/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/BlockIndexer.cpp.o
+[1448/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/BlockPrinter.cpp.o
+[1449/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/BlockVerifier.cpp.o
+[1450/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/FDRRecordProducer.cpp.o
+[1451/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/FDRRecords.cpp.o
+[1452/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/FDRTraceExpander.cpp.o
+[1453/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/FDRTraceWriter.cpp.o
+[1454/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/FileHeaderReader.cpp.o
+[1455/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/InstrumentationMap.cpp.o
+[1456/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/LogBuilderConsumer.cpp.o
+[1457/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/Profile.cpp.o
+[1458/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/RecordInitializer.cpp.o
+[1459/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/RecordPrinter.cpp.o
+[1460/2432] Building CXX object lib/XRay/CMakeFiles/LLVMXRay.dir/Trace.cpp.o
+[1461/2432] Linking CXX static library lib/libLLVMXRay.a
+[1462/2432] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Annotations.cpp.o
+[1463/2432] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o
+[1464/2432] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o
+[1465/2432] Building CXX object lib/WindowsManifest/CMakeFiles/LLVMWindowsManifest.dir/WindowsManifestMerger.cpp.o
+[1466/2432] Linking CXX static library lib/libLLVMWindowsManifest.a
+[1467/2432] Building CXX object utils/FileCheck/CMakeFiles/FileCheck.dir/FileCheck.cpp.o
+[1468/2432] Linking CXX executable bin/FileCheck
+[1469/2432] Building CXX object utils/PerfectShuffle/CMakeFiles/llvm-PerfectShuffle.dir/PerfectShuffle.cpp.o
+[1470/2432] Linking CXX executable bin/llvm-PerfectShuffle
+[1471/2432] Building C object utils/count/CMakeFiles/count.dir/count.c.o
+[1472/2432] Linking C executable bin/count
+[1473/2432] Building CXX object utils/not/CMakeFiles/not.dir/not.cpp.o
+[1474/2432] Linking CXX executable bin/not
+[1475/2432] Building CXX object utils/yaml-bench/CMakeFiles/yaml-bench.dir/YAMLBench.cpp.o
+[1476/2432] Linking CXX executable bin/yaml-bench
+[1477/2432] Creating export file for LTO
+[1478/2432] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1479/2432] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1480/2432] Creating export file for LLVMgold
+[1481/2432] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+[1482/2432] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1483/2432] Linking CXX executable bin/llvm-ar
+[1484/2432] Generating ../../bin/llvm-ranlib
+[1485/2432] Generating ../../bin/llvm-lib
+[1486/2432] Generating ../../bin/llvm-dlltool
+[1487/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangTypeNodesEmitter.cpp.o
+[1488/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSACheckersEmitter.cpp.o
+[1489/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[1490/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+[1491/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentCommandInfoEmitter.cpp.o
+[1492/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLNamedCharacterReferenceEmitter.cpp.o
+[1493/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLTagsEmitter.cpp.o
+[1494/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDataCollectorsEmitter.cpp.o
+[1495/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[1496/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[1497/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[1498/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[1499/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[1500/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[1501/2432] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/TableGen.cpp.o
+[1502/2432] Linking CXX executable bin/clang-tblgen
+[1503/2432] Building DiagnosticGroups.inc...
+[1504/2432] Building AttrSubMatchRulesList.inc...
+[1505/2432] Building AttrPCHRead.inc...
+[1506/2432] Building AttrVisitor.inc...
+[1507/2432] Building AttrTextNodeDump.inc...
+[1508/2432] Building StmtNodes.inc...
+[1509/2432] Building AttrNodeTraverse.inc...
+[1510/2432] Building StmtDataCollectors.inc...
+[1511/2432] Building AttrImpl.inc...
+[1512/2432] Building DeclNodes.inc...
+[1513/2432] Building CommentCommandList.inc...
+[1514/2432] Building Attrs.inc...
+[1515/2432] Building TypeNodes.inc...
+[1516/2432] Building CommentNodes.inc...
+[1517/2432] Building CommentHTMLTags.inc...
+[1518/2432] Building CommentHTMLTagsProperties.inc...
+[1519/2432] Building CommentHTMLNamedCharacterReferences.inc...
+[1520/2432] Building CommentCommandInfo.inc...
+[1521/2432] Building arm_mve_builtins.inc...
+FAILED: tools/clang/include/clang/Basic/arm_mve_builtins.inc 
+cd /root/llvm-compile-time-tracker/llvm-project-build && /root/llvm-compile-time-tracker/llvm-project-build/bin/clang-tblgen -gen-arm-mve-builtin-def -I /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic -I /root/llvm-compile-time-tracker/llvm-project/llvm/include /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/arm_mve.td --write-if-changed -o tools/clang/include/clang/Basic/arm_mve_builtins.inc -d tools/clang/include/clang/Basic/arm_mve_builtins.inc.d
+Included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/arm_mve.td:19:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/arm_mve_defs.td:453:3: error: attempting to loop over '!if(!eq("_n", 1), [1], [])', expected a list
+  foreach unusedVar = !if(!eq(wantXVariant, 1), [1], []<int>) in {
+  ^
+[1522/2432] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+/usr/bin/ar: creating t.a
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+2994.51user 175.87system 26:30.93elapsed 199%CPU (0avgtext+0avgdata 1623456maxresident)k
+307880inputs+4209768outputs (52major+56935457minor)pagefaults 0swaps

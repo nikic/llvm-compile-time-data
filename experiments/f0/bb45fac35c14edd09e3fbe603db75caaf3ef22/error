@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[965/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/HardwareUnit.cpp.o
+[966/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/LSUnit.cpp.o
+[967/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RegisterFile.cpp.o
+[968/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/ResourceManager.cpp.o
+[969/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RetireControlUnit.cpp.o
+[970/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/Scheduler.cpp.o
+[971/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/InstrBuilder.cpp.o
+[972/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Instruction.cpp.o
+[973/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Pipeline.cpp.o
+[974/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/DispatchStage.cpp.o
+[975/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/EntryStage.cpp.o
+[976/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/ExecuteStage.cpp.o
+[977/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InstructionTables.cpp.o
+[978/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/MicroOpQueueStage.cpp.o
+[979/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/RetireStage.cpp.o
+[980/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/Stage.cpp.o
+[981/2331] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Support.cpp.o
+[982/2331] Linking CXX static library lib/libLLVMMCA.a
+[983/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Archive.cpp.o
+[984/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ArchiveWriter.cpp.o
+[985/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Binary.cpp.o
+[986/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFImportFile.cpp.o
+[987/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFModuleDefinition.cpp.o
+[988/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFObjectFile.cpp.o
+[989/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Decompressor.cpp.o
+[990/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELF.cpp.o
+[991/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELFObjectFile.cpp.o
+[992/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Error.cpp.o
+[993/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRObjectFile.cpp.o
+[994/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRSymtab.cpp.o
+[995/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOObjectFile.cpp.o
+[996/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOUniversal.cpp.o
+[997/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Minidump.cpp.o
+[998/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ModuleSymbolTable.cpp.o
+[999/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Object.cpp.o
+[1000/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ObjectFile.cpp.o
+[1001/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RecordStreamer.cpp.o
+[1002/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RelocationResolver.cpp.o
+[1003/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolicFile.cpp.o
+[1004/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolSize.cpp.o
+[1005/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiFile.cpp.o
+[1006/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiUniversal.cpp.o
+[1007/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WasmObjectFile.cpp.o
+[1008/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsMachineFlag.cpp.o
+[1009/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsResource.cpp.o
+[1010/2331] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/XCOFFObjectFile.cpp.o
+[1011/2331] Linking CXX static library lib/libLLVMObject.a
+[1012/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLDebugSections.cpp.o
+[1013/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLSymbols.cpp.o
+[1014/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLTypeHashing.cpp.o
+[1015/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLTypes.cpp.o
+[1016/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o
+[1017/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFYAML.cpp.o
+[1018/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DWARFEmitter.cpp.o
+[1019/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DWARFVisitor.cpp.o
+[1020/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DWARFYAML.cpp.o
+[1021/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ELFEmitter.cpp.o
+[1022/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ELFYAML.cpp.o
+[1023/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o
+[1024/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOYAML.cpp.o
+[1025/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o
+[1026/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MinidumpEmitter.cpp.o
+[1027/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MinidumpYAML.cpp.o
+[1028/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/WasmEmitter.cpp.o
+[1029/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/WasmYAML.cpp.o
+[1030/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFYAML.cpp.o
+[1031/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/YAML.cpp.o
+[1032/2331] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/yaml2obj.cpp.o
+[1033/2331] Linking CXX static library lib/libLLVMObjectYAML.a
+[1034/2331] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Arg.cpp.o
+[1035/2331] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[1036/2331] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Option.cpp.o
+[1037/2331] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[1038/2331] Linking CXX static library lib/libLLVMOption.a
+[1039/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkParser.cpp.o
+[1040/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkSerializer.cpp.o
+[1041/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/Remark.cpp.o
+[1042/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkFormat.cpp.o
+[1043/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkParser.cpp.o
+[1044/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkSerializer.cpp.o
+[1045/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkStringTable.cpp.o
+[1046/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/YAMLRemarkParser.cpp.o
+[1047/2331] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/YAMLRemarkSerializer.cpp.o
+[1048/2331] Linking CXX static library lib/libLLVMRemarks.a
+[1049/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFAbbreviationDeclaration.cpp.o
+[1050/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFAddressRange.cpp.o
+[1051/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFAcceleratorTable.cpp.o
+[1052/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFCompileUnit.cpp.o
+[1053/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFContext.cpp.o
+[1054/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDataExtractor.cpp.o
+[1055/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugAbbrev.cpp.o
+[1056/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugAddr.cpp.o
+[1057/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugArangeSet.cpp.o
+[1058/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugAranges.cpp.o
+[1059/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugFrame.cpp.o
+[1060/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugInfoEntry.cpp.o
+[1061/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugLine.cpp.o
+[1062/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugLoc.cpp.o
+[1063/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugMacro.cpp.o
+[1064/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugPubTable.cpp.o
+[1065/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugRangeList.cpp.o
+[1066/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDebugRnglists.cpp.o
+[1067/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFDie.cpp.o
+[1068/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFExpression.cpp.o
+[1069/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFFormValue.cpp.o
+[1070/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFGdbIndex.cpp.o
+[1071/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFListTable.cpp.o
+[1072/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFTypeUnit.cpp.o
+[1073/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFUnitIndex.cpp.o
+[1074/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFUnit.cpp.o
+[1075/2331] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFVerifier.cpp.o
+[1076/2331] Linking CXX static library lib/libLLVMDebugInfoDWARF.a
+[1077/2331] Building CXX object lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FileWriter.cpp.o
+[1078/2331] Building CXX object lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FunctionInfo.cpp.o
+FAILED: lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FunctionInfo.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/DebugInfo/GSYM -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/GSYM -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++14 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -MD -MT lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FunctionInfo.cpp.o -MF lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FunctionInfo.cpp.o.d -o lib/DebugInfo/GSYM/CMakeFiles/LLVMDebugInfoGSYM.dir/FunctionInfo.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/GSYM/FunctionInfo.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/GSYM/FunctionInfo.cpp:10:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/GSYM/FunctionInfo.h:36:29: error: declaration of ‘llvm::Optional<llvm::gsym::LineTable> llvm::gsym::FunctionInfo::LineTable’ [-fpermissive]
+   llvm::Optional<LineTable> LineTable;
+                             ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/GSYM/FunctionInfo.h:14:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/GSYM/FunctionInfo.cpp:10:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/GSYM/LineTable.h:118:7: error: changes meaning of ‘LineTable’ from ‘class llvm::gsym::LineTable’ [-fpermissive]
+ class LineTable {
+       ^~~~~~~~~
+[1079/2331] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+21.30user 6.05system 0:15.86elapsed 172%CPU (0avgtext+0avgdata 422952maxresident)k
+0inputs+568232outputs (9major+657800minor)pagefaults 0swaps

@@ -1,0 +1,27 @@
+STDOUT:
+Callable&&, std::enable_if_t<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_SrcTuple>::type>::type, llvm::function_ref<Ret(Params ...)> >::value)>*) [with Callable = {anonymous}::GNUStyle<ELFT>::printDependentLibs(const llvm::object::ELFFile<ELFT>*) [with ELFT = llvm::object::ELFType<(llvm::support::endianness)1, false>]::<lambda(const Elf_Shdr&)>&; Ret = void; Params = {const llvm::object::Elf_Shdr_Impl<llvm::object::ELFType<(llvm::support::endianness)1, false> >&}; std::enable_if_t<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_SrcTuple>::type>::type, llvm::function_ref<Ret(Params ...)> >::value)> = void]’, declared using local type ‘{anonymous}::GNUStyle<ELFT>::printDependentLibs(const llvm::object::ELFFile<ELFT>*) [with ELFT = llvm::object::ELFType<(llvm::support::endianness)1, false>]::<lambda(const Elf_Shdr&)>’, is used but never defined [-fpermissive]
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:194:3: error: ‘llvm::function_ref<Ret(Params ...)>::function_ref(Callable&&, std::enable_if_t<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_SrcTuple>::type>::type, llvm::function_ref<Ret(Params ...)> >::value)>*) [with Callable = {anonymous}::GNUStyle<ELFT>::printDependentLibs(const llvm::object::ELFFile<ELFT>*) [with ELFT = llvm::object::ELFType<(llvm::support::endianness)1, false>]::<lambda(llvm::StringRef, uint64_t)>&; Ret = void; Params = {llvm::StringRef, long unsigned int}; std::enable_if_t<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_SrcTuple>::type>::type, llvm::function_ref<Ret(Params ...)> >::value)> = void]’, declared using local type ‘{anonymous}::GNUStyle<ELFT>::printDependentLibs(const llvm::object::ELFFile<ELFT>*) [with ELFT = llvm::object::ELFType<(llvm::support::endianness)1, false>]::<lambda(llvm::StringRef, uint64_t)>’, is used but never defined [-fpermissive]
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+181.93user 28.46system 1:48.44elapsed 194%CPU (0avgtext+0avgdata 681344maxresident)k
+11904inputs+4161488outputs (1676major+4823292minor)pagefaults 0swaps

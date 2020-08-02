@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh O3" failed
+
+STDOUT:
+[122/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/7z/7zUpdate.cpp.o
+[123/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Cab/CabHandler.cpp.o
+[124/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Cab/CabHeader.cpp.o
+[125/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Cab/CabRegister.cpp.o
+[126/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Cab/CabIn.cpp.o
+[127/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarHandlerOut.cpp.o
+[128/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarHandler.cpp.o
+[129/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarHeader.cpp.o
+[130/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarOut.cpp.o
+[131/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarIn.cpp.o
+[132/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarRegister.cpp.o
+[133/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarUpdate.cpp.o
+[134/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipAddCommon.cpp.o
+[135/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHandlerOut.cpp.o
+[136/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHandler.cpp.o
+[137/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHeader.cpp.o
+[138/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipItem.cpp.o
+[139/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipOut.cpp.o
+[140/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipIn.cpp.o
+[141/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipRegister.cpp.o
+[142/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Bcj2Coder.cpp.o
+[143/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Bcj2Register.cpp.o
+[144/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BcjCoder.cpp.o
+[145/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BcjRegister.cpp.o
+[146/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipUpdate.cpp.o
+[147/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BitlDecoder.cpp.o
+[148/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchCoder.cpp.o
+[149/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchMisc.cpp.o
+[150/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchRegister.cpp.o
+[151/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ByteSwap.cpp.o
+[152/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Crc.cpp.o
+[153/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Decoder.cpp.o
+[154/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Register.cpp.o
+[155/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Encoder.cpp.o
+[156/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[157/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[158/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/CopyRegister.cpp.o
+[159/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Deflate64Register.cpp.o
+[160/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateDecoder.cpp.o
+[161/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateRegister.cpp.o
+[162/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateEncoder.cpp.o
+[163/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeltaFilter.cpp.o
+[164/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ImplodeHuffmanDecoder.cpp.o
+[165/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ImplodeDecoder.cpp.o
+[166/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Encoder.cpp.o
+[167/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Decoder.cpp.o
+[168/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Register.cpp.o
+[169/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaDecoder.cpp.o
+[170/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaEncoder.cpp.o
+[171/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzOutWindow.cpp.o
+[172/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaRegister.cpp.o
+[173/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzx86Converter.cpp.o
+[174/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdDecoder.cpp.o
+[175/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzxDecoder.cpp.o
+[176/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdEncoder.cpp.o
+[177/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdRegister.cpp.o
+[178/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdZip.cpp.o
+[179/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -O3   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/Compress/QuantumDecoder.cpp
+fatal error: error in backend: Cannot select: 0x55bc63b805f8: v4i32 = X86ISD::VSHLI 0x55bc63c2d750, Constant:i8<15>
+  0x55bc63c2d750: v4i32 = add 0x55bc63c4bc90, 0x55bc63b80798
+    0x55bc63c4bc90: v4i32 = sub 0x55bc63c4b5a8, 0x55bc63b7fd08
+      0x55bc63c4b5a8: v4i32 = bitcast 0x55bc63c73140
+        0x55bc63c73140: v8i16 = X86ISD::UNPCKH 0x55bc63c509d8, 0x55bc63c2dbc8
+          0x55bc63c509d8: v8i16 = bitcast 0x55bc63c72cc8
+            0x55bc63c72cc8: v16i8 = or 0x55bc63c2dc98, 0x55bc63a6c1c8
+              0x55bc63c2dc98: v16i8 = X86ISD::VSHLDQ 0x55bc63a6c778, TargetConstant:i8<2>
+                0x55bc63a6c778: v16i8 = bitcast 0x55bc63a6c3d0
+                  0x55bc63a6c3d0: v8i16,ch = load<(load 16 from %ir.175, align 2, !tbaa !8)> 0x55bc63a43c98, 0x55bc63c2d7b8, undef:i64
+
+
+                0x55bc63b7fca0: i8 = TargetConstant<2>
+              0x55bc63a6c1c8: v16i8 = X86ISD::VSRLDQ 0x55bc63c72510, TargetConstant:i8<14>
+                0x55bc63c72510: v16i8 = bitcast 0x55bc63a6c5d8
+                  0x55bc63a6c5d8: v8i16,ch = CopyFromReg 0x55bc63a43c98, Register:v8i16 %40
+
+                0x55bc63b80180: i8 = TargetConstant<14>
+          0x55bc63c2dbc8: v8i16 = bitcast 0x55bc63a6cd90
+            0x55bc63a6cd90: v4i32 = BUILD_VECTOR Constant:i32<0>, Constant:i32<0>, Constant:i32<0>, Constant:i32<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+      0x55bc63b7fd08: v4i32 = bitcast 0x55bc63c4b748
+        0x55bc63c4b748: v8i16 = X86ISD::UNPCKH 0x55bc63a6c3d0, 0x55bc63c2dbc8
+          0x55bc63a6c3d0: v8i16,ch = load<(load 16 from %ir.175, align 2, !tbaa !8)> 0x55bc63a43c98, 0x55bc63c2d7b8, undef:i64
+            0x55bc63c2d7b8: i64 = add 0x55bc63c2d068, Constant:i64<10>
+              0x55bc63c2d068: i64 = add 0x55bc63b7fbd0, 0x55bc63c2d958
+                0x55bc63b7fbd0: i64,ch = CopyFromReg 0x55bc63a43c98, Register:i64 %98
+                  0x55bc63b7ff78: i64 = Register %98
+                0x55bc63c2d958: i64 = shl 0x55bc63c4be98, Constant:i8<1>
+                  0x55bc63c4be98: i64,ch = CopyFromReg 0x55bc63a43c98, Register:i64 %39
+
+                  0x55bc63c72bf8: i8 = Constant<1>
+              0x55bc63c4bcf8: i64 = Constant<10>
+            0x55bc63c73278: i64 = undef
+          0x55bc63c2dbc8: v8i16 = bitcast 0x55bc63a6cd90
+            0x55bc63a6cd90: v4i32 = BUILD_VECTOR Constant:i32<0>, Constant:i32<0>, Constant:i32<0>, Constant:i32<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+              0x55bc63c4b338: i32 = Constant<0>
+    0x55bc63b80798: v4i32,ch = load<(load 16 from constant-pool)> 0x55bc63a43c98, 0x55bc63c500e8, undef:i64
+      0x55bc63c500e8: i64 = X86ISD::Wrapper TargetConstantPool:i64<<4 x i32> <i32 1, i32 1, i32 1, i32 1>> 0
+        0x55bc63c4b198: i64 = TargetConstantPool<<4 x i32> <i32 1, i32 1, i32 1, i32 1>> 0
+      0x55bc63c73278: i64 = undef
+  0x55bc63c727e8: i8 = Constant<15>
+In function: _ZN9NCompress8NQuantum11NRangeCoder13CModelDecoder6DecodeEPNS1_8CDecoderE
+clang-10: error: clang frontend command failed with exit code 70 (use -v to see invocation)
+clang version 10.0.0 (https://github.com/llvm/llvm-project.git bffbeecb44a4a727784b1777e56fe8c9a0fea3fb)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-10: note: diagnostic msg: PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+clang-10: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-10: note: diagnostic msg: /tmp/QuantumDecoder-cc39a9.cpp
+clang-10: note: diagnostic msg: /tmp/QuantumDecoder-cc39a9.sh
+clang-10: note: diagnostic msg: 
+
+********************
+[180/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ShrinkDecoder.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

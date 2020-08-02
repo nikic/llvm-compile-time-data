@@ -1,0 +1,131 @@
+STDOUT:
+[492/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_matcher-bm.c.o
+[493/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_htmlnorm.c.o
+[494/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_matcher.c.o
+[495/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_md5.c.o
+[496/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mbox.c.o
+[497/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_message.c.o
+[498/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_msexpand.c.o
+[499/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mew.c.o
+[500/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_LZMADecode.c.o
+[501/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_bzlib.c.o
+[502/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_infblock.c.o
+[503/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mspack.c.o
+[504/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_nulsft.c.o
+[505/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_ole2_extract.c.o
+[506/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_others.c.o
+[507/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_packlibs.c.o
+[508/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pdf.c.o
+[509/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_petite.c.o
+[510/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phish_domaincheck_db.c.o
+[511/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phish_whitelist.c.o
+[512/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pe.c.o
+[513/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pst.c.o
+[514/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o
+[515/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_rebuildpe.c.o
+[516/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_readdb.c.o
+[517/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_list.c.o
+[518/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regerror.c.o
+[519/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regexec.c.o
+[520/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regcomp.c.o
+[521/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regfree.c.o
+[522/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_strlcpy.c.o
+[523/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_rtf.c.o
+[524/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_sis.c.o
+[525/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_scanners.c.o
+[526/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_snprintf.c.o
+[527/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o
+[528/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_spin.c.o
+[529/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_str.c.o
+[530/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_suecrypt.c.o
+[531/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_table.c.o
+[532/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_text.c.o
+[533/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_tnef.c.o
+[534/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_unsp.c.o
+[535/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_untar.c.o
+[536/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_unarj.c.o
+[537/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_unzip.c.o
+[538/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_upack.c.o
+[539/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_uuencode.c.o
+[540/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_upx.c.o
+[541/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_vba_extract.c.o
+[542/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_wwunpack.c.o
+[543/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_yc.c.o
+[544/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_cfgparser.c.o
+[545/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_getopt.c.o
+[546/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_cdiff.c.o
+[547/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_network.c.o
+[548/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_misc.c.o
+[549/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_options.c.o
+[550/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_output.c.o
+[551/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_adler32.c.o
+[552/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_compress.c.o
+[553/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_crc32.c.o
+[554/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/shared_sha256.c.o
+[555/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_gzclose.c.o
+[556/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_gzlib.c.o
+[557/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_gzread.c.o
+[558/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_deflate.c.o
+[559/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_gzwrite.c.o
+[560/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_infback.c.o
+[561/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_inffast.c.o
+[562/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_inftrees.c.o
+[563/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_trees.c.o
+[564/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_uncompr.c.o
+[565/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_inflate.c.o
+[566/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_zutil.c.o
+[567/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z01.c.o
+[568/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z03.c.o
+[569/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z04.c.o
+[570/650] Linking C executable CTMark/ClamAV/clamscan
+[571/650] Building C object CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o
+FAILED: CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG  -O3   -w -Werror=date-time -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSQLITE_OMIT_LOAD_EXTENSION=1 -DSQLITE_THREADSAFE=0 -I. -MD -MT CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o -MF CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o.d -o CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o   -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/sqlite3/sqlite3.c
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10 -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name sqlite3.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -resource-dir /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0 -dependency-file CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o.d -MT CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o -sys-header-deps -D NDEBUG -D STDC_HEADERS=1 -D HAVE_SYS_TYPES_H=1 -D HAVE_SYS_STAT_H=1 -D HAVE_STDLIB_H=1 -D HAVE_STRING_H=1 -D HAVE_MEMORY_H=1 -D HAVE_STRINGS_H=1 -D HAVE_INTTYPES_H=1 -D HAVE_STDINT_H=1 -D HAVE_UNISTD_H=1 -D SQLITE_OMIT_LOAD_EXTENSION=1 -D SQLITE_THREADSAFE=0 -I . -internal-isystem /usr/local/include -internal-isystem /root/llvm-compile-time-tracker/llvm-project-build/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O3 -Werror=date-time -w -fdebug-compilation-dir /root/llvm-compile-time-tracker/llvm-test-suite-build -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -vectorize-loops -vectorize-slp -faddrsig -o CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o -x c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/sqlite3/sqlite3.c 
+1.	<eof> parser at end of file
+2.	Code generation
+3.	Running pass 'Function Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/sqlite3/sqlite3.c'.
+4.	Running pass 'Machine code sinking' on function '@balance_nonroot'
+ #0 0x00005567bb4a4cfa llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1773cfa)
+ #1 0x00005567bb4a2a34 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1771a34)
+ #2 0x00005567bb4a2b72 SignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1771b72)
+ #3 0x00007ff84e77a890 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x12890)
+ #4 0x00005567bad1ef84 (anonymous namespace)::MachineSinking::runOnMachineFunction(llvm::MachineFunction&) (.part.348) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0xfedf84)
+ #5 0x00005567bab3a6e0 llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0xe096e0)
+ #6 0x00005567baf0164f llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x11d064f)
+ #7 0x00005567baf01e21 llvm::FPPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x11d0e21)
+ #8 0x00005567baf02221 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x11d1221)
+ #9 0x00005567bb6cf662 (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x199e662)
+#10 0x00005567bb6d106b clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x19a006b)
+#11 0x00005567bc12f069 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x23fe069)
+#12 0x00005567bc566429 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x2835429)
+#13 0x00005567bc12ca82 clang::CodeGenAction::ExecuteAction() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x23fba82)
+#14 0x00005567bbbb8509 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1e87509)
+#15 0x00005567bbb790d5 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1e480d5)
+#16 0x00005567bbc80447 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x1f4f447)
+#17 0x00005567ba5e757b cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x8b657b)
+#18 0x00005567ba584e91 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x853e91)
+#19 0x00007ff84d855b97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#20 0x00005567ba5e4dfa _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang-10+0x8b3dfa)
+clang-10: error: unable to execute command: Segmentation fault (core dumped)
+clang-10: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 10.0.0 (https://github.com/llvm/llvm-project.git 3367686b4d126e8e035c618829c78315f7751dfd)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-10: note: diagnostic msg: PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+clang-10: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-10: note: diagnostic msg: /tmp/sqlite3-c736ed.c
+clang-10: note: diagnostic msg: /tmp/sqlite3-c736ed.sh
+clang-10: note: diagnostic msg: 
+
+********************
+ninja: build stopped: interrupted by user.
+
+
+STDERR:

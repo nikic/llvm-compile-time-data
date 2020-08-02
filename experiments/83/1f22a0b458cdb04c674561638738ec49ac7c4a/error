@@ -1,0 +1,35 @@
+STDOUT:
+de -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveDebugValues.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveDebugValues.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveDebugValues.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/LiveDebugValues.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/LiveDebugValues.cpp: In member function ‘bool {anonymous}::LiveDebugValues::join(llvm::MachineBasicBlock&, {anonymous}::LiveDebugValues::VarLocInMBB&, {anonymous}::LiveDebugValues::VarLocInMBB&, const {anonymous}::LiveDebugValues::VarLocMap&, llvm::SmallPtrSet<const llvm::MachineBasicBlock*, 16>&, llvm::SmallPtrSetImpl<const llvm::MachineBasicBlock*>&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/LiveDebugValues.cpp:1550:28: error: use of deleted function ‘llvm::CoalescingBitVector<IndexT, N>::ThisT& llvm::CoalescingBitVector<IndexT, N>::operator=(llvm::CoalescingBitVector<IndexT, N>::ThisT&&) [with IndexT = long unsigned int; unsigned int N = 16; llvm::CoalescingBitVector<IndexT, N>::ThisT = llvm::CoalescingBitVector<long unsigned int>]’
+     ILS = std::move(InLocsT);
+                            ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/LiveDebugValues.cpp:29:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/CoalescingBitVector.h:73:10: note: declared here
+   ThisT &operator=(ThisT &&Other) = delete;
+          ^~~~~~~~
+[878/2542] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/EHPersonalities.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+24.53user 6.44system 0:15.78elapsed 196%CPU (0avgtext+0avgdata 573984maxresident)k
+0inputs+244752outputs (14major+585877minor)pagefaults 0swaps

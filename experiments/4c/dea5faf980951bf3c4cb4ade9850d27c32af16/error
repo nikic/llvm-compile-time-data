@@ -1,0 +1,144 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh O3" failed
+
+STDOUT:
+[465/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/top.c.o
+[466/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/vector.c.o
+[467/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/unify.c.o
+[468/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_clamscan.c.o
+[469/650] Linking C executable CTMark/SPASS/SPASS
+[470/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_others.c.o
+[471/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_treewalk.c.o
+[472/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_manager.c.o
+[473/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_aspack.c.o
+[474/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_binhex.c.o
+[475/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_blob.c.o
+[476/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_cab.c.o
+[477/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_autoit.c.o
+[478/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_chmunpack.c.o
+[479/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_cvd.c.o
+[480/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_dsig.c.o
+[481/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_dconf.c.o
+[482/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_elf.c.o
+[483/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_filetypes.c.o
+[484/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_fsg.c.o
+[485/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_entconv.c.o
+[486/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_hashtab.c.o
+[487/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_is_tar.c.o
+[488/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_jscript.c.o
+[489/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_line.c.o
+[490/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_lockdb.c.o
+[491/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_matcher-ac.c.o
+[492/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_htmlnorm.c.o
+[493/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_matcher-bm.c.o
+[494/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_matcher.c.o
+[495/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_md5.c.o
+[496/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mbox.c.o
+[497/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_message.c.o
+[498/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_msexpand.c.o
+[499/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mew.c.o
+[500/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_LZMADecode.c.o
+[501/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_bzlib.c.o
+[502/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_infblock.c.o
+[503/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mspack.c.o
+[504/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_nsis_nulsft.c.o
+[505/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_ole2_extract.c.o
+[506/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_others.c.o
+[507/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_packlibs.c.o
+[508/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pdf.c.o
+[509/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_petite.c.o
+[510/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phish_domaincheck_db.c.o
+[511/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phish_whitelist.c.o
+[512/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pe.c.o
+[513/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_pst.c.o
+[514/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o
+[515/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_rebuildpe.c.o
+[516/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_readdb.c.o
+[517/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_list.c.o
+[518/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regerror.c.o
+[519/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regcomp.c.o
+[520/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regfree.c.o
+[521/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_regexec.c.o
+[522/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_regex_strlcpy.c.o
+[523/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_rtf.c.o
+[524/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_sis.c.o
+[525/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_scanners.c.o
+[526/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_snprintf.c.o
+[527/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o
+FAILED: CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG  -O3   -w -Werror=date-time -DHAVE_CONFIG_H -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/zlib -DDONT_LOCK_DBDIRS -DC_LINUX -DFPU_WORDS_BIGENDIAN=0 -DWORDS_BIGENDIAN=0 -MD -MT CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o -MF CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o.d -o CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o   -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_special.c
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG -O3 -w -Werror=date-time -DHAVE_CONFIG_H -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/zlib -DDONT_LOCK_DBDIRS -DC_LINUX -DFPU_WORDS_BIGENDIAN=0 -DWORDS_BIGENDIAN=0 -MD -MT CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o -MF CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o.d -o CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_special.c.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_special.c 
+1.	<eof> parser at end of file
+2.	Per-module optimization passes
+3.	Running pass 'Function Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_special.c'.
+4.	Running pass 'SLP Vectorizer' on function '@cli_check_mydoom_log'
+ #0 0x000055586ae5336a llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1a6436a)
+ #1 0x000055586ae51104 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1a62104)
+ #2 0x000055586ae51375 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1a62375)
+ #3 0x000055586adc9030 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19da030)
+ #4 0x00007f3acf9a2890 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x12890)
+ #5 0x000055586a8a0030 llvm::Value::getName() const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x14b1030)
+ #6 0x000055586a339f92 llvm::VFDatabase::getVFABIMappings(llvm::CallInst const&, llvm::SmallVectorImpl<llvm::VFInfo>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xf4af92)
+ #7 0x000055586b0257de llvm::slpvectorizer::BoUpSLP::buildTree_rec(llvm::ArrayRef<llvm::Value*>, unsigned int, llvm::slpvectorizer::BoUpSLP::EdgeInfo const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c367de)
+ #8 0x000055586b025174 llvm::slpvectorizer::BoUpSLP::buildTree_rec(llvm::ArrayRef<llvm::Value*>, unsigned int, llvm::slpvectorizer::BoUpSLP::EdgeInfo const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c36174)
+ #9 0x000055586b0270d2 llvm::slpvectorizer::BoUpSLP::buildTree_rec(llvm::ArrayRef<llvm::Value*>, unsigned int, llvm::slpvectorizer::BoUpSLP::EdgeInfo const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c380d2)
+#10 0x000055586b0274e9 llvm::slpvectorizer::BoUpSLP::buildTree(llvm::ArrayRef<llvm::Value*>, llvm::MapVector<llvm::Value*, llvm::SmallVector<llvm::Instruction*, 2u>, llvm::DenseMap<llvm::Value*, unsigned int, llvm::DenseMapInfo<llvm::Value*>, llvm::detail::DenseMapPair<llvm::Value*, unsigned int> >, std::vector<std::pair<llvm::Value*, llvm::SmallVector<llvm::Instruction*, 2u> >, std::allocator<std::pair<llvm::Value*, llvm::SmallVector<llvm::Instruction*, 2u> > > > >&, llvm::ArrayRef<llvm::Value*>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c384e9)
+#11 0x000055586b02832b llvm::slpvectorizer::BoUpSLP::buildTree(llvm::ArrayRef<llvm::Value*>, llvm::ArrayRef<llvm::Value*>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c3932b)
+#12 0x000055586b030ecb llvm::SLPVectorizerPass::vectorizeStoreChain(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c41ecb)
+#13 0x000055586b031b06 llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c42b06)
+#14 0x000055586b031e1f llvm::SLPVectorizerPass::vectorizeStoreChains(llvm::slpvectorizer::BoUpSLP&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c42e1f)
+#15 0x000055586b0396d5 llvm::SLPVectorizerPass::runImpl(llvm::Function&, llvm::ScalarEvolution*, llvm::TargetTransformInfo*, llvm::TargetLibraryInfo*, llvm::AAResults*, llvm::LoopInfo*, llvm::DominatorTree*, llvm::AssumptionCache*, llvm::DemandedBits*, llvm::OptimizationRemarkEmitter*) (.part.1478) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c4a6d5)
+#16 0x000055586b03a4f9 (anonymous namespace)::SLPVectorizer::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c4b4f9)
+#17 0x000055586a84d3df llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x145e3df)
+#18 0x000055586a84dad1 llvm::FPPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x145ead1)
+#19 0x000055586a84c611 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x145d611)
+#20 0x000055586b0c12ad (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1cd22ad)
+#21 0x000055586b0c2edb clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1cd3edb)
+#22 0x000055586bbe9634 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x27fa634)
+#23 0x000055586bed9b69 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2aeab69)
+#24 0x000055586b62ac99 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x223bc99)
+#25 0x000055586b5e47db clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x21f57db)
+#26 0x000055586b6f0baf clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2301baf)
+#27 0x0000555869e4e39c cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa5f39c)
+#28 0x0000555869e4b0ad ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa5c0ad)
+#29 0x000055586b4be655 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x20cf655)
+#30 0x000055586adc9113 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19da113)
+#31 0x000055586b4bf130 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.148) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x20d0130)
+#32 0x000055586b499295 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x20aa295)
+#33 0x000055586b499cdf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x20aacdf)
+#34 0x000055586b4a28e5 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x20b38e5)
+#35 0x0000555869dd4491 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x9e5491)
+#36 0x00007f3ace860b97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#37 0x0000555869e4ac2a _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa5bc2a)
+clang-11: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 11.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-11: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-11: note: diagnostic msg: /tmp/libclamav_special-212f52.c
+clang-11: note: diagnostic msg: /tmp/libclamav_special-212f52.sh
+clang-11: note: diagnostic msg: 
+
+********************
+[528/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_spin.c.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (dev) at /usr/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (Tclsh) does
+  not match the name of the calling package (TCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.17/Modules/FindTclsh.cmake:95 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /usr/share/cmake-3.17/Modules/FindTCL.cmake:49 (include)
+  CMakeLists.txt:190 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

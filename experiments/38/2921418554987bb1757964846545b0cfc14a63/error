@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[689/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NewGVN.cpp.o
+[690/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PlaceSafepoints.cpp.o
+[691/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reg2Mem.cpp.o
+[692/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reassociate.cpp.o
+[693/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/RewriteStatepointsForGC.cpp.o
+[694/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SCCP.cpp.o
+[695/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalar.cpp.o
+[696/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SROA.cpp.o
+[697/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalarizer.cpp.o
+[698/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SeparateConstOffsetFromGEP.cpp.o
+[699/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimplifyCFGPass.cpp.o
+[700/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Sink.cpp.o
+[701/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimpleLoopUnswitch.cpp.o
+[702/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SpeculativeExecution.cpp.o
+[703/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StraightLineStrengthReduce.cpp.o
+[704/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SpeculateAroundPHIs.cpp.o
+[705/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StructurizeCFG.cpp.o
+[706/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/TailRecursionElimination.cpp.o
+[707/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AlwaysInliner.cpp.o
+[708/2318] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/WarnMissedTransforms.cpp.o
+[709/2318] Linking CXX static library lib/libLLVMScalarOpts.a
+[710/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ArgumentPromotion.cpp.o
+[711/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BarrierNoopPass.cpp.o
+[712/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BlockExtractor.cpp.o
+[713/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Attributor.cpp.o
+[714/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ConstantMerge.cpp.o
+[715/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CalledValuePropagation.cpp.o
+[716/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CrossDSOCFI.cpp.o
+[717/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ElimAvailExtern.cpp.o
+[718/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ExtractGV.cpp.o
+[719/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ForceFunctionAttrs.cpp.o
+[720/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/DeadArgumentElimination.cpp.o
+[721/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionImport.cpp.o
+[722/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionAttrs.cpp.o
+[723/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalDCE.cpp.o
+[724/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalSplit.cpp.o
+[725/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalOpt.cpp.o
+[726/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IPConstantPropagation.cpp.o
+[727/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IPO.cpp.o
+[728/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/HotColdSplitting.cpp.o
+[729/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InlineSimple.cpp.o
+[730/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InferFunctionAttrs.cpp.o
+[731/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Internalize.cpp.o
+[732/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/LoopExtractor.cpp.o
+[733/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Inliner.cpp.o
+[734/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/MergeFunctions.cpp.o
+[735/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/LowerTypeTests.cpp.o
+[736/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/PartialInlining.cpp.o
+[737/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/PruneEH.cpp.o
+[738/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/PassManagerBuilder.cpp.o
+[739/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SCCP.cpp.o
+[740/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/StripDeadPrototypes.cpp.o
+[741/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/StripSymbols.cpp.o
+[742/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SyntheticCountsPropagation.cpp.o
+[743/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SampleProfile.cpp.o
+[744/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ThinLTOBitcodeWriter.cpp.o
+[745/2318] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/WholeProgramDevirt.cpp.o
+[746/2318] Linking CXX static library lib/libLLVMipo.a
+[747/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoadStoreVectorizer.cpp.o
+[748/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorizationLegality.cpp.o
+[749/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o
+[750/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/Vectorize.cpp.o
+[751/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[752/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlan.cpp.o
+[753/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanHCFGBuilder.cpp.o
+[754/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanHCFGTransforms.cpp.o
+[755/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanPredicator.cpp.o
+[756/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanSLP.cpp.o
+[757/2318] Creating export file for LLVMHello
+[758/2318] Building CXX object lib/Transforms/Hello/CMakeFiles/LLVMHello.dir/Hello.cpp.o
+[759/2318] Linking CXX shared module lib/LLVMHello.so
+[760/2318] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanVerifier.cpp.o
+[761/2318] Linking CXX static library lib/libLLVMVectorize.a
+[762/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARC.cpp.o
+[763/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCExpand.cpp.o
+[764/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCOpts.cpp.o
+[765/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCAPElim.cpp.o
+[766/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/DependencyAnalysis.cpp.o
+[767/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCContract.cpp.o
+[768/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysisEvaluator.cpp.o
+[769/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysis.cpp.o
+[770/2318] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/PtrState.cpp.o
+[771/2318] Linking CXX static library lib/libLLVMObjCARCOpts.a
+[772/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroCleanup.cpp.o
+[773/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/Coroutines.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/Coroutines.cpp: In member function ‘llvm::Value* llvm::coro::Shape::emitAlloc(llvm::IRBuilder<>&, llvm::Value*, llvm::CallGraph*) const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/Coroutines.cpp:489:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[774/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroEarly.cpp.o
+[775/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroElide.cpp.o
+[776/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroFrame.cpp.o
+[777/2318] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+FAILED: lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Coroutines -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -MD -MT lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o -MF lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o.d -o lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp: In function ‘void replacePrepare(llvm::CallInst*, llvm::CallGraph&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:1443:46: error: no matching function for call to ‘llvm::CallGraphNode::removeCallEdgeFor(llvm::CallSite&)’
+         PrepareUserNode->removeCallEdgeFor(CS);
+                                              ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:28:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:249:8: note: candidate: void llvm::CallGraphNode::removeCallEdgeFor(llvm::CallBase&)
+   void removeCallEdgeFor(CallBase &Call);
+        ^~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:249:8: note:   no known conversion for argument 1 from ‘llvm::CallSite’ to ‘llvm::CallBase&’
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:1444:54: error: no matching function for call to ‘llvm::CallGraphNode::addCalledFunction(llvm::CallSite&, llvm::CallGraphNode*&)’
+         PrepareUserNode->addCalledFunction(CS, FnNode);
+                                                      ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:28:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:232:8: note: candidate: void llvm::CallGraphNode::addCalledFunction(llvm::CallBase*, llvm::CallGraphNode*)
+   void addCalledFunction(CallBase *Call, CallGraphNode *M) {
+        ^~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CallGraph.h:232:8: note:   no known conversion for argument 1 from ‘llvm::CallSite’ to ‘llvm::CallBase*’
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:22:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h: In member function ‘llvm::FunctionType* llvm::coro::Shape::getResumeFunctionType() const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h:167:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h: In member function ‘llvm::CallingConv::ID llvm::coro::Shape::getResumeFunctionCC() const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroInternal.h:200:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp: In member function ‘bool {anonymous}::CoroCloner::isSwitchDestroyFunction()’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Coroutines/CoroSplit.cpp:142:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+[778/2318] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/IRMover.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+3074.55user 174.96system 27:09.33elapsed 199%CPU (0avgtext+0avgdata 1044960maxresident)k
+21808inputs+4072632outputs (14major+55282231minor)pagefaults 0swaps

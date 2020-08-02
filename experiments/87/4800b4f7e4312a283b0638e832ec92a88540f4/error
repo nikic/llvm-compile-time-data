@@ -1,0 +1,49 @@
+STDOUT:
+cast<unsigned>(llvm::X86::ENUM)})
+                                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: note: in definition of macro ‘X86_CPU_SUBTYPE_COMPAT’
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: error: ‘llvm::X86’ has not been declared
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: note: in definition of macro ‘X86_CPU_SUBTYPE_COMPAT’
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: error: ‘llvm::X86’ has not been declared
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: note: in definition of macro ‘X86_CPU_SUBTYPE_COMPAT’
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: error: ‘llvm::X86’ has not been declared
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp:11408:47: note: in definition of macro ‘X86_CPU_SUBTYPE_COMPAT’
+   .Case(STR, {2u, static_cast<unsigned>(llvm::X86::ENUM)})
+                                               ^~~
+[2262/2552] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/InclusionRewriter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+166.08user 24.99system 1:36.32elapsed 198%CPU (0avgtext+0avgdata 936548maxresident)k
+29680inputs+2549960outputs (263major+3943099minor)pagefaults 0swaps

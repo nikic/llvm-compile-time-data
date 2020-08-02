@@ -1,0 +1,28 @@
+STDOUT:
+RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1986613)
+#43 0x0000561bda076660 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.151) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x205f660)
+#44 0x0000561bda050f75 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2039f75)
+#45 0x0000561bda0519bf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x203a9bf)
+#46 0x0000561bda05a4c5 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x20434c5)
+#47 0x0000561bd89cc650 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x9b5650)
+#48 0x00007fe7db6f2b97 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21b97)
+#49 0x0000561bd8a4295a _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa2b95a)
+clang-11: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 11.0.0 
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-11: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-11: note: diagnostic msg: /tmp/Main-b13265.cpp
+clang-11: note: diagnostic msg: /tmp/Main-b13265.sh
+clang-11: note: diagnostic msg: 
+
+********************
+ninja: build stopped: subcommand failed.
+
+
+STDERR:

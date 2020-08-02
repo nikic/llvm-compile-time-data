@@ -1,0 +1,46 @@
+STDOUT:
+86ISelLowering.cpp:3362:20: error: declaration of ‘llvm::MachineFunction& VarArgsLoweringHelper::MachineFunction’ [-fpermissive]
+   MachineFunction &MachineFunction;
+                    ^~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/SelectionDAG.h:32:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:35,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineFunction.h:224:7: error: changes meaning of ‘MachineFunction’ from ‘class llvm::MachineFunction’ [-fpermissive]
+ class MachineFunction {
+       ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:3363:19: error: declaration of ‘const llvm::Function& VarArgsLoweringHelper::Function’ [-fpermissive]
+   const Function &Function;
+                   ^~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ProfileSummaryInfo.h:18:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:31,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Function.h:61:7: error: changes meaning of ‘Function’ from ‘class llvm::Function’ [-fpermissive]
+ class Function : public GlobalObject, public ilist_node<Function> {
+       ^~~~~~~~
+[1872/2534] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseObjc.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+123.94user 19.43system 1:12.31elapsed 198%CPU (0avgtext+0avgdata 974768maxresident)k
+0inputs+1216200outputs (46major+2552535minor)pagefaults 0swaps

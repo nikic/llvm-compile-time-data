@@ -1,0 +1,153 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       TRY_TO(TraverseStmt(E));
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+     }
+     ~     
+     for (auto *E : C->copy_array_temps()) {
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       TRY_TO(TraverseStmt(E));
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+     }
+     ~     
+     for (auto *E : C->copy_array_elems()) {
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       TRY_TO(TraverseStmt(E));
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+     }
+     ~     
+   }
+   ~       
+   return true;
+   ~~~~~~~~~~~~
+ }
+ ~         
+ 
+           
+ template <typename Derived>
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ bool RecursiveASTVisitor<Derived>::VisitOMPTaskReductionClause(
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     OMPTaskReductionClause *C) {
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(TraverseNestedNameSpecifierLoc(C->getQualifierLoc()));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(TraverseDeclarationNameInfo(C->getNameInfo()));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(VisitOMPClauseList(C));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(VisitOMPClauseWithPostUpdate(C));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   for (auto *E : C->privates()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->lhs_exprs()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->rhs_exprs()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->reduction_ops()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   return true;
+   ~~~~~~~~~~~~
+ }
+ ~         
+ 
+           
+ template <typename Derived>
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ bool RecursiveASTVisitor<Derived>::VisitOMPInReductionClause(
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     OMPInReductionClause *C) {
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(TraverseNestedNameSpecifierLoc(C->getQualifierLoc()));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(TraverseDeclarationNameInfo(C->getNameInfo()));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(VisitOMPClauseList(C));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(VisitOMPClauseWithPostUpdate(C));
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   for (auto *E : C->privates()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->lhs_exprs()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->rhs_exprs()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->reduction_ops()) {
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   }
+   ~       
+   for (auto *E : C->taskgroup_descriptors())
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     TRY_TO(TraverseStmt(E));
+     ~~~~~~~~~~~~~~~~~~~~~~~~
+   return true;
+   ~~~~~~~~~~~~
+ }
+ ~         
+ 
+           
+ template <typename Derived>
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ bool RecursiveASTVisitor<Derived>::VisitOMPFlushClause(OMPFlushClause *C) {
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   TRY_TO(VisitOMPClauseList(C));
+   ~~~~~~~^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/RecursiveASTVisitor.h:82:23: note: in definition of macro ‘TRY_TO’
+     if (!getDerived().CALL_EXPR)                                               \
+                       ^~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+119.45user 16.92system 1:09.09elapsed 197%CPU (0avgtext+0avgdata 483208maxresident)k
+344inputs+1544512outputs (249major+2831052minor)pagefaults 0swaps

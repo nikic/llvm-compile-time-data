@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2051/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriter.cpp.o
+[2052/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterDecl.cpp.o
+[2053/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterStmt.cpp.o
+[2054/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GeneratePCH.cpp.o
+[2055/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GlobalModuleIndex.cpp.o
+[2056/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/InMemoryModuleCache.cpp.o
+[2057/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/Module.cpp.o
+[2058/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleFileExtension.cpp.o
+[2059/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleManager.cpp.o
+[2060/2361] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/PCHContainerOperations.cpp.o
+[2061/2361] Linking CXX static library lib/libclangSerialization.a
+[2062/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTConsumers.cpp.o
+[2063/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTMerge.cpp.o
+[2064/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTUnit.cpp.o
+[2065/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedDiagnosticConsumer.cpp.o
+[2066/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedIncludesSource.cpp.o
+[2067/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInstance.cpp.o
+[2068/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o
+[2069/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CreateInvocationFromCommandLine.cpp.o
+[2070/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyFile.cpp.o
+[2071/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyGraph.cpp.o
+[2072/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DiagnosticRenderer.cpp.o
+[2073/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendAction.cpp.o
+[2074/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendActions.cpp.o
+[2075/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendOptions.cpp.o
+[2076/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendTiming.cpp.o
+[2077/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/HeaderIncludeGen.cpp.o
+[2078/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InitHeaderSearch.cpp.o
+[2079/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InitPreprocessor.cpp.o
+[2080/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LayoutOverrideSource.cpp.o
+[2081/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LogDiagnosticPrinter.cpp.o
+[2082/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ModuleDependencyCollector.cpp.o
+[2083/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/MultiplexConsumer.cpp.o
+[2084/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrecompiledPreamble.cpp.o
+[2085/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrintPreprocessedOutput.cpp.o
+[2086/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticPrinter.cpp.o
+[2087/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticReader.cpp.o
+[2088/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TestModuleFileExtension.cpp.o
+[2089/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnostic.cpp.o
+[2090/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticBuffer.cpp.o
+[2091/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticPrinter.cpp.o
+[2092/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/VerifyDiagnosticConsumer.cpp.o
+[2093/2361] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o
+FAILED: tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++14 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -MD -MT tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o -MF tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o.d -o tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCall.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp: In member function ‘clang::CodeGen::RValue clang::CodeGen::CodeGenFunction::EmitCall(const clang::CodeGen::CGFunctionInfo&, const clang::CodeGen::CGCallee&, clang::CodeGen::ReturnValueSlot, const clang::CodeGen::CallArgList&, llvm::CallBase**, clang::SourceLocation)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: error: no matching function for call to ‘max(llvm::Align, unsigned int&)’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:61:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note: candidate: template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   deduced conflicting types for parameter ‘const _Tp’ (‘llvm::Align’ and ‘unsigned int’)
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:61:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note: candidate: template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   deduced conflicting types for parameter ‘const _Tp’ (‘llvm::Align’ and ‘unsigned int’)
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algo.h:3462:5: note: candidate: template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)
+     max(initializer_list<_Tp> __l)
+     ^~~
+/usr/include/c++/7/bits/stl_algo.h:3462:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   ‘llvm::Align’ is not derived from ‘std::initializer_list<_Tp>’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTTypeTraits.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:14:
+/usr/include/c++/7/bits/stl_algo.h:3468:5: note: candidate: template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)
+     max(initializer_list<_Tp> __l, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algo.h:3468:5: note:   template argument deduction/substitution failed:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGCall.cpp:4137:72: note:   ‘llvm::Align’ is not derived from ‘std::initializer_list<_Tp>’
+                                     layout->getAlignment(), scalarAlign)),
+                                                                        ^
+[2094/2361] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InterfaceStubFunctionsConsumer.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+129.87user 20.30system 1:15.80elapsed 198%CPU (0avgtext+0avgdata 1045500maxresident)k
+144inputs+2503752outputs (238major+3557182minor)pagefaults 0swaps

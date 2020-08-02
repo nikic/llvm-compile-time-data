@@ -1,0 +1,36 @@
+STDOUT:
+chitectureSet.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TextAPI -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TextAPI -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/ArchitectureSet.cpp.o -MF lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/ArchitectureSet.cpp.o.d -o lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/ArchitectureSet.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TextAPI/MachO/ArchitectureSet.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TextAPI/MachO/ArchitectureSet.cpp:13:0:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TextAPI/MachO/ArchitectureSet.h: In member function ‘bool llvm::MachO::ArchitectureSet::arch_iterator<Ty>::operator==(const llvm::MachO::ArchitectureSet::arch_iterator<Ty>&) const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TextAPI/MachO/ArchitectureSet.h:107:19: error: ‘tie’ is not a member of ‘std’
+       return std::tie(Index, ArchSet) == std::tie(o.Index, o.ArchSet);
+                   ^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TextAPI/MachO/ArchitectureSet.h:107:47: error: ‘tie’ is not a member of ‘std’
+       return std::tie(Index, ArchSet) == std::tie(o.Index, o.ArchSet);
+                                               ^~~
+[1391/2545] Building X86GenInstrInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+87.52user 11.75system 0:50.84elapsed 195%CPU (0avgtext+0avgdata 431616maxresident)k
+12336inputs+475184outputs (14major+1733308minor)pagefaults 0swaps

@@ -1,0 +1,44 @@
+STDOUT:
+llvm::FunctionToLoopPassAdaptor<LoopPassT>::run(llvm::Function&, llvm::FunctionAnalysisManager&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/LoopPassManager.h:266:44: error: ‘MemorySSAAnalysis’ was not declared in this scope
+                           ? (&AM.getResult<MemorySSAAnalysis>(F).getMSSA())
+                                            ^~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/LoopPassManager.h:266:44: note: suggested alternative: ‘MemoryAccess’
+                           ? (&AM.getResult<MemorySSAAnalysis>(F).getMSSA())
+                                            ^~~~~~~~~~~~~~~~~
+                                            MemoryAccess
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/LoopPassManager.h:358:38: error: no matching function for call to ‘llvm::PreservedAnalyses::preserve<MemorySSAAnalysis>()’
+       PA.preserve<MemorySSAAnalysis>();
+                                      ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/LoopInfo.h:49:0,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/GuardWidening.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GuardWidening.cpp:41:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:175:38: note: candidate: template<class AnalysisT> void llvm::PreservedAnalyses::preserve()
+   template <typename AnalysisT> void preserve() { preserve(AnalysisT::ID()); }
+                                      ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:175:38: note:   template argument deduction/substitution failed:
+[712/2547] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:6 (message):
+  Your CMake version is 3.10.2.  Starting with LLVM 12.0.0, the minimum
+  version of CMake required to build LLVM will become 3.13.4, and using an
+  older CMake will become an error.  Please upgrade your CMake to at least
+  3.13.4 now to avoid issues in the future!
+
+
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+249.44user 17.80system 2:14.25elapsed 199%CPU (0avgtext+0avgdata 1038940maxresident)k
+1872inputs+376288outputs (13major+3293638minor)pagefaults 0swaps
