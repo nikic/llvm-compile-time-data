@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3803:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3803 |     return SVE_ELTTY(FloatTy, 4, 2);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3805:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3805 |     return SVE_ELTTY(FloatTy, 4, 3);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3807:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3807 |     return SVE_ELTTY(FloatTy, 4, 4);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3809:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3809 |     return SVE_ELTTY(DoubleTy, 2, 1);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3811:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3811 |     return SVE_ELTTY(DoubleTy, 2, 2);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3813:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3813 |     return SVE_ELTTY(DoubleTy, 2, 3);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3815:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3815 |     return SVE_ELTTY(DoubleTy, 2, 4);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3817:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3817 |     return SVE_ELTTY(BFloat16Ty, 8, 1);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3819:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3819 |     return SVE_ELTTY(BFloat16Ty, 8, 2);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3821:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3821 |     return SVE_ELTTY(BFloat16Ty, 8, 3);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3721:40: error: ‘llvm::ElementCount::ElementCount(unsigned int, bool)’ is private within this context
+ 3721 |   {ELTTY, llvm::ElementCount(ELTS, true), NUMVECTORS};
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:3823:12: note: in expansion of macro ‘SVE_ELTTY’
+ 3823 |     return SVE_ELTTY(BFloat16Ty, 8, 4);
+      |            ^~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:64,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/TypeSize.h:35:3: note: declared private here
+   35 |   ElementCount(unsigned Min, bool Scalable) : Min(Min), Scalable(Scalable) {}
+      |   ^~~~~~~~~~~~
+[1984/2588] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCUDA.cpp.o
+[1985/2588] Building X86GenFastISel.inc...
+[1986/2588] Building X86GenDAGISel.inc...
+[1987/2588] Building X86GenGlobalISel.inc...
+[1988/2588] Building X86GenInstrInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+283.62user 7.35system 1:01.24elapsed 475%CPU (0avgtext+0avgdata 505884maxresident)k
+0inputs+1477808outputs (29major+2531238minor)pagefaults 0swaps
