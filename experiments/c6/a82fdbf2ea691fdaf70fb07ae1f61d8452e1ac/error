@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1789/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o
+[1790/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/MSP430.cpp.o
+[1791/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Mips.cpp.o
+[1792/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/OSTargets.cpp.o
+[1793/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/NVPTX.cpp.o
+[1794/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PNaCl.cpp.o
+[1795/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/RISCV.cpp.o
+[1796/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PPC.cpp.o
+[1797/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SPIR.cpp.o
+[1798/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Sparc.cpp.o
+[1799/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SystemZ.cpp.o
+[1800/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/TCE.cpp.o
+[1801/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/VE.cpp.o
+[1802/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/WebAssembly.cpp.o
+[1803/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/X86.cpp.o
+[1804/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/XCore.cpp.o
+[1805/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TokenKinds.cpp.o
+[1806/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TypeTraits.cpp.o
+[1807/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticIDs.cpp.o
+[1808/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Version.cpp.o
+[1809/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayInstr.cpp.o
+[1810/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayLists.cpp.o
+[1811/2781] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/DependencyDirectivesSourceMinimizer.cpp.o
+[1812/2781] Building X86GenSubtargetInfo.inc...
+[1813/2781] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/HeaderMap.cpp.o
+[1814/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[1815/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1816/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[1817/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[1818/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallLowering.cpp.o
+[1819/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[1820/2781] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[1821/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DomainReassignment.cpp.o
+[1822/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DiscriminateMemOps.cpp.o
+[1823/2781] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/HeaderSearch.cpp.o
+[1824/2781] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Lexer.cpp.o
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Twine.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Triple.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/ObjCRuntime.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LangOptions.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Lexer.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Lexer.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h: In static member function ‘static void clang::Lexer::Stringify(llvm::SmallVectorImpl<char>&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:544:7: warning: array subscript 1 is outside array bounds of ‘char [1]’ [-Warray-bounds]
+  544 |       ++EltPtr;
+      |       ^~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Lexer.cpp:247:9: note: while referencing ‘<anonymous>’
+  247 |         Str.insert(Str.begin() + i + 1, 'n');
+      |         ^~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Twine.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Triple.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/ObjCRuntime.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LangOptions.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Lexer.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Lexer.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:544:7: warning: array subscript 1 is outside array bounds of ‘char [1]’ [-Warray-bounds]
+  544 |       ++EltPtr;
+      |       ^~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Lexer.cpp:235:7: note: while referencing ‘<anonymous>’
+  235 |       Str.insert(Str.begin() + i, '\\');
+      |       ^~~
+[1825/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ExpandPseudo.cpp.o
+[1826/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.o
+[1827/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupBWInsts.cpp.o
+[1828/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupLEAs.cpp.o
+[1829/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidStoreForwardingBlocks.cpp.o
+[1830/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupSetCC.cpp.o
+[1831/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.o
+[1832/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FlagsCopyLowering.cpp.o
+[1833/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FrameLowering.cpp.o
+[1834/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstructionSelector.cpp.o
+[1835/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.o
+[1836/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectBranchTracking.cpp.o
+[1837/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectThunks.cpp.o
+[1838/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+[1839/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[1840/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertPrefetch.cpp.o
+[1841/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+[1842/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[1843/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[1844/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[1845/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86EvexToVex.cpp.o
+[1846/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LegalizerInfo.cpp.o
+[1847/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+[1848/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[1849/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[1850/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[1851/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[1852/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1853/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[1854/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterBankInfo.cpp.o
+[1855/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[1856/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1857/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[1858/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1859/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[1860/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1861/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1862/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1863/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1864/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1865/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1866/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1867/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1868/2781] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertWait.cpp.o
+[1869/2781] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1870/2781] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+FAILED: lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Passes -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o -MF lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o.d -o lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp: In destructor ‘virtual llvm::IRChangePrinter::~IRChangePrinter()’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp:341:46: error: no matching function for call to ‘llvm::IRChangePrinter::~IRChangePrinter()’
+  341 |   ChangePrinter<std::string>::~ChangePrinter();
+      |                                              ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp:334:29: note: candidate: ‘llvm::ChangePrinter<IRUnitT>::~ChangePrinter() [with IRUnitT = std::__cxx11::basic_string<char>]’
+  334 | template <typename IRUnitT> ChangePrinter<IRUnitT>::~ChangePrinter<IRUnitT>() {
+      |                             ^~~~~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp:334:29: note:   candidate expects 1 argument, 0 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp: At global scope:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/StandardInstrumentations.cpp:418:2: warning: extra ‘;’ [-Wpedantic]
+  418 | };
+      |  ^
+[1871/2781] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1872/2781] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1873/2781] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1874/2781] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1875/2781] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+49.21user 5.94system 0:09.51elapsed 579%CPU (0avgtext+0avgdata 412532maxresident)k
+0inputs+964944outputs (25major+2192641minor)pagefaults 0swaps
