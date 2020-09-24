@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[989/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryDependenceAnalysis.cpp.o
+[990/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSA.cpp.o
+[991/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleDebugInfoPrinter.cpp.o
+[992/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSAUpdater.cpp.o
+[993/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleSummaryAnalysis.cpp.o
+[994/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAliasAnalysis.cpp.o
+[995/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MustExecute.cpp.o
+[996/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAnalysisUtils.cpp.o
+[997/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCInstKind.cpp.o
+[998/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/OptimizationRemarkEmitter.cpp.o
+[999/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PHITransAddr.cpp.o
+[1000/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PhiValues.cpp.o
+[1001/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PostDominators.cpp.o
+[1002/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReleaseModeModelRunner.cpp.o
+[1003/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ProfileSummaryInfo.cpp.o
+[1004/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PtrUseVisitor.cpp.o
+[1005/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionInfo.cpp.o
+[1006/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPass.cpp.o
+[1007/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPrinter.cpp.o
+[1008/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReplayInlineAdvisor.cpp.o
+[1009/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionAliasAnalysis.cpp.o
+[1010/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+[1011/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionDivision.cpp.o
+[1012/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionNormalization.cpp.o
+[1013/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TFUtils.cpp.o
+[1014/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackLifetime.cpp.o
+[1015/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+[1016/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyncDependenceAnalysis.cpp.o
+[1017/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyntheticCountsUtils.cpp.o
+[1018/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetLibraryInfo.cpp.o
+[1019/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetTransformInfo.cpp.o
+[1020/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Trace.cpp.o
+[1021/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeBasedAliasAnalysis.cpp.o
+[1022/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeMetadataUtils.cpp.o
+[1023/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScopedNoAliasAA.cpp.o
+[1024/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLattice.cpp.o
+[1025/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLatticeUtils.cpp.o
+[1026/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueTracking.cpp.o
+[1027/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VFABIDemangling.cpp.o
+[1028/2787] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VectorUtils.cpp.o
+[1029/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/Caching.cpp.o
+[1030/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTO.cpp.o
+[1031/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o
+[1032/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/SummaryBasedOptimizations.cpp.o
+[1033/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOModule.cpp.o
+[1034/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOCodeGenerator.cpp.o
+[1035/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinCOFFStreamer.cpp.o
+[1036/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/UpdateCompilerUsed.cpp.o
+[1037/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFObjectTargetWriter.cpp.o
+[1038/2787] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/ThinLTOCodeGenerator.cpp.o
+[1039/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinEH.cpp.o
+[1040/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFStreamer.cpp.o
+[1041/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/StringTableBuilder.cpp.o
+[1042/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MachObjectWriter.cpp.o
+[1043/2787] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/SubtargetFeature.cpp.o
+[1044/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/COFFAsmParser.cpp.o
+[1045/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/COFFMasmParser.cpp.o
+[1046/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/DarwinAsmParser.cpp.o
+[1047/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/ELFAsmParser.cpp.o
+[1048/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmLexer.cpp.o
+[1049/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParser.cpp.o
+[1050/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParserExtension.cpp.o
+[1051/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCTargetAsmParser.cpp.o
+[1052/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MasmParser.cpp.o
+[1053/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/WasmAsmParser.cpp.o
+[1054/2787] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCDisassembler.cpp.o
+[1055/2787] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/Disassembler.cpp.o
+[1056/2787] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCSymbolizer.cpp.o
+[1057/2787] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCRelocationInfo.cpp.o
+[1058/2787] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCExternalSymbolizer.cpp.o
+[1059/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/CodeEmitter.cpp.o
+[1060/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/HardwareUnit.cpp.o
+[1061/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Context.cpp.o
+[1062/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HWEventListener.cpp.o
+[1063/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/LSUnit.cpp.o
+[1064/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RegisterFile.cpp.o
+[1065/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/ResourceManager.cpp.o
+[1066/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RetireControlUnit.cpp.o
+[1067/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/Scheduler.cpp.o
+[1068/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/InstrBuilder.cpp.o
+[1069/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Instruction.cpp.o
+[1070/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Pipeline.cpp.o
+[1071/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/DispatchStage.cpp.o
+[1072/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/EntryStage.cpp.o
+[1073/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/ExecuteStage.cpp.o
+[1074/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InstructionTables.cpp.o
+[1075/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/MicroOpQueueStage.cpp.o
+[1076/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/RetireStage.cpp.o
+[1077/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/Stage.cpp.o
+[1078/2787] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Support.cpp.o
+[1079/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Archive.cpp.o
+[1080/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ArchiveWriter.cpp.o
+[1081/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Binary.cpp.o
+[1082/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFImportFile.cpp.o
+[1083/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFModuleDefinition.cpp.o
+[1084/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFObjectFile.cpp.o
+[1085/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELF.cpp.o
+[1086/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Decompressor.cpp.o
+[1087/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Error.cpp.o
+[1088/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELFObjectFile.cpp.o
+[1089/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRObjectFile.cpp.o
+[1090/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOObjectFile.cpp.o
+[1091/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRSymtab.cpp.o
+[1092/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOUniversal.cpp.o
+[1093/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Minidump.cpp.o
+[1094/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Object.cpp.o
+[1095/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ModuleSymbolTable.cpp.o
+[1096/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ObjectFile.cpp.o
+[1097/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RecordStreamer.cpp.o
+[1098/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RelocationResolver.cpp.o
+[1099/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolicFile.cpp.o
+[1100/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolSize.cpp.o
+[1101/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiFile.cpp.o
+[1102/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiUniversal.cpp.o
+[1103/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o
+FAILED: lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/MC/MCParser -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/MC/MCParser -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o -MF lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o.d -o lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/MC/MCParser/AsmLexer.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/MC/MCParser/AsmLexer.cpp:14:10: fatal error: third_party/llvm/llvm-project/llvm/include/llvm/Support/Compiler.h: No such file or directory
+   14 | #include "third_party/llvm/llvm-project/llvm/include/llvm/Support/Compiler.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[1104/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOUniversalWriter.cpp.o
+[1105/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WasmObjectFile.cpp.o
+[1106/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsMachineFlag.cpp.o
+[1107/2787] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsResource.cpp.o
+[1108/2787] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+15.93user 2.78system 0:08.07elapsed 231%CPU (0avgtext+0avgdata 412740maxresident)k
+0inputs+302864outputs (13major+675946minor)pagefaults 0swaps
