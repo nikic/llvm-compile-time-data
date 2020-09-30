@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh ReleaseLTO-g" failed
+
+STDOUT:
+[134/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Tar/TarUpdate.cpp.o
+[135/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHeader.cpp.o
+[136/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipItem.cpp.o
+[137/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipAddCommon.cpp.o
+[138/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHandlerOut.cpp.o
+[139/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipOut.cpp.o
+[140/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipIn.cpp.o
+[141/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipRegister.cpp.o
+[142/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Bcj2Register.cpp.o
+[143/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BcjCoder.cpp.o
+[144/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipHandler.cpp.o
+[145/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BcjRegister.cpp.o
+[146/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BitlDecoder.cpp.o
+[147/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Bcj2Coder.cpp.o
+[148/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchCoder.cpp.o
+[149/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchMisc.cpp.o
+[150/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BranchRegister.cpp.o
+[151/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ByteSwap.cpp.o
+[152/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Crc.cpp.o
+[153/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Register.cpp.o
+[154/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/CopyCoder.cpp.o
+[155/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/CopyRegister.cpp.o
+[156/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Archive/Zip/ZipUpdate.cpp.o
+[157/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Deflate64Register.cpp.o
+[158/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Decoder.cpp.o
+[159/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/BZip2Encoder.cpp.o
+[160/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateRegister.cpp.o
+[161/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeltaFilter.cpp.o
+[162/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateDecoder.cpp.o
+[163/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ImplodeHuffmanDecoder.cpp.o
+[164/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ImplodeDecoder.cpp.o
+[165/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Register.cpp.o
+[166/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Encoder.cpp.o
+[167/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzma2Decoder.cpp.o
+[168/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/DeflateEncoder.cpp.o
+[169/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzOutWindow.cpp.o
+[170/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaRegister.cpp.o
+[171/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaEncoder.cpp.o
+[172/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzmaDecoder.cpp.o
+[173/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/Lzx86Converter.cpp.o
+[174/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdRegister.cpp.o
+[175/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdDecoder.cpp.o
+[176/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdEncoder.cpp.o
+[177/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/PpmdZip.cpp.o
+[178/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ShrinkDecoder.cpp.o
+[179/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/ZDecoder.cpp.o
+[180/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/LzxDecoder.cpp.o
+[181/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Compress/QuantumDecoder.cpp.o
+[182/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/7zAesRegister.cpp.o
+[183/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/HmacSha1.cpp.o
+[184/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/MyAes.cpp.o
+[185/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/Pbkdf2HmacSha1.cpp.o
+[186/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/7zAes.cpp.o
+[187/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/RandGen.cpp.o
+[188/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/7zStream.c.o
+[189/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/Sha1.cpp.o
+[190/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/ZipCrypto.cpp.o
+[191/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/ZipStrong.cpp.o
+[192/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/Crypto/WzAes.cpp.o
+[193/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Bra.c.o
+[194/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Bra86.c.o
+[195/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/BraIA64.c.o
+[196/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Delta.c.o
+[197/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Aes.c.o
+[198/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG  -O3 -fomit-frame-pointer -flto -DNDEBUG -g   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o   -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C/Alloc.c
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG -O3 -fomit-frame-pointer -flto -DNDEBUG -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Alloc.c.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C/Alloc.c 
+1.	<eof> parser at end of file
+2.	Per-module optimization passes
+3.	Running pass 'Function Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C/Alloc.c'.
+4.	Running pass 'Simplify the CFG' on function '@SetLargePageSize'
+ #0 0x000055cc0da4cb91 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ba8b91)
+ #1 0x000055cc0da4a954 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ba6954)
+ #2 0x000055cc0da4abf1 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ba6bf1)
+ #3 0x000055cc0d9bf498 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b1b498)
+ #4 0x00007f477ae8a3c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x000055cc0d37be88 llvm::Instruction::getFunction() const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x14d7e88)
+ #6 0x000055cc0d3119ac llvm::Instruction::dropLocation() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x146d9ac)
+ #7 0x000055cc0dba734d llvm::FoldBranchToCommonDest(llvm::BranchInst*, llvm::MemorySSAUpdater*, llvm::TargetTransformInfo const*, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1d0334d)
+ #8 0x000055cc0dba98f5 (anonymous namespace)::SimplifyCFGOpt::simplifyCondBranch(llvm::BranchInst*, llvm::IRBuilder<llvm::ConstantFolder, llvm::IRBuilderDefaultInserter>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1d058f5)
+ #9 0x000055cc0dbb2f6c llvm::simplifyCFG(llvm::BasicBlock*, llvm::TargetTransformInfo const&, llvm::SimplifyCFGOptions const&, llvm::SmallPtrSetImpl<llvm::BasicBlock*>*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1d0ef6c)
+#10 0x000055cc0d96dd12 iterativelySimplifyCFG(llvm::Function&, llvm::TargetTransformInfo const&, llvm::SimplifyCFGOptions const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ac9d12)
+#11 0x000055cc0d96e160 simplifyFunctionCFG(llvm::Function&, llvm::TargetTransformInfo const&, llvm::SimplifyCFGOptions const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1aca160)
+#12 0x000055cc0d3afec0 llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x150bec0)
+#13 0x000055cc0d3b1509 llvm::FPPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x150d509)
+#14 0x000055cc0d3af1f0 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x150b1f0)
+#15 0x000055cc0dcfdaad (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1e59aad)
+#16 0x000055cc0dcff61b clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1e5b61b)
+#17 0x000055cc0e96e4b9 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2aca4b9)
+#18 0x000055cc0ed72dd9 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2ecedd9)
+#19 0x000055cc0e316279 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2472279)
+#20 0x000055cc0e2ca09b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x242609b)
+#21 0x000055cc0e3e6ee4 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2542ee4)
+#22 0x000055cc0c909707 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa65707)
+#23 0x000055cc0c90729b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa6329b)
+#24 0x000055cc0e1859e9 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22e19e9)
+#25 0x000055cc0d9bf597 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b1b597)
+#26 0x000055cc0e186465 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22e2465)
+#27 0x000055cc0e15bb2c clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22b7b2c)
+#28 0x000055cc0e15c426 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22b8426)
+#29 0x000055cc0e16384f clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22bf84f)
+#30 0x000055cc0c896213 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x9f2213)
+#31 0x00007f477a9590b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#32 0x000055cc0c906e2e _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa62e2e)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/Alloc-9000f4.c
+clang-12: note: diagnostic msg: /tmp/Alloc-9000f4.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[199/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/BwtSort.c.o
+[200/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/HuffEnc.c.o
+[201/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzFindMt.c.o
+[202/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzFind.c.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
