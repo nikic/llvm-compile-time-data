@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[253/2792] Linking CXX executable bin/FileCheck
+[254/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmStreamer.cpp.o
+[255/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAssembler.cpp.o
+[256/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeView.cpp.o
+[257/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCContext.cpp.o
+[258/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFObjectTargetWriter.cpp.o
+[259/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCDwarf.cpp.o
+[260/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFStreamer.cpp.o
+[261/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCExpr.cpp.o
+[262/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCFragment.cpp.o
+[263/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInst.cpp.o
+[264/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstPrinter.cpp.o
+[265/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrAnalysis.cpp.o
+[266/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLabel.cpp.o
+[267/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrDesc.cpp.o
+[268/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrInfo.cpp.o
+[269/2792] Linking CXX executable bin/llvm-tblgen
+[270/2792] Building Attributes.inc...
+[271/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLinkerOptimizationHint.cpp.o
+[272/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachOStreamer.cpp.o
+[273/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachObjectTargetWriter.cpp.o
+[274/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCNullStreamer.cpp.o
+[275/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectFileInfo.cpp.o
+[276/2792] Building IntrinsicEnums.inc...
+[277/2792] Building IntrinsicsAArch64.h...
+[278/2792] Building IntrinsicsAMDGPU.h...
+[279/2792] Building IntrinsicsARM.h...
+[280/2792] Building IntrinsicsBPF.h...
+[281/2792] Building IntrinsicImpl.inc...
+[282/2792] Building IntrinsicsHexagon.h...
+[283/2792] Building IntrinsicsNVPTX.h...
+[284/2792] Building IntrinsicsMips.h...
+[285/2792] Building IntrinsicsPowerPC.h...
+[286/2792] Building IntrinsicsR600.h...
+[287/2792] Building ACC.h.inc...
+[288/2792] Building ACC.cpp.inc...
+[289/2792] Building OMP.h.inc...
+[290/2792] Building OMP.cpp.inc...
+[291/2792] Building ACC.cpp...
+[292/2792] Building IntrinsicsRISCV.h...
+[293/2792] Building OMP.cpp...
+[294/2792] Building CXX object lib/Frontend/OpenACC/CMakeFiles/LLVMFrontendOpenACC.dir/ACC.cpp.o
+[295/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectStreamer.cpp.o
+[296/2792] Linking CXX static library lib/libLLVMFrontendOpenACC.a
+[297/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectWriter.cpp.o
+[298/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCRegisterInfo.cpp.o
+[299/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSchedule.cpp.o
+[300/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSection.cpp.o
+[301/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionCOFF.cpp.o
+[302/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionELF.cpp.o
+[303/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionMachO.cpp.o
+[304/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionWasm.cpp.o
+[305/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionXCOFF.cpp.o
+[306/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCStreamer.cpp.o
+[307/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSubtargetInfo.cpp.o
+[308/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbol.cpp.o
+[309/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolELF.cpp.o
+[310/2792] Building IntrinsicsS390.h...
+[311/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolXCOFF.cpp.o
+[312/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptions.cpp.o
+[313/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptionsCommandFlags.cpp.o
+[314/2792] Building IntrinsicsWebAssembly.h...
+[315/2792] Building IntrinsicsX86.h...
+[316/2792] Building IntrinsicsXCore.h...
+[317/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCValue.cpp.o
+[318/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmObjectTargetWriter.cpp.o
+[319/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmStreamer.cpp.o
+[320/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinCOFFStreamer.cpp.o
+[321/2792] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWin64EH.cpp.o
+[322/2792] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Utils -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopSimplify.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/AliasAnalysis.h:45,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopSimplify.cpp:48:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+[323/2792] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/IR -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/DebugInfoMetadata.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:26,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/DebugInfoMetadata.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+[324/2792] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Utils -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnrollRuntime.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/AliasAnalysis.h:45,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnrollRuntime.cpp:25:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+[325/2792] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Utils -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnrollAndJam.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Instructions.h:34,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DependenceAnalysis.h:43,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnrollAndJam.cpp:26:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+[326/2792] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Utils -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnroll.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Operator.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:39,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUnroll.cpp:31:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+[327/2792] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Utils -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUtils.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/LoopUtils.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Constants.h:1042:20: error: extra qualification ‘llvm::ConstantExpr::’ on member ‘getExactLogBase2’ [-fpermissive]
+ 1042 |   static Constant *ConstantExpr::getExactLogBase2(Constant *C);
+      |                    ^~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+21.45user 1.55system 0:05.12elapsed 448%CPU (0avgtext+0avgdata 464128maxresident)k
+0inputs+133392outputs (11major+829165minor)pagefaults 0swaps
