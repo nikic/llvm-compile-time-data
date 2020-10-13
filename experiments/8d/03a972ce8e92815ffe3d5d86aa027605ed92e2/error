@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+#10 0x000055e345cd9129 clang::StmtVisitorBase<llvm::make_const_ptr, (anonymous namespace)::FloatExprEvaluator, bool>::Visit(clang::Stmt const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b29129)
+#11 0x000055e345ce1c15 Evaluate(clang::APValue&, (anonymous namespace)::EvalInfo&, clang::Expr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b31c15)
+#12 0x000055e345cf8054 EvaluateStmt((anonymous namespace)::StmtResult&, (anonymous namespace)::EvalInfo&, clang::Stmt const*, clang::SwitchCase const*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b48054)
+#13 0x000055e345cf7798 EvaluateStmt((anonymous namespace)::StmtResult&, (anonymous namespace)::EvalInfo&, clang::Stmt const*, clang::SwitchCase const*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b47798)
+#14 0x000055e345cfbaf3 HandleFunctionCall(clang::SourceLocation, clang::FunctionDecl const*, (anonymous namespace)::LValue const*, llvm::ArrayRef<clang::Expr const*>, (anonymous namespace)::CallRef, clang::Stmt const*, (anonymous namespace)::EvalInfo&, clang::APValue&, (anonymous namespace)::LValue const*) (.isra.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b4baf3)
+#15 0x000055e345cfe86c clang::Expr::isPotentialConstantExpr(clang::FunctionDecl const*, llvm::SmallVectorImpl<std::pair<clang::SourceLocation, clang::PartialDiagnostic> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b4e86c)
+#16 0x000055e3453d3212 clang::Sema::CheckConstexprFunctionDefinition(clang::FunctionDecl const*, clang::Sema::CheckConstexprKind) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3223212)
+#17 0x000055e345317cd2 clang::Sema::ActOnFinishFunctionBody(clang::Decl*, clang::Stmt*, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3167cd2)
+#18 0x000055e345177305 clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fc7305)
+#19 0x000055e3450c273a clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::Parser::LateParsedAttrList*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1273a)
+#20 0x000055e3450f0a3f clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::SourceLocation*, clang::Parser::ForRangeInit*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f40a3f)
+#21 0x000055e3450bcdc2 clang::Parser::ParseDeclOrFunctionDefInternal(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec&, clang::AccessSpecifier) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0cdc2)
+#22 0x000055e3450bd425 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*, clang::AccessSpecifier) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0d425)
+#23 0x000055e3450c51a0 clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f151a0)
+#24 0x000055e3450fe5c9 clang::Parser::ParseInnerNamespace(llvm::SmallVector<clang::Parser::InnerNamespaceInfo, 4u> const&, unsigned int, clang::SourceLocation&, clang::ParsedAttributes&, clang::BalancedDelimiterTracker&) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f4e5c9)
+#25 0x000055e3450ff26b clang::Parser::ParseNamespace(clang::DeclaratorContext, clang::SourceLocation&, clang::SourceLocation) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f4f26b)
+#26 0x000055e3450f1b7d clang::Parser::ParseDeclaration(clang::DeclaratorContext, clang::SourceLocation&, clang::Parser::ParsedAttributesWithRange&, clang::SourceLocation*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f41b7d)
+#27 0x000055e3450c499f clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1499f)
+#28 0x000055e345106547 clang::Parser::ParseLinkage(clang::ParsingDeclSpec&, clang::DeclaratorContext) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f56547)
+#29 0x000055e3450bcfe6 clang::Parser::ParseDeclOrFunctionDefInternal(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec&, clang::AccessSpecifier) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0cfe6)
+#30 0x000055e3450bd425 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*, clang::AccessSpecifier) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0d425)
+#31 0x000055e3450c51a0 clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f151a0)
+#32 0x000055e3450c5ec5 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f15ec5)
+#33 0x000055e3450b7d29 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f07d29)
+#34 0x000055e3446450f9 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24950f9)
+#35 0x000055e3445f90eb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24490eb)
+#36 0x000055e344715ef4 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2565ef4)
+#37 0x000055e342c1b5c7 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6b5c7)
+#38 0x000055e342c1915b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6915b)
+#39 0x000055e3444b3819 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2303819)
+#40 0x000055e343ce7917 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b37917)
+#41 0x000055e3444b4305 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2304305)
+#42 0x000055e3444896ec clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22d96ec)
+#43 0x000055e344489fe6 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22d9fe6)
+#44 0x000055e34449154f clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22e154f)
+#45 0x000055e342ba7613 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x9f7613)
+#46 0x00007fb148d0b0b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#47 0x000055e342c18cee _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa68cee)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/mySplitCommandLine-f885a8.cpp
+clang-12: note: diagnostic msg: /tmp/mySplitCommandLine-f885a8.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[11/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myAddExeFlag.cpp
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -DNDEBUG -fexperimental-new-pass-manager -O3 -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myAddExeFlag.cpp 
+1.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/std_abs.h:74:3: current parser token 'inline'
+2.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/std_abs.h:48:1: parsing namespace 'std'
+3.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/std_abs.h:72:3: parsing function body 'std::abs'
+ #0 0x00005555a7ed2d11 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bc5d11)
+ #1 0x00005555a7ed0ad4 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bc3ad4)
+ #2 0x00005555a7ed0d71 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bc3d71)
+ #3 0x00005555a7e44818 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b37818)
+ #4 0x00007fdd2cb183c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x00005555a9e4b824 (anonymous namespace)::LValueExprEvaluator::VisitVarDecl(clang::Expr const*, clang::VarDecl const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b3e824)
+ #6 0x00005555a9e32d99 clang::StmtVisitorBase<llvm::make_const_ptr, (anonymous namespace)::LValueExprEvaluator, bool>::Visit(clang::Stmt const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b25d99)
+ #7 0x00005555a9e76929 (anonymous namespace)::FloatExprEvaluator::VisitCastExpr(clang::CastExpr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b69929)
+ #8 0x00005555a9e3606b clang::StmtVisitorBase<llvm::make_const_ptr, (anonymous namespace)::FloatExprEvaluator, bool>::Visit(clang::Stmt const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b2906b)
+ #9 0x00005555a9e78d03 (anonymous namespace)::FloatExprEvaluator::VisitCallExpr(clang::CallExpr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b6bd03)
+#10 0x00005555a9e36129 clang::StmtVisitorBase<llvm::make_const_ptr, (anonymous namespace)::FloatExprEvaluator, bool>::Visit(clang::Stmt const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b29129)
+#11 0x00005555a9e3ec15 Evaluate(clang::APValue&, (anonymous namespace)::EvalInfo&, clang::Expr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b31c15)
+#12 0x00005555a9e55054 EvaluateStmt((anonymous namespace)::StmtResult&, (anonymous namespace)::EvalInfo&, clang::Stmt const*, clang::SwitchCase const*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b48054)
+#13 0x00005555a9e54798 EvaluateStmt((anonymous namespace)::StmtResult&, (anonymous namespace)::EvalInfo&, clang::Stmt const*, clang::SwitchCase const*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b47798)
+#14 0x00005555a9e58af3 HandleFunctionCall(clang::SourceLocation, clang::FunctionDecl const*, (anonymous namespace)::LValue const*, llvm::ArrayRef<clang::Expr const*>, (anonymous namespace)::CallRef, clang::Stmt const*, (anonymous namespace)::EvalInfo&, clang::APValue&, (anonymous namespace)::LValue const*) (.isra.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b4baf3)
+#15 0x00005555a9e5b86c clang::Expr::isPotentialConstantExpr(clang::FunctionDecl const*, llvm::SmallVectorImpl<std::pair<clang::SourceLocation, clang::PartialDiagnostic> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b4e86c)
+#16 0x00005555a9530212 clang::Sema::CheckConstexprFunctionDefinition(clang::FunctionDecl const*, clang::Sema::CheckConstexprKind) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3223212)
+#17 0x00005555a9474cd2 clang::Sema::ActOnFinishFunctionBody(clang::Decl*, clang::Stmt*, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3167cd2)
+#18 0x00005555a92d4305 clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fc7305)
+#19 0x00005555a921f73a clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::Parser::LateParsedAttrList*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1273a)
+#20 0x00005555a924da3f clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::SourceLocation*, clang::Parser::ForRangeInit*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f40a3f)
+#21 0x00005555a9219dc2 clang::Parser::ParseDeclOrFunctionDefInternal(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec&, clang::AccessSpecifier) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0cdc2)
+#22 0x00005555a921a425 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*, clang::AccessSpecifier) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0d425)
+#23 0x00005555a92221a0 clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f151a0)
+#24 0x00005555a925b5c9 clang::Parser::ParseInnerNamespace(llvm::SmallVector<clang::Parser::InnerNamespaceInfo, 4u> const&, unsigned int, clang::SourceLocation&, clang::ParsedAttributes&, clang::BalancedDelimiterTracker&) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f4e5c9)
+#25 0x00005555a925c26b clang::Parser::ParseNamespace(clang::DeclaratorContext, clang::SourceLocation&, clang::SourceLocation) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f4f26b)
+#26 0x00005555a924eb7d clang::Parser::ParseDeclaration(clang::DeclaratorContext, clang::SourceLocation&, clang::Parser::ParsedAttributesWithRange&, clang::SourceLocation*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f41b7d)
+#27 0x00005555a922199f clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1499f)
+#28 0x00005555a9263547 clang::Parser::ParseLinkage(clang::ParsingDeclSpec&, clang::DeclaratorContext) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f56547)
+#29 0x00005555a9219fe6 clang::Parser::ParseDeclOrFunctionDefInternal(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec&, clang::AccessSpecifier) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0cfe6)
+#30 0x00005555a921a425 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*, clang::AccessSpecifier) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f0d425)
+#31 0x00005555a92221a0 clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f151a0)
+#32 0x00005555a9222ec5 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f15ec5)
+#33 0x00005555a9214d29 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f07d29)
+#34 0x00005555a87a20f9 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24950f9)
+#35 0x00005555a87560eb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24490eb)
+#36 0x00005555a8872ef4 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2565ef4)
+#37 0x00005555a6d785c7 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6b5c7)
+#38 0x00005555a6d7615b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6915b)
+#39 0x00005555a8610819 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2303819)
+#40 0x00005555a7e44917 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b37917)
+#41 0x00005555a8611305 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2304305)
+#42 0x00005555a85e66ec clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22d96ec)
+#43 0x00005555a85e6fe6 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22d9fe6)
+#44 0x00005555a85ee54f clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22e154f)
+#45 0x00005555a6d04613 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x9f7613)
+#46 0x00007fdd2c5e70b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#47 0x00005555a6d75cee _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa68cee)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/myAddExeFlag-f57159.cpp
+clang-12: note: diagnostic msg: /tmp/myAddExeFlag-f57159.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[12/650] Generating sqlite test inputs
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
