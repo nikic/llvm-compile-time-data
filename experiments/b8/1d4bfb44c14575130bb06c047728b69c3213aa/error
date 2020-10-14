@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1762/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticOptions.cpp.o
+[1763/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ExpressionTraits.cpp.o
+[1764/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileSystemStatCache.cpp.o
+[1765/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o
+[1766/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangOptions.cpp.o
+[1767/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/IdentifierTable.cpp.o
+[1768/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangStandards.cpp.o
+[1769/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o
+[1770/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ObjCRuntime.cpp.o
+[1771/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OperatorPrecedence.cpp.o
+[1772/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenMPKinds.cpp.o
+[1773/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o
+[1774/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerSpecialCaseList.cpp.o
+[1775/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sanitizers.cpp.o
+[1776/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceLocation.cpp.o
+[1777/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Stack.cpp.o
+[1778/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+[1779/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetID.cpp.o
+[1780/2795] Building arm_neon.h...
+[1781/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets.cpp.o
+[1782/2795] Copying clang's arm_neon.h...
+[1783/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AArch64.cpp.o
+[1784/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AMDGPU.cpp.o
+[1785/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARC.cpp.o
+[1786/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARM.cpp.o
+[1787/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AVR.cpp.o
+[1788/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/BPF.cpp.o
+[1789/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Hexagon.cpp.o
+[1790/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Lanai.cpp.o
+[1791/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/MSP430.cpp.o
+[1792/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o
+[1793/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Mips.cpp.o
+[1794/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/NVPTX.cpp.o
+[1795/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/OSTargets.cpp.o
+[1796/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PNaCl.cpp.o
+[1797/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/RISCV.cpp.o
+[1798/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PPC.cpp.o
+[1799/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SPIR.cpp.o
+[1800/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Sparc.cpp.o
+[1801/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/TCE.cpp.o
+[1802/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SystemZ.cpp.o
+[1803/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/VE.cpp.o
+[1804/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/WebAssembly.cpp.o
+[1805/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/X86.cpp.o
+[1806/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TypeTraits.cpp.o
+[1807/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TokenKinds.cpp.o
+[1808/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/XCore.cpp.o
+[1809/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Version.cpp.o
+[1810/2795] Building X86GenSubtargetInfo.inc...
+[1811/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayInstr.cpp.o
+[1812/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayLists.cpp.o
+[1813/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1814/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[1815/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[1816/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[1817/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallLowering.cpp.o
+[1818/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[1819/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DomainReassignment.cpp.o
+[1820/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DiscriminateMemOps.cpp.o
+[1821/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ExpandPseudo.cpp.o
+[1822/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[1823/2795] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticIDs.cpp.o
+[1824/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupBWInsts.cpp.o
+[1825/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.o
+[1826/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupLEAs.cpp.o
+[1827/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidStoreForwardingBlocks.cpp.o
+[1828/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupSetCC.cpp.o
+[1829/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.o
+[1830/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FlagsCopyLowering.cpp.o
+[1831/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FrameLowering.cpp.o
+[1832/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstructionSelector.cpp.o
+[1833/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectBranchTracking.cpp.o
+[1834/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.o
+[1835/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectThunks.cpp.o
+[1836/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+[1837/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[1838/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[1839/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertPrefetch.cpp.o
+[1840/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[1841/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+[1842/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[1843/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86EvexToVex.cpp.o
+[1844/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[1845/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LegalizerInfo.cpp.o
+[1846/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+[1847/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[1848/2795] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o
+FAILED: lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/ProfileData/Coverage -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o -MF lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o.d -o lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage/CoverageMappingReader.cpp
+In file included from /usr/include/c++/9/algorithm:62,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:51,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ProfileData/Coverage/CoverageMappingReader.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage/CoverageMappingReader.cpp:14:
+/usr/include/c++/9/bits/stl_algo.h: In instantiation of ‘_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = __gnu_cxx::__ops::_Iter_pred<isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)> >]’:
+/usr/include/c++/9/bits/stl_algo.h:3963:28:   required from ‘_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/usr/include/c++/9/bits/stl_algo.h:526:47:   required from ‘bool std::none_of(_IIter, _IIter, _Predicate) [with _IIter = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1513:22:   required from ‘bool llvm::none_of(R&&, UnaryPredicate) [with R = llvm::iterator_range<llvm::object::MachOUniversalBinary::object_iterator>; UnaryPredicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage/CoverageMappingReader.cpp:961:21:   required from here
+/usr/include/c++/9/bits/stl_algo.h:162:34: error: no matching function for call to ‘__iterator_category(llvm::object::MachOUniversalBinary::object_iterator&)’
+  162 |          std::__iterator_category(__first));
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:65,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ErrorHandling.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:48,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ProfileData/Coverage/CoverageMappingReader.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage/CoverageMappingReader.cpp:14:
+/usr/include/c++/9/bits/stl_iterator_base_types.h:205:5: note: candidate: ‘template<class _Iter> constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&)’
+  205 |     __iterator_category(const _Iter&)
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/9/bits/stl_iterator_base_types.h:205:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/9/bits/stl_iterator_base_types.h: In substitution of ‘template<class _Iter> constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = llvm::object::MachOUniversalBinary::object_iterator]’:
+/usr/include/c++/9/bits/stl_algo.h:162:34:   required from ‘_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = __gnu_cxx::__ops::_Iter_pred<isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)> >]’
+/usr/include/c++/9/bits/stl_algo.h:3963:28:   required from ‘_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/usr/include/c++/9/bits/stl_algo.h:526:47:   required from ‘bool std::none_of(_IIter, _IIter, _Predicate) [with _IIter = llvm::object::MachOUniversalBinary::object_iterator; _Predicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1513:22:   required from ‘bool llvm::none_of(R&&, UnaryPredicate) [with R = llvm::iterator_range<llvm::object::MachOUniversalBinary::object_iterator>; UnaryPredicate = isArchSpecifierInvalidOrMissing(llvm::object::Binary*, llvm::StringRef)::<lambda(const llvm::object::MachOUniversalBinary::ObjectForArch&)>]’
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ProfileData/Coverage/CoverageMappingReader.cpp:961:21:   required from here
+/usr/include/c++/9/bits/stl_iterator_base_types.h:205:5: error: no type named ‘iterator_category’ in ‘struct std::iterator_traits<llvm::object::MachOUniversalBinary::object_iterator>’
+[1849/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[1850/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[1851/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[1852/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1853/2795] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+49.07user 5.62system 0:09.41elapsed 580%CPU (0avgtext+0avgdata 412616maxresident)k
+0inputs+996256outputs (28major+2262871minor)pagefaults 0swaps
