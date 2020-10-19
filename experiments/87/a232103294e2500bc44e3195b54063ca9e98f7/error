@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+[592/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z28.c.o
+[593/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z30.c.o
+[594/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z31.c.o
+[595/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z32.c.o
+[596/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z29.c.o
+[597/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z34.c.o
+[598/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z33.c.o
+[599/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z35.c.o
+[600/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z36.c.o
+[601/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z38.c.o
+[602/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o
+[603/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z39.c.o
+[604/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z40.c.o
+[605/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z41.c.o
+[606/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z42.c.o
+[607/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z43.c.o
+[608/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z45.c.o
+[609/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z44.c.o
+[610/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z46.c.o
+[611/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z47.c.o
+[612/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z49.c.o
+[613/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z48.c.o
+[614/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z50.c.o
+[615/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z51.c.o
+[616/650] Linking C executable CTMark/consumer-typeset/consumer-typeset
+[617/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Calignm1.c.o
+[618/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/defs.c.o
+[619/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/constants.c.o
+[620/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/fft.c.o
+[621/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Falign.c.o
+[622/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Galign11.c.o
+[623/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/fftFunctions.c.o
+[624/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/genalign11.c.o
+[625/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/genGalign11.c.o
+[626/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Halignmm.c.o
+[627/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Lalign11.c.o
+[628/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/io.c.o
+[629/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Lalignmm.c.o
+[630/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/MSalign11.c.o
+[631/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/MSalignmm.c.o
+[632/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/mtxutl.c.o
+[633/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/pairlocalalign.c.o
+[634/650] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+[635/650] Linking CXX executable CTMark/tramp3d-v4/tramp3d-v4
+[636/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/mltaln9.c.o
+[637/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/partQalignmm.c.o
+[638/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/partSalignmm.c.o
+[639/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/rna.c.o
+[640/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Qalignmm.c.o
+[641/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Ralignmm.c.o
+[642/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/SAalignmm.c.o
+[643/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/suboptalign11.c.o
+[644/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/tddis.c.o
+[645/650] Building C object CTMark/mafft/CMakeFiles/pairlocalalign.dir/Salignmm.c.o
+[646/650] Linking C executable CTMark/mafft/pairlocalalign
+[647/650] Building C object CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o
+[648/650] Linking C executable CTMark/sqlite3/sqlite3
+[649/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o
+FAILED: CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -DHAVE_CONFIG_H -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/zlib -DDONT_LOCK_DBDIRS -DC_LINUX -DFPU_WORDS_BIGENDIAN=0 -DWORDS_BIGENDIAN=0 -MD -MT CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o -MF CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o.d -o CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o   -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_phishcheck.c
+fatal error: error in backend: SmallVector capacity unable to grow. Already at maximum size 4294967295
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG -fexperimental-new-pass-manager -O3 -w -Werror=date-time -DHAVE_CONFIG_H -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/zlib -DDONT_LOCK_DBDIRS -DC_LINUX -DFPU_WORDS_BIGENDIAN=0 -DWORDS_BIGENDIAN=0 -MD -MT CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o -MF CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o.d -o CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_phishcheck.c.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_phishcheck.c 
+1.	<eof> parser at end of file
+2.	Code generation
+3.	Running pass 'Function Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/ClamAV/libclamav_phishcheck.c'.
+4.	Running pass 'X86 DAG->DAG Instruction Selection' on function '@str_fixup_spaces'
+ #0 0x000055cd8bf0a7d1 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1bc97d1)
+ #1 0x000055cd8bf08594 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1bc7594)
+ #2 0x000055cd8bf08831 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1bc7831)
+ #3 0x000055cd8be7c4c8 llvm::CrashRecoveryContext::HandleExit(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b3b4c8)
+ #4 0x000055cd8bf0127b llvm::sys::Process::Exit(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1bc027b)
+ #5 0x000055cd8adadb07 LLVMErrorHandler(void*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa6cb07)
+ #6 0x000055cd8be81ecc llvm::report_fatal_error(llvm::Twine const&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b40ecc)
+ #7 0x000055cd8be82044 (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b41044)
+ #8 0x000055cd8be949c7 (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b539c7)
+ #9 0x000055cd8be94d16 llvm::SmallVectorBase<unsigned int>::grow_pod(void*, unsigned long, unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b53d16)
+#10 0x000055cd8be824ed llvm::FoldingSetNodeID::AddInteger(unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b414ed)
+#11 0x000055cd8be82529 llvm::FoldingSetNodeID::AddInteger(unsigned long long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b41529)
+#12 0x000055cd8ccfbb1f llvm::SelectionDAG::getNode(unsigned int, llvm::SDLoc const&, llvm::EVT, llvm::ArrayRef<llvm::SDValue>, llvm::SDNodeFlags) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x29bab1f)
+#13 0x000055cd8ccab978 llvm::SelectionDAGBuilder::getValueImpl(llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x296a978)
+#14 0x000055cd8ccac325 llvm::SelectionDAGBuilder::getValue(llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x296b325)
+#15 0x000055cd8ccb10d0 llvm::SelectionDAGBuilder::visitBinary(llvm::User const&, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x29700d0)
+#16 0x000055cd8ccd8467 llvm::SelectionDAGBuilder::visit(llvm::Instruction const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2997467)
+#17 0x000055cd8cd266ce llvm::SelectionDAGISel::SelectBasicBlock(llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void>, false, true>, llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void>, false, true>, bool&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x29e56ce)
+#18 0x000055cd8cd2aa3d llvm::SelectionDAGISel::SelectAllBasicBlocks(llvm::Function const&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x29e9a3d)
+#19 0x000055cd8cd2d5cd llvm::SelectionDAGISel::runOnMachineFunction(llvm::MachineFunction&) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x29ec5cd)
+#20 0x000055cd8ae5e31d (anonymous namespace)::X86DAGToDAGISel::runOnMachineFunction(llvm::MachineFunction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xb1d31d)
+#21 0x000055cd8b3f517c llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x10b417c)
+#22 0x000055cd8b862500 llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1521500)
+#23 0x000055cd8b863b49 llvm::FPPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1522b49)
+#24 0x000055cd8b861830 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1520830)
+#25 0x000055cd8c1ba0e3 (anonymous namespace)::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1e790e3)
+#26 0x000055cd8c1bf125 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1e7e125)
+#27 0x000055cd8ce3e899 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2afd899)
+#28 0x000055cd8d24f259 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2f0e259)
+#29 0x000055cd8c7dab69 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2499b69)
+#30 0x000055cd8c78eb6b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x244db6b)
+#31 0x000055cd8c8abb44 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x256ab44)
+#32 0x000055cd8adae197 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa6d197)
+#33 0x000055cd8adabd2b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa6ad2b)
+#34 0x000055cd8c648919 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2307919)
+#35 0x000055cd8be7c347 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b3b347)
+#36 0x000055cd8c649405 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2308405)
+#37 0x000055cd8c61e7ec clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22dd7ec)
+#38 0x000055cd8c61f0e6 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22de0e6)
+#39 0x000055cd8c62664f clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x22e564f)
+#40 0x000055cd8ad3a1a3 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x9f91a3)
+#41 0x00007f5d8d4d40b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#42 0x000055cd8adab8be _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa6a8be)
+clang-12: error: clang frontend command failed with exit code 70 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/libclamav_phishcheck-d0afb4.c
+clang-12: note: diagnostic msg: /tmp/libclamav_phishcheck-d0afb4.sh
+clang-12: note: diagnostic msg: 
+
+********************
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
