@@ -1,0 +1,190 @@
+{
+    "config": 1,
+    "clang_size": {
+        "size-text": 81049953,
+        "size-data": 3227200,
+        "size-bss": 332913,
+        "size-total": 84610066
+    },
+    "data": {
+        "O3": {
+            "geomean": []
+        },
+        "ReleaseThinLTO": {
+            "geomean": []
+        },
+        "ReleaseLTO-g": {
+            "geomean": []
+        },
+        "O0-g": {
+            "lencod": {
+                "instructions": 15320038571.5,
+                "instructions:u": 14115217982.5,
+                "cycles": 10311389884,
+                "task-clock": 2867.789999999999,
+                "branches": 2955027759,
+                "branch-misses": 52620453.5,
+                "max-rss": 3166164,
+                "wall-time": 2.96,
+                "size-file": 2027008,
+                "size-text": 897858,
+                "size-data": 16632,
+                "size-bss": 109408,
+                "size-total": 1023898
+            },
+            "Bullet": {
+                "instructions": 69718135878,
+                "instructions:u": 66350243123.5,
+                "cycles": 50711657362,
+                "task-clock": 14101.610000000002,
+                "branches": 13533682602,
+                "branch-misses": 277322682,
+                "max-rss": 7764972,
+                "wall-time": 14.320000000000002,
+                "size-file": 5664312,
+                "size-text": 1188643,
+                "size-data": 747920,
+                "size-bss": 45552,
+                "size-total": 1982115
+            },
+            "mafft": {
+                "instructions": 7888589794,
+                "instructions:u": 7289045460,
+                "cycles": 5340949063.5,
+                "task-clock": 1485.5949999999998,
+                "branches": 1531146274,
+                "branch-misses": 27212206,
+                "max-rss": 1575762,
+                "wall-time": 1.5400000000000003,
+                "size-file": 854312,
+                "size-text": 435633,
+                "size-data": 8941,
+                "size-bss": 132727168,
+                "size-total": 133171742
+            },
+            "tramp3d-v4": {
+                "instructions": 25891568937,
+                "instructions:u": 25217048535,
+                "cycles": 20312954795,
+                "task-clock": 5648.474999999999,
+                "branches": 4982894324,
+                "branch-misses": 102956435.5,
+                "max-rss": 515584,
+                "wall-time": 5.654999999999999,
+                "size-file": 9957336,
+                "size-text": 1348889,
+                "size-data": 1464,
+                "size-bss": 2136,
+                "size-total": 1352489
+            },
+            "ClamAV": {
+                "instructions": 17006931804,
+                "instructions:u": 15045968082,
+                "cycles": 12221807758.5,
+                "task-clock": 3399.5200000000013,
+                "branches": 3300566553.5,
+                "branch-misses": 67777412,
+                "max-rss": 5375690,
+                "wall-time": 3.4949999999999983,
+                "size-file": 1652416,
+                "size-text": 863345,
+                "size-data": 62788,
+                "size-bss": 4768,
+                "size-total": 930901
+            },
+            "kimwitu++": {
+                "instructions": 28885881150,
+                "instructions:u": 28065160516.5,
+                "cycles": 22855974004,
+                "task-clock": 6355.009999999999,
+                "branches": 5632615605.5,
+                "branch-misses": 131221274.5,
+                "max-rss": 1278704,
+                "wall-time": 6.405000000000001,
+                "size-file": 4345912,
+                "size-text": 1338106,
+                "size-data": 31280,
+                "size-bss": 12640,
+                "size-total": 1382026
+            },
+            "sqlite3": {
+                "instructions": 5919742758.5,
+                "instructions:u": 5775130098.5,
+                "cycles": 4082984118,
+                "task-clock": 1135.5049999999999,
+                "branches": 1134040915.5,
+                "branch-misses": 21165860.5,
+                "max-rss": 235722,
+                "wall-time": 1.145,
+                "size-file": 1048704,
+                "size-text": 520206,
+                "size-data": 3280,
+                "size-bss": 696,
+                "size-total": 524182
+            },
+            "SPASS": {
+                "instructions": 17296920131,
+                "instructions:u": 16170901458.5,
+                "cycles": 12535584843,
+                "task-clock": 3486.1749999999997,
+                "branches": 3380895667.5,
+                "branch-misses": 68218631.5,
+                "max-rss": 2914324,
+                "wall-time": 3.635,
+                "size-file": 1923760,
+                "size-text": 903919,
+                "size-data": 920,
+                "size-bss": 358776,
+                "size-total": 1263615
+            },
+            "7zip": {
+                "instructions": 80129033690,
+                "instructions:u": 74408567647.5,
+                "cycles": 62363392522,
+                "task-clock": 17343.265,
+                "branches": 15826088832,
+                "branch-misses": 358349973.5,
+                "max-rss": 12999762,
+                "wall-time": 17.885,
+                "size-file": 5992856,
+                "size-text": 1358688,
+                "size-data": 7816,
+                "size-bss": 29440,
+                "size-total": 1395944
+            },
+            "consumer-typeset": {
+                "instructions": 14458964971,
+                "instructions:u": 13367209586.5,
+                "cycles": 9685665619.5,
+                "task-clock": 2694.045,
+                "branches": 2806535013,
+                "branch-misses": 48845307,
+                "max-rss": 2962850,
+                "wall-time": 2.7699999999999996,
+                "size-file": 1572840,
+                "size-text": 1006441,
+                "size-data": 7512,
+                "size-bss": 65264,
+                "size-total": 1079217
+            },
+            "geomean": {
+                "instructions": 20437481094.921238,
+                "instructions:u": 19184224112.11371,
+                "cycles": 14757518040.176268,
+                "task-clock": 4104.171937260119,
+                "branches": 3967326174.6666236,
+                "branch-misses": 78764688.76586384,
+                "max-rss": 2269995.839277128,
+                "wall-time": 4.198975096131497,
+                "size-file": 2585285.3315885575,
+                "size-text": 926455.1304117652,
+                "size-data": 11893.979865354977,
+                "size-bss": 45827.324643270484,
+                "size-total": 1849875.3807686106
+            }
+        },
+        "NewPM-O3": {
+            "geomean": []
+        }
+    }
+}
