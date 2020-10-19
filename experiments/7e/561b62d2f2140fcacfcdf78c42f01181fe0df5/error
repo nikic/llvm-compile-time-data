@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Preprocessor.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h: In copy constructor ‘clang::DiagnosticBuilder::DiagnosticBuilder(const clang::DiagnosticBuilder&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:1287:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+ 1287 |   DiagnosticBuilder(const DiagnosticBuilder &D) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:29,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclarationName.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclBase.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/DeclSpec.h:25,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:23,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h: In copy constructor ‘clang::PartialDiagnostic::PartialDiagnostic(const clang::PartialDiagnostic&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h:52:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+   52 |   PartialDiagnostic(const PartialDiagnostic &Other) : DiagID(Other.DiagID) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h: In member function ‘const clang::Sema::SemaDiagnosticBuilder& clang::Sema::SemaDiagnosticBuilder::operator<<(T&&) const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1519:13: error: ‘StreamableDiagnosticBase’ does not name a type; did you mean ‘StreamingDiagnostic’?
+ 1519 |       const StreamableDiagnosticBase &DB = *this;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             StreamingDiagnostic
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1520:7: error: ‘DB’ was not declared in this scope
+ 1520 |       DB << std::move(V);
+      |       ^~
+[1930/2802] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Preprocessor.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h: In copy constructor ‘clang::DiagnosticBuilder::DiagnosticBuilder(const clang::DiagnosticBuilder&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:1287:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+ 1287 |   DiagnosticBuilder(const DiagnosticBuilder &D) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:29,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclarationName.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclBase.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/DeclSpec.h:25,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:23,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h: In copy constructor ‘clang::PartialDiagnostic::PartialDiagnostic(const clang::PartialDiagnostic&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h:52:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+   52 |   PartialDiagnostic(const PartialDiagnostic &Other) : DiagID(Other.DiagID) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h: In member function ‘const clang::Sema::SemaDiagnosticBuilder& clang::Sema::SemaDiagnosticBuilder::operator<<(T&&) const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1519:13: error: ‘StreamableDiagnosticBase’ does not name a type; did you mean ‘StreamingDiagnostic’?
+ 1519 |       const StreamableDiagnosticBase &DB = *this;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             StreamingDiagnostic
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1520:7: error: ‘DB’ was not declared in this scope
+ 1520 |       DB << std::move(V);
+      |       ^~
+[1931/2802] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Preprocessor.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp:23:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h: In copy constructor ‘clang::DiagnosticBuilder::DiagnosticBuilder(const clang::DiagnosticBuilder&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:1287:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+ 1287 |   DiagnosticBuilder(const DiagnosticBuilder &D) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:29,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclarationName.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclBase.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/DeclSpec.h:25,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:23,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp:23:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h: In copy constructor ‘clang::PartialDiagnostic::PartialDiagnostic(const clang::PartialDiagnostic&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h:52:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+   52 |   PartialDiagnostic(const PartialDiagnostic &Other) : DiagID(Other.DiagID) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp:23:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h: In member function ‘const clang::Sema::SemaDiagnosticBuilder& clang::Sema::SemaDiagnosticBuilder::operator<<(T&&) const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1519:13: error: ‘StreamableDiagnosticBase’ does not name a type; did you mean ‘StreamingDiagnostic’?
+ 1519 |       const StreamableDiagnosticBase &DB = *this;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             StreamingDiagnostic
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1520:7: error: ‘DB’ was not declared in this scope
+ 1520 |       DB << std::move(V);
+      |       ^~
+[1932/2802] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExprCXX.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Preprocessor.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExprCXX.cpp:12:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h: In copy constructor ‘clang::DiagnosticBuilder::DiagnosticBuilder(const clang::DiagnosticBuilder&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:1287:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+ 1287 |   DiagnosticBuilder(const DiagnosticBuilder &D) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:29,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclarationName.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclBase.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/DeclSpec.h:25,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:23,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExprCXX.cpp:12:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h: In copy constructor ‘clang::PartialDiagnostic::PartialDiagnostic(const clang::PartialDiagnostic&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/PartialDiagnostic.h:52:3: warning: base class ‘class clang::StreamingDiagnostic’ should be explicitly initialized in the copy constructor [-Wextra]
+   52 |   PartialDiagnostic(const PartialDiagnostic &Other) : DiagID(Other.DiagID) {
+      |   ^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExprCXX.cpp:12:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h: In member function ‘const clang::Sema::SemaDiagnosticBuilder& clang::Sema::SemaDiagnosticBuilder::operator<<(T&&) const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1519:13: error: ‘StreamableDiagnosticBase’ does not name a type; did you mean ‘StreamingDiagnostic’?
+ 1519 |       const StreamableDiagnosticBase &DB = *this;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             StreamingDiagnostic
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:1520:7: error: ‘DB’ was not declared in this scope
+ 1520 |       DB << std::move(V);
+      |       ^~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+161.95user 11.29system 0:30.54elapsed 567%CPU (0avgtext+0avgdata 794092maxresident)k
+128inputs+1654960outputs (277major+5817140minor)pagefaults 0swaps
