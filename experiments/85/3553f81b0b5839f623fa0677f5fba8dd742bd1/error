@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+loading initial cache file ./llvm-test-suite/cmake/caches/NewPM-O3.cmake
+-- The C compiler identification is Clang 12.0.0
+-- The CXX compiler identification is Clang 12.0.0
+-- Check for working C compiler: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang
+-- Check for working C compiler: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++
+-- Check for working CXX compiler: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Tclsh: /bin/tclsh (found version "8.6") 
+-- Could NOT find TCL (missing: TCL_INCLUDE_PATH) 
+-- Could NOT find TCLTK (missing: TCL_INCLUDE_PATH TK_LIBRARY TK_INCLUDE_PATH) 
+-- Could NOT find TK (missing: TK_LIBRARY TK_INCLUDE_PATH) 
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Check target operating system - Linux
+-- Check target system architecture: x86
+-- Check target system architecture: zen
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Adding directory CTMark
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/llvm-compile-time-tracker/llvm-test-suite-build
+ninja: Entering directory `./llvm-test-suite-build'
+[1/650] Generating timeit
+[2/650] Generating timeit-target
+[3/650] Generating HashProgramOutput.sh
+[4/650] [TEST_SUITE_HOST_CC] Compiling host source fpcmp.c
+[5/650] [TEST_SUITE_HOST_CC] Linking host executable fpcmp
+[6/650] Building C object tools/CMakeFiles/fpcmp-target.dir/fpcmp.c.o
+[7/650] Linking C executable tools/fpcmp-target
+[8/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o
+[9/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+[10/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o
+[11/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o
+FAILED: CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/wine_date_and_time.cpp
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -DNDEBUG -fexperimental-new-pass-manager -O3 -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=c++11-narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/wine_date_and_time.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/wine_date_and_time.cpp 
+1.	/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/wine_date_and_time.cpp:161:23: current parser token ')'
+2.	/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/wine_date_and_time.cpp:155:87: parsing function body 'RtlTimeToSecondsSince1970'
+3.	/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/wine_date_and_time.cpp:155:87: in compound statement ('{}')
+ #0 0x0000559bf1e23761 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bce761)
+ #1 0x0000559bf1e21524 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bcc524)
+ #2 0x0000559bf1e217c1 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1bcc7c1)
+ #3 0x0000559bf1d951d8 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b401d8)
+ #4 0x00007f49696373c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x0000559bf2175ab9 clang::StreamingDiagnostic::AddTaggedVal(long, clang::DiagnosticsEngine::ArgumentKind) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1f20ab9)
+ #6 0x0000559bf3e50543 findCompleteObject((anonymous namespace)::EvalInfo&, clang::Expr const*, clang::AccessKinds, (anonymous namespace)::LValue const&, clang::QualType) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3bfb543)
+ #7 0x0000559bf3e8150b handleLValueToRValueConversion((anonymous namespace)::EvalInfo&, clang::Expr const*, clang::QualType, (anonymous namespace)::LValue const&, clang::APValue&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c2c50b)
+ #8 0x0000559bf3ece137 (anonymous namespace)::IntExprEvaluator::VisitCastExpr(clang::CastExpr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c79137)
+ #9 0x0000559bf3e7798e clang::StmtVisitorBase<llvm::make_const_ptr, (anonymous namespace)::IntExprEvaluator, bool>::Visit(clang::Stmt const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c2298e)
+#10 0x0000559bf3e7ab46 Evaluate(clang::APValue&, (anonymous namespace)::EvalInfo&, clang::Expr const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c25b46)
+#11 0x0000559bf3e818c9 EvaluateAsRValue((anonymous namespace)::EvalInfo&, clang::Expr const*, clang::APValue&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c2c8c9)
+#12 0x0000559bf3e841c8 clang::Expr::isCXX11ConstantExpr(clang::ASTContext const&, clang::APValue*, clang::SourceLocation*) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c2f1c8)
+#13 0x0000559bf3e866b4 clang::Expr::getIntegerConstantExpr(clang::ASTContext const&, clang::SourceLocation*, bool) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3c316b4)
+#14 0x0000559bf332f937 AnalyzeImplicitConversions(clang::Sema&, clang::Expr*, clang::SourceLocation, bool) (.constprop.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x30da937)
+#15 0x0000559bf3345369 clang::Sema::CheckCompletedExpr(clang::Expr*, clang::SourceLocation, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x30f0369)
+#16 0x0000559bf36f1d8c clang::Sema::ActOnFinishFullExpr(clang::Expr*, clang::SourceLocation, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x349cd8c)
+#17 0x0000559bf361540b clang::Sema::ActOnCondition(clang::Scope*, clang::SourceLocation, clang::Expr*, clang::Sema::ConditionKind) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x33c040b)
+#18 0x0000559bf31e1489 clang::Parser::ParseCXXCondition(clang::ActionResult<clang::Stmt*, true>*, clang::SourceLocation, clang::Sema::ConditionKind, clang::Parser::ForRangeInfo*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f8c489)
+#19 0x0000559bf3234ba1 clang::Parser::ParseParenExprOrCondition(clang::ActionResult<clang::Stmt*, true>*, clang::Sema::ConditionResult&, clang::SourceLocation, clang::Sema::ConditionKind, clang::SourceLocation*, clang::SourceLocation*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fdfba1)
+#20 0x0000559bf323aeb0 clang::Parser::ParseIfStatement(clang::SourceLocation*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fe5eb0)
+#21 0x0000559bf323829d clang::Parser::ParseStatementOrDeclarationAfterAttributes(llvm::SmallVector<clang::Stmt*, 32u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::Parser::ParsedAttributesWithRange&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fe329d)
+#22 0x0000559bf3238fec clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 32u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fe3fec)
+#23 0x0000559bf323fd11 clang::Parser::ParseCompoundStatementBody(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fead11)
+#24 0x0000559bf3243832 clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2fee832)
+#25 0x0000559bf317584a clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::Parser::LateParsedAttrList*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f2084a)
+#26 0x0000559bf31a4fa7 clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::SourceLocation*, clang::Parser::ForRangeInit*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f4ffa7)
+#27 0x0000559bf3170302 clang::Parser::ParseDeclOrFunctionDefInternal(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec&, clang::AccessSpecifier) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1b302)
+#28 0x0000559bf3170935 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*, clang::AccessSpecifier) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f1b935)
+#29 0x0000559bf3178b70 clang::Parser::ParseExternalDeclaration(clang::Parser::ParsedAttributesWithRange&, clang::ParsingDeclSpec*) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f23b70)
+#30 0x0000559bf3178eb5 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f23eb5)
+#31 0x0000559bf3169f49 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f14f49)
+#32 0x0000559bf26f46d1 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x249f6d1)
+#33 0x0000559bf26a7e7b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2452e7b)
+#34 0x0000559bf27c4d9c clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x256fd9c)
+#35 0x0000559bf0cc4e87 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6fe87)
+#36 0x0000559bf0cc275b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6d75b)
+#37 0x0000559bf2560b29 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x230bb29)
+#38 0x0000559bf1d952d7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b402d7)
+#39 0x0000559bf2561615 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x230c615)
+#40 0x0000559bf2536f9c clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22e1f9c)
+#41 0x0000559bf2537976 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22e2976)
+#42 0x0000559bf2541d11 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x22ecd11)
+#43 0x0000559bf0c4ec63 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x9f9c63)
+#44 0x00007f49691060b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#45 0x0000559bf0cc22ee _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa6d2ee)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/wine_date_and_time-7a4045.cpp
+clang-12: note: diagnostic msg: /tmp/wine_date_and_time-7a4045.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[12/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/ConsoleClose.cpp.o
+[13/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o
+[14/650] Generating sqlite test inputs
+[15/650] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/ExtractCallbackConsole.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
