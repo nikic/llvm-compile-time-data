@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1874/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1875/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1876/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1877/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[1878/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1879/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1880/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1881/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1882/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1883/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1884/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1885/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertWait.cpp.o
+[1886/2806] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1887/2806] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1888/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1889/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1890/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1891/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[1892/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1893/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1894/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1895/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1896/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1897/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1898/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1899/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1900/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1901/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1902/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[1903/2806] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1904/2806] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1905/2806] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[1906/2806] Linking CXX static library lib/libLLVMX86Info.a
+[1907/2806] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1908/2806] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘ld_plugin_status onload(ld_plugin_tv*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:431:48: warning: cast between incompatible function types from ‘ld_plugin_message’ {aka ‘ld_plugin_status (*)(int, const char*, ...)’} to ‘ld_plugin_get_wrap_symbols’ {aka ‘ld_plugin_status (*)(long unsigned int*, const char***)’} [-Wcast-function-type]
+  431 |           (ld_plugin_get_wrap_symbols)tv->tv_u.tv_message;
+      |                                                ^~~~~~~~~~
+[1909/2806] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1910/2806] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1911/2806] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1912/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o
+[1913/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/ScratchBuffer.cpp.o
+[1914/2806] Linking CXX static library lib/libLLVMX86Desc.a
+[1915/2806] Linking CXX static library lib/libLLVMX86CodeGen.a
+[1916/2806] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1917/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessorLexer.cpp.o
+[1918/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenConcatenation.cpp.o
+[1919/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenLexer.cpp.o
+[1920/2806] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o
+[1921/2806] Linking CXX static library lib/libclangLex.a
+[1922/2806] Linking CXX executable bin/llvm-ar
+[1923/2806] Generating ../../bin/llvm-dlltool
+[1924/2806] Generating ../../bin/llvm-lib
+[1925/2806] Generating ../../bin/llvm-ranlib
+[1926/2806] Linking CXX shared library lib/libLTO.so.12git
+[1927/2806] Creating library symlink lib/libLTO.so
+[1928/2806] Linking CXX shared module lib/LLVMgold.so
+[1929/2806] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseCXXInlineMethods.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseCXXInlineMethods.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+[1930/2806] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseAST.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseAST.cpp:19:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+[1931/2806] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o
+FAILED: tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o -MF tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o.d -o tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBlocks.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ExprCXX.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CodeGenFunction.h:26,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBlocks.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/CGBlocks.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+[1932/2806] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDecl.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+[1933/2806] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseExpr.cpp:23:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+[1934/2806] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Sema/Sema.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Parse/Parser.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseDeclCXX.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h: In static member function ‘static void clang::TemplateParamObjectDecl::Profile(llvm::FoldingSetNodeID&, clang::QualType, const clang::APValue&)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:3321:7: error: ‘const class clang::APValue’ has no member named ‘profile’; did you mean ‘Profile’?
+ 3321 |     V.profile(ID);
+      |       ^~~~~~~
+      |       Profile
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+83.16user 7.74system 0:15.99elapsed 568%CPU (0avgtext+0avgdata 742192maxresident)k
+0inputs+1490936outputs (275major+3564566minor)pagefaults 0swaps
