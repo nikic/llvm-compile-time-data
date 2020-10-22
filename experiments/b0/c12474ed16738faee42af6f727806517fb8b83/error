@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1233/2806] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordHelpers.cpp.o
+[1234/2806] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[1235/2806] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[1236/2806] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[1237/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/GenericError.cpp.o
+[1238/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/IPDBSourceFile.cpp.o
+[1239/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDB.cpp.o
+[1240/2806] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[1241/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBContext.cpp.o
+[1242/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBExtras.cpp.o
+[1243/2806] Linking CXX static library lib/libLLVMMC.a
+[1244/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBInterfaceAnchors.cpp.o
+[1245/2806] Linking CXX static library lib/libLLVMMCDisassembler.a
+[1246/2806] Linking CXX static library lib/libLLVMMCA.a
+[1247/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbol.cpp.o
+[1248/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolAnnotation.cpp.o
+[1249/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolBlock.cpp.o
+[1250/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolCompiland.cpp.o
+[1251/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolCompilandDetails.cpp.o
+[1252/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolCompilandEnv.cpp.o
+[1253/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolCustom.cpp.o
+[1254/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolData.cpp.o
+[1255/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolExe.cpp.o
+[1256/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolFunc.cpp.o
+[1257/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolFuncDebugEnd.cpp.o
+[1258/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolFuncDebugStart.cpp.o
+[1259/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolLabel.cpp.o
+[1260/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolPublicSymbol.cpp.o
+[1261/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolThunk.cpp.o
+[1262/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeArray.cpp.o
+[1263/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeBaseClass.cpp.o
+[1264/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeBuiltin.cpp.o
+[1265/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeCustom.cpp.o
+[1266/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeDimension.cpp.o
+[1267/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeEnum.cpp.o
+[1268/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeFriend.cpp.o
+[1269/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeFunctionArg.cpp.o
+[1270/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeFunctionSig.cpp.o
+[1271/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeManaged.cpp.o
+[1272/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypePointer.cpp.o
+[1273/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeTypedef.cpp.o
+[1274/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeUDT.cpp.o
+[1275/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeVTable.cpp.o
+[1276/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolTypeVTableShape.cpp.o
+[1277/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolUnknown.cpp.o
+[1278/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymbolUsingNamespace.cpp.o
+[1279/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/PDBSymDumper.cpp.o
+[1280/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/UDTLayout.cpp.o
+[1281/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/DbiModuleDescriptor.cpp.o
+[1282/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/DbiModuleDescriptorBuilder.cpp.o
+[1283/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/DbiModuleList.cpp.o
+[1284/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/DbiStream.cpp.o
+[1285/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/DbiStreamBuilder.cpp.o
+[1286/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/EnumTables.cpp.o
+[1287/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/GlobalsStream.cpp.o
+[1288/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/Hash.cpp.o
+[1289/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/HashTable.cpp.o
+[1290/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/InfoStream.cpp.o
+[1291/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/InfoStreamBuilder.cpp.o
+[1292/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/InjectedSourceStream.cpp.o
+[1293/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/ModuleDebugStream.cpp.o
+[1294/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeCompilandSymbol.cpp.o
+[1295/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumGlobals.cpp.o
+[1296/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumInjectedSources.cpp.o
+[1297/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumLineNumbers.cpp.o
+[1298/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumModules.cpp.o
+[1299/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumTypes.cpp.o
+[1300/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeExeSymbol.cpp.o
+[1301/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeFunctionSymbol.cpp.o
+[1302/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeLineNumber.cpp.o
+[1303/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativePublicSymbol.cpp.o
+[1304/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeRawSymbol.cpp.o
+[1305/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSourceFile.cpp.o
+[1306/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSymbolEnumerator.cpp.o
+[1307/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeArray.cpp.o
+[1308/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeBuiltin.cpp.o
+[1309/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeEnum.cpp.o
+[1310/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeFunctionSig.cpp.o
+[1311/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypePointer.cpp.o
+[1312/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeTypedef.cpp.o
+[1313/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeUDT.cpp.o
+[1314/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeVTShape.cpp.o
+[1315/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NamedStreamMap.cpp.o
+[1316/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSession.cpp.o
+[1317/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFile.cpp.o
+[1318/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBStringTable.cpp.o
+[1319/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFileBuilder.cpp.o
+[1320/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBStringTableBuilder.cpp.o
+[1321/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PublicsStream.cpp.o
+[1322/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/RawError.cpp.o
+[1323/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/GSIStreamBuilder.cpp.o
+[1324/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolStream.cpp.o
+[1325/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolCache.cpp.o
+[1326/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiHashing.cpp.o
+[1327/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStream.cpp.o
+[1328/2806] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStreamBuilder.cpp.o
+[1329/2806] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/DIPrinter.cpp.o
+[1330/2806] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/SymbolizableObjectFile.cpp.o
+[1331/2806] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/Symbolize.cpp.o
+[1332/2806] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngine.cpp.o
+[1333/2806] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngineBindings.cpp.o
+[1334/2806] Building CXX object lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFLinker.cpp.o
+FAILED: lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFLinker.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/DWARFLinker -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFLinker.cpp.o -MF lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFLinker.cpp.o.d -o lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFLinker.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFLinker.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFLinker.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:801:22: error: declaration of ‘llvm::ObjectPrefixMap* llvm::DWARFLinker::DWARFLinkerOptions::ObjectPrefixMap’ changes meaning of ‘ObjectPrefixMap’ [-fpermissive]
+  801 |     ObjectPrefixMap *ObjectPrefixMap = nullptr;
+      |                      ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:229:44: note: ‘ObjectPrefixMap’ declared here as ‘typedef class std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > llvm::ObjectPrefixMap’
+  229 | typedef std::map<std::string, std::string> ObjectPrefixMap;
+      |                                            ^~~~~~~~~~~~~~~
+[1335/2806] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/GDBRegistrationListener.cpp.o
+[1336/2806] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/SectionMemoryManager.cpp.o
+[1337/2806] Building CXX object lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFStreamer.cpp.o
+FAILED: lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFStreamer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/DWARFLinker -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFStreamer.cpp.o -MF lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFStreamer.cpp.o.d -o lib/DWARFLinker/CMakeFiles/LLVMDWARFLinker.dir/DWARFStreamer.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFStreamer.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFStreamer.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/DWARFLinker/DWARFStreamer.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:801:22: error: declaration of ‘llvm::ObjectPrefixMap* llvm::DWARFLinker::DWARFLinkerOptions::ObjectPrefixMap’ changes meaning of ‘ObjectPrefixMap’ [-fpermissive]
+  801 |     ObjectPrefixMap *ObjectPrefixMap = nullptr;
+      |                      ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DWARFLinker/DWARFLinker.h:229:44: note: ‘ObjectPrefixMap’ declared here as ‘typedef class std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > llvm::ObjectPrefixMap’
+  229 | typedef std::map<std::string, std::string> ObjectPrefixMap;
+      |                                            ^~~~~~~~~~~~~~~
+[1338/2806] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ShrinkWrap.cpp.o
+[1339/2806] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+28.20user 4.05system 0:09.04elapsed 356%CPU (0avgtext+0avgdata 451364maxresident)k
+0inputs+415128outputs (14major+1101153minor)pagefaults 0swaps
