@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1858/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[1859/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+[1860/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[1861/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86EvexToVex.cpp.o
+[1862/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LegalizerInfo.cpp.o
+[1863/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[1864/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+[1865/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[1866/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[1867/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[1868/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[1869/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1870/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[1871/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterBankInfo.cpp.o
+[1872/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1873/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1874/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[1875/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1876/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[1877/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1878/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1879/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1880/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1881/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1882/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1883/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1884/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertWait.cpp.o
+[1885/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1886/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1887/2808] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1888/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[1889/2808] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1890/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1891/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1892/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1893/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1894/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1895/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1896/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1897/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1898/2808] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1899/2808] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1900/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1901/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1902/2808] Linking CXX static library lib/libLLVMX86Info.a
+[1903/2808] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1904/2808] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1905/2808] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1906/2808] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘ld_plugin_status onload(ld_plugin_tv*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:431:48: warning: cast between incompatible function types from ‘ld_plugin_message’ {aka ‘ld_plugin_status (*)(int, const char*, ...)’} to ‘ld_plugin_get_wrap_symbols’ {aka ‘ld_plugin_status (*)(long unsigned int*, const char***)’} [-Wcast-function-type]
+  431 |           (ld_plugin_get_wrap_symbols)tv->tv_u.tv_message;
+      |                                                ^~~~~~~~~~
+[1907/2808] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1908/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPCallbacks.cpp.o
+[1909/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPConditionalDirectiveRecord.cpp.o
+[1910/2808] Linking CXX static library lib/libLLVMX86Desc.a
+[1911/2808] Linking CXX static library lib/libLLVMX86CodeGen.a
+[1912/2808] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1913/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPCaching.cpp.o
+[1914/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPDirectives.cpp.o
+[1915/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPExpressions.cpp.o
+[1916/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPLexerChange.cpp.o
+[1917/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Pragma.cpp.o
+[1918/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPMacroExpansion.cpp.o
+[1919/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o
+[1920/2808] Linking CXX executable bin/llvm-ar
+[1921/2808] Generating ../../bin/llvm-dlltool
+[1922/2808] Generating ../../bin/llvm-lib
+[1923/2808] Generating ../../bin/llvm-ranlib
+[1924/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/ScratchBuffer.cpp.o
+[1925/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessorLexer.cpp.o
+[1926/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o
+[1927/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenConcatenation.cpp.o
+[1928/2808] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenLexer.cpp.o
+[1929/2808] Linking CXX static library lib/libclangLex.a
+[1930/2808] Linking CXX shared library lib/libLTO.so.12git
+[1931/2808] Creating library symlink lib/libLTO.so
+[1932/2808] Linking CXX shared module lib/LLVMgold.so
+[1933/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o
+[1934/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+[1935/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o
+[1936/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+[1937/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+[1938/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseInit.cpp.o
+[1939/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o
+[1940/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseObjc.cpp.o
+[1941/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenMP.cpp.o
+[1942/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParsePragma.cpp.o
+[1943/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmt.cpp.o
+[1944/2808] Building Opcodes.inc...
+[1945/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmtAsm.cpp.o
+[1946/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeGenError.cpp.o
+[1947/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTemplate.cpp.o
+[1948/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTentative.cpp.o
+[1949/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/APValue.cpp.o
+[1950/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Interp/ByteCodeExprGen.cpp.o
+[1951/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConsumer.cpp.o
+[1952/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConcept.cpp.o
+[1953/2808] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/Parser.cpp.o
+[1954/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDiagnostic.cpp.o
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:21,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTDiagnostic.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTDiagnostic.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h: In function ‘void clang::FormatASTNodeDiagnosticArgument(clang::DiagnosticsEngine::ArgumentKind, intptr_t, llvm::StringRef, llvm::StringRef, llvm::ArrayRef<std::pair<clang::DiagnosticsEngine::ArgumentKind, long int> >, llvm::SmallVectorImpl<char>&, void*, llvm::ArrayRef<long int>)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:544:7: warning: array subscript 1 is outside array bounds of ‘char [1]’ [-Warray-bounds]
+  544 |       ++EltPtr;
+      |       ^~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTDiagnostic.cpp:482:46: note: while referencing ‘<anonymous>’
+  482 |     Output.insert(Output.begin()+OldEnd, '\'');
+      |                                              ^
+[1955/2808] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBuiltin.cpp.o
+[1956/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/AST -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTImporter.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTImporter.cpp: In member function ‘llvm::Error clang::ASTNodeImporter::ImportInitializer(clang::VarDecl*, clang::VarDecl*)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTImporter.cpp:2018:39: error: ‘class clang::VarDecl’ has no member named ‘getEvaluatedStmt’; did you mean ‘getEvaluatedValue’?
+ 2018 |   if (EvaluatedStmt *FromEval = From->getEvaluatedStmt()) {
+      |                                       ^~~~~~~~~~~~~~~~
+      |                                       getEvaluatedValue
+[1957/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTTypeTraits.cpp.o
+[1958/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDumper.cpp.o
+[1959/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTStructuralEquivalence.cpp.o
+[1960/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporterLookupTable.cpp.o
+[1961/2808] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+234.70user 11.83system 0:46.50elapsed 530%CPU (0avgtext+0avgdata 1379888maxresident)k
+0inputs+1767464outputs (289major+6513529minor)pagefaults 0swaps
