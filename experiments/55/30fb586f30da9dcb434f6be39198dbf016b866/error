@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1733/2808] Copying clang's openmp_wrappers/cmath...
+[1734/2808] Copying clang's openmp_wrappers/complex...
+[1735/2808] Copying clang's openmp_wrappers/complex.h...
+[1736/2808] Copying clang's openmp_wrappers/__clang_openmp_device_functions.h...
+[1737/2808] Copying clang's openmp_wrappers/new...
+[1738/2808] Copying clang's openmp_wrappers/complex_cmath.h...
+[1739/2808] Linking CXX static library lib/libLLVMipo.a
+[1740/2808] Building arm_fp16.h...
+[1741/2808] Copying clang's arm_fp16.h...
+[1742/2808] Building arm_bf16.h...
+[1743/2808] Copying clang's arm_bf16.h...
+[1744/2808] Linking CXX static library lib/libLLVMCoroutines.a
+[1745/2808] Building arm_sve.h...
+[1746/2808] Copying clang's arm_sve.h...
+[1747/2808] Building arm_cde.h...
+[1748/2808] Building arm_mve.h...
+[1749/2808] Linking CXX static library lib/libLLVMCodeGen.a
+[1750/2808] Copying clang's arm_cde.h...
+[1751/2808] Copying clang's arm_mve.h...
+[1752/2808] Linking CXX static library lib/libLLVMMIRParser.a
+[1753/2808] Linking CXX static library lib/libLLVMAsmPrinter.a
+[1754/2808] Linking CXX static library lib/libLLVMInterpreter.a
+[1755/2808] Linking CXX static library lib/libLLVMPasses.a
+[1756/2808] Linking CXX static library lib/libLLVMDWARFLinker.a
+[1757/2808] Generating VCSVersion.inc
+[1758/2808] Linking CXX static library lib/libLLVMSelectionDAG.a
+[1759/2808] Linking CXX static library lib/libLLVMLTO.a
+[1760/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Attributes.cpp.o
+[1761/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Builtins.cpp.o
+[1762/2808] Linking CXX static library lib/libLLVMOrcJIT.a
+[1763/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CharInfo.cpp.o
+[1764/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Cuda.cpp.o
+[1765/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CodeGenOptions.cpp.o
+[1766/2808] Linking CXX static library lib/libLLVMGlobalISel.a
+[1767/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Diagnostic.cpp.o
+[1768/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ExpressionTraits.cpp.o
+[1769/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticOptions.cpp.o
+[1770/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileSystemStatCache.cpp.o
+[1771/2808] Building arm_neon.h...
+[1772/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/IdentifierTable.cpp.o
+[1773/2808] Copying clang's arm_neon.h...
+[1774/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangOptions.cpp.o
+[1775/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangStandards.cpp.o
+[1776/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ObjCRuntime.cpp.o
+[1777/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenMPKinds.cpp.o
+[1778/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OperatorPrecedence.cpp.o
+[1779/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticIDs.cpp.o
+[1780/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerSpecialCaseList.cpp.o
+[1781/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sanitizers.cpp.o
+[1782/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceLocation.cpp.o
+[1783/2808] Building X86GenSubtargetInfo.inc...
+[1784/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileEntry.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileEntry.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In constructor ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:56: error: expected primary-expression before ‘)’ token
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:59: error: member ‘llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::MaybeRef’ must be initialized by mem-initializer in ‘constexpr’ constructor
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                           ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:170:23: note: declared here
+  170 |   clang::FileEntryRef MaybeRef;
+      |                       ^~~~~~~~
+[1785/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileManager.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileManager.cpp:19:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In constructor ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:56: error: expected primary-expression before ‘)’ token
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:59: error: member ‘llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::MaybeRef’ must be initialized by mem-initializer in ‘constexpr’ constructor
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                           ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:170:23: note: declared here
+  170 |   clang::FileEntryRef MaybeRef;
+      |                       ^~~~~~~~
+[1786/2808] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1787/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In constructor ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:56: error: expected primary-expression before ‘)’ token
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:59: error: member ‘llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::MaybeRef’ must be initialized by mem-initializer in ‘constexpr’ constructor
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                           ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:170:23: note: declared here
+  170 |   clang::FileEntryRef MaybeRef;
+      |                       ^~~~~~~~
+[1788/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp:16:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In constructor ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:56: error: expected primary-expression before ‘)’ token
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:59: error: member ‘llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::MaybeRef’ must be initialized by mem-initializer in ‘constexpr’ constructor
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                           ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:170:23: note: declared here
+  170 |   clang::FileEntryRef MaybeRef;
+      |                       ^~~~~~~~
+[1789/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In constructor ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:56: error: expected primary-expression before ‘)’ token
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                        ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:175:59: error: member ‘llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::MaybeRef’ must be initialized by mem-initializer in ‘constexpr’ constructor
+  175 |       : MaybeRef(clang::FileEntryRef::optional_none_tag) {}
+      |                                                           ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:170:23: note: declared here
+  170 |   clang::FileEntryRef MaybeRef;
+      |                       ^~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+53.39user 5.55system 0:10.65elapsed 553%CPU (0avgtext+0avgdata 411968maxresident)k
+0inputs+1000520outputs (32major+2408168minor)pagefaults 0swaps
