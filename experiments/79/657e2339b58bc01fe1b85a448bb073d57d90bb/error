@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional() [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:262:62:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:221:24: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  221 |   constexpr Optional() {}
+      |                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileManager.cpp:19:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:174:13: note: ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage() noexcept’ is implicitly deleted because its exception-specification does not match the implicit exception-specification ‘noexcept (false)’
+  174 |   constexpr OptionalStorage() noexcept = default;
+      |             ^~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:15,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMapInfo.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/FileManager.cpp:19:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional(llvm::NoneType) [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:269:43:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:222:32: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  222 |   constexpr Optional(NoneType) {}
+      |                                ^
+[1798/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp:16:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In member function ‘constexpr bool llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::hasValue() const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:187:37: error: call to non-‘constexpr’ function ‘bool clang::FileEntryRef::hasOptionalValue() const’
+  187 |     return MaybeRef.hasOptionalValue();
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceLocation.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Module.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional() [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:262:62:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:221:24: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  221 |   constexpr Optional() {}
+      |                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp:16:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:174:13: note: ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage() noexcept’ is implicitly deleted because its exception-specification does not match the implicit exception-specification ‘noexcept (false)’
+  174 |   constexpr OptionalStorage() noexcept = default;
+      |             ^~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceLocation.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Module.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Module.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional(llvm::NoneType) [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:269:43:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:222:32: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  222 |   constexpr Optional(NoneType) {}
+      |                                ^
+[1799/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerBlacklist.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In member function ‘constexpr bool llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::hasValue() const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:187:37: error: call to non-‘constexpr’ function ‘bool clang::FileEntryRef::hasOptionalValue() const’
+  187 |     return MaybeRef.hasOptionalValue();
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceLocation.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SanitizerBlacklist.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional() [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:262:62:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:221:24: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  221 |   constexpr Optional() {}
+      |                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:174:13: note: ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage() noexcept’ is implicitly deleted because its exception-specification does not match the implicit exception-specification ‘noexcept (false)’
+  174 |   constexpr OptionalStorage() noexcept = default;
+      |             ^~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceLocation.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SanitizerBlacklist.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SanitizerBlacklist.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional(llvm::NoneType) [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:269:43:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:222:32: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  222 |   constexpr Optional(NoneType) {}
+      |                                ^
+[1800/2808] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h: In member function ‘constexpr bool llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::hasValue() const’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:187:37: error: call to non-‘constexpr’ function ‘bool clang::FileEntryRef::hasOptionalValue() const’
+  187 |     return MaybeRef.hasOptionalValue();
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/DiagnosticIDs.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceManager.h:37,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional() [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:262:62:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:221:24: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  221 |   constexpr Optional() {}
+      |                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileManager.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:174:13: note: ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage() noexcept’ is implicitly deleted because its exception-specification does not match the implicit exception-specification ‘noexcept (false)’
+  174 |   constexpr OptionalStorage() noexcept = default;
+      |             ^~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/DiagnosticIDs.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/Diagnostic.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/SourceManager.h:37,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/SourceManager.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h: In instantiation of ‘constexpr llvm::Optional<T>::Optional(llvm::NoneType) [with T = clang::FileEntryRef]’:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/FileEntry.h:269:43:   required from here
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:222:32: error: use of deleted function ‘constexpr llvm::optional_detail::OptionalStorage<clang::FileEntryRef, true>::OptionalStorage()’
+  222 |   constexpr Optional(NoneType) {}
+      |                                ^
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+51.78user 5.86system 0:10.51elapsed 548%CPU (0avgtext+0avgdata 412012maxresident)k
+0inputs+993064outputs (32major+2362224minor)pagefaults 0swaps
