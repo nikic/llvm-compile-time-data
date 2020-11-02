@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2169/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/CloneDetection.cpp.o
+[2170/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/CocoaConventions.cpp.o
+[2171/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ConstructionContext.cpp.o
+[2172/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/Consumed.cpp.o
+[2173/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/CodeInjector.cpp.o
+[2174/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/Dominators.cpp.o
+[2175/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CodeGenPGO.cpp.o
+[2176/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/LiveVariables.cpp.o
+[2177/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ObjCNoReturn.cpp.o
+[2178/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/MicrosoftCXXABI.cpp.o
+[2179/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/PostOrderCFGView.cpp.o
+[2180/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ProgramPoint.cpp.o
+[2181/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/PathDiagnostic.cpp.o
+[2182/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CodeGenModule.cpp.o
+[2183/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ThreadSafety.cpp.o
+[2184/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ThreadSafetyCommon.cpp.o
+[2185/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ThreadSafetyLogical.cpp.o
+[2186/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ThreadSafetyTIL.cpp.o
+[2187/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/UninitializedValues.cpp.o
+[2188/2809] Building CXX object tools/clang/lib/Edit/CMakeFiles/obj.clangEdit.dir/Commit.cpp.o
+[2189/2809] Building CXX object tools/clang/lib/Edit/CMakeFiles/obj.clangEdit.dir/EditedSource.cpp.o
+[2190/2809] Building CXX object tools/clang/lib/Edit/CMakeFiles/obj.clangEdit.dir/RewriteObjCFoundationAPI.cpp.o
+[2191/2809] Linking CXX static library lib/libclangEdit.a
+[2192/2809] Building CXX object tools/clang/lib/Rewrite/CMakeFiles/obj.clangRewrite.dir/DeltaTree.cpp.o
+[2193/2809] Building CXX object tools/clang/lib/Rewrite/CMakeFiles/obj.clangRewrite.dir/HTMLRewrite.cpp.o
+[2194/2809] Building CXX object tools/clang/lib/Rewrite/CMakeFiles/obj.clangRewrite.dir/RewriteRope.cpp.o
+[2195/2809] Building CXX object tools/clang/lib/Rewrite/CMakeFiles/obj.clangRewrite.dir/Rewriter.cpp.o
+[2196/2809] Building CXX object tools/clang/lib/Rewrite/CMakeFiles/obj.clangRewrite.dir/TokenRewriter.cpp.o
+[2197/2809] Linking CXX static library lib/libclangRewrite.a
+[2198/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Action.cpp.o
+[2199/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Compilation.cpp.o
+[2200/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/DarwinSDKInfo.cpp.o
+[2201/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Distro.cpp.o
+[2202/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Driver.cpp.o
+[2203/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/DriverOptions.cpp.o
+[2204/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Job.cpp.o
+[2205/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Multilib.cpp.o
+[2206/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/OptionUtils.cpp.o
+[2207/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Phases.cpp.o
+[2208/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/SanitizerArgs.cpp.o
+[2209/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Tool.cpp.o
+[2210/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChain.cpp.o
+[2211/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/AArch64.cpp.o
+[2212/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/ARM.cpp.o
+[2213/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/Mips.cpp.o
+[2214/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/PPC.cpp.o
+[2215/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/RISCV.cpp.o
+[2216/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/Sparc.cpp.o
+[2217/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/SystemZ.cpp.o
+[2218/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/VE.cpp.o
+[2219/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/X86.cpp.o
+[2220/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AIX.cpp.o
+[2221/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Ananas.cpp.o
+[2222/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AMDGPU.cpp.o
+[2223/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AVR.cpp.o
+[2224/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/BareMetal.cpp.o
+[2225/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Clang.cpp.o
+[2226/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CloudABI.cpp.o
+[2227/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CommonArgs.cpp.o
+[2228/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Contiki.cpp.o
+[2229/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CrossWindows.cpp.o
+[2230/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Cuda.cpp.o
+[2231/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Darwin.cpp.o
+[2232/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/DragonFly.cpp.o
+[2233/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Flang.cpp.o
+[2234/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/FreeBSD.cpp.o
+[2235/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Fuchsia.cpp.o
+[2236/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Gnu.cpp.o
+[2237/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Haiku.cpp.o
+[2238/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ReachableCode.cpp.o
+[2239/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Hexagon.cpp.o
+[2240/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Hurd.cpp.o
+[2241/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Linux.cpp.o
+[2242/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MipsLinux.cpp.o
+[2243/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MinGW.cpp.o
+[2244/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Minix.cpp.o
+[2245/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MSP430.cpp.o
+[2246/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MSVC.cpp.o
+[2247/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Myriad.cpp.o
+[2248/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/NaCl.cpp.o
+[2249/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/NetBSD.cpp.o
+[2250/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/OpenBSD.cpp.o
+[2251/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/PS4CPU.cpp.o
+[2252/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/RISCVToolchain.cpp.o
+[2253/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Solaris.cpp.o
+[2254/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/TCE.cpp.o
+[2255/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/VEToolchain.cpp.o
+[2256/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/WebAssembly.cpp.o
+[2257/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/XCore.cpp.o
+[2258/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/PPCLinux.cpp.o
+[2259/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/InterfaceStubs.cpp.o
+[2260/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/ZOS.cpp.o
+[2261/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Types.cpp.o
+[2262/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/XRayArgs.cpp.o
+[2263/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/PCHContainerOperations.cpp.o
+[2264/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTCommon.cpp.o
+[2265/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIP.cpp.o
+[2266/2809] Linking CXX static library lib/libclangDriver.a
+[2267/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReaderDecl.cpp.o
+[2268/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/ObjectFilePCHContainerOperations.cpp.o
+[2269/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetInfo.cpp.o
+[2270/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterDecl.cpp.o
+[2271/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/ExprMutationAnalyzer.cpp.o
+[2272/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GeneratePCH.cpp.o
+[2273/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GlobalModuleIndex.cpp.o
+[2274/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/InMemoryModuleCache.cpp.o
+[2275/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleFile.cpp.o
+[2276/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleFileExtension.cpp.o
+[2277/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleManager.cpp.o
+[2278/2809] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTConsumers.cpp.o
+[2279/2809] Building CXX object tools/clang/lib/Analysis/CMakeFiles/obj.clangAnalysis.dir/RetainSummaryManager.cpp.o
+[2280/2809] Linking CXX static library lib/libclangAnalysis.a
+[2281/2809] Linking CXX static library lib/libclangSema.a
+[2282/2809] Linking CXX static library lib/libclangParse.a
+[2283/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o
+FAILED: tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Serialization -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Serialization -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o -MF tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o.d -o tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Serialization/ASTReader.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Serialization/ASTReader.cpp: In member function ‘clang::ASTReader::ASTReadResult clang::ASTReader::ReadModuleMapFileBlock(clang::ASTReader::RecordData&, clang::ASTReader::ModuleFile&, const ModuleFile*, unsigned int)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Serialization/ASTReader.cpp:3924:29: error: operands to ?: have different types ‘clang::OptionalFileEntryRefDegradesToFileEntryPtr’ and ‘std::nullptr_t’
+ 3924 |         if (auto *ASTFE = M ? M->getASTFile() : nullptr) {
+      |                           ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2284/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterStmt.cpp.o
+[2285/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReaderStmt.cpp.o
+[2286/2809] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTMerge.cpp.o
+[2287/2809] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTUnit.cpp.o
+[2288/2809] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+1460.97user 48.50system 4:19.38elapsed 581%CPU (0avgtext+0avgdata 1676052maxresident)k
+8inputs+4085848outputs (273major+30817255minor)pagefaults 0swaps
