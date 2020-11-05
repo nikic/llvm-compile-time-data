@@ -1,0 +1,7 @@
+MESSAGE: Execution of "killall clang*" failed
+
+STDOUT:
+
+
+STDERR:
+clang*: no process found

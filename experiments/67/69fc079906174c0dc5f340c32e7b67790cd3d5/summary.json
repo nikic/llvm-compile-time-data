@@ -1,0 +1,26 @@
+{
+    "config": 1,
+    "clang_size": {
+        "size-text": 82259266,
+        "size-data": 3232432,
+        "size-bss": 339729,
+        "size-total": 85831427
+    },
+    "data": {
+        "O3": {
+            "geomean": []
+        },
+        "ReleaseThinLTO": {
+            "geomean": []
+        },
+        "ReleaseLTO-g": {
+            "geomean": []
+        },
+        "O0-g": {
+            "geomean": []
+        },
+        "NewPM-O3": {
+            "geomean": []
+        }
+    }
+}
