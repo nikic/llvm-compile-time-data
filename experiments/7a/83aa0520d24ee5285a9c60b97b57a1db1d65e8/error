@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2323/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ArgumentsAdjusters.cpp.o
+[2324/2809] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InterfaceStubFunctionsConsumer.cpp.o
+[2325/2809] Building CXX object tools/clang/lib/FrontendTool/CMakeFiles/obj.clangFrontendTool.dir/ExecuteCompilerInvocation.cpp.o
+[2326/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/AllTUsExecution.cpp.o
+[2327/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ExpandResponseFilesCompilationDatabase.cpp.o
+[2328/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FileMatchTrie.cpp.o
+[2329/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FixIt.cpp.o
+[2330/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CommonOptionsParser.cpp.o
+[2331/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/InterpolatingCompilationDatabase.cpp.o
+[2332/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CompilationDatabase.cpp.o
+[2333/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Execution.cpp.o
+[2334/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/GuessTargetAndModeCompilationDatabase.cpp.o
+[2335/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/JSONCompilationDatabase.cpp.o
+[2336/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Refactoring.cpp.o
+[2337/2809] Building CXX object tools/clang/lib/Tooling/Core/CMakeFiles/obj.clangToolingCore.dir/Diagnostic.cpp.o
+[2338/2809] Building CXX object tools/clang/lib/Tooling/Core/CMakeFiles/obj.clangToolingCore.dir/Replacement.cpp.o
+[2339/2809] Linking CXX static library lib/libclangToolingCore.a
+[2340/2809] Building CXX object tools/clang/lib/Tooling/Inclusions/CMakeFiles/obj.clangToolingInclusions.dir/HeaderIncludes.cpp.o
+[2341/2809] Building CXX object tools/clang/lib/Tooling/Inclusions/CMakeFiles/obj.clangToolingInclusions.dir/IncludeStyle.cpp.o
+[2342/2809] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIP.cpp.o
+[2343/2809] Linking CXX static library lib/libclangToolingInclusions.a
+[2344/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/ASTSelection.cpp.o
+[2345/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/ASTSelectionRequirements.cpp.o
+[2346/2809] Linking CXX static library lib/libclangDriver.a
+[2347/2809] Linking CXX static library lib/libclangFrontend.a
+[2348/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/StandaloneExecution.cpp.o
+[2349/2809] Linking CXX static library lib/libclangRewriteFrontend.a
+[2350/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Extract/Extract.cpp.o
+[2351/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Extract/SourceExtraction.cpp.o
+[2352/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Lookup.cpp.o
+[2353/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/RefactoringCallbacks.cpp.o
+[2354/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/SymbolOccurrences.cpp.o
+[2355/2809] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Tooling.cpp.o
+[2356/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRFinder.cpp.o
+[2357/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRLocFinder.cpp.o
+[2358/2809] Building CXX object tools/clang/lib/Tooling/ASTDiff/CMakeFiles/obj.clangToolingASTDiff.dir/ASTDiff.cpp.o
+[2359/2809] Linking CXX static library lib/libclangToolingASTDiff.a
+[2360/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/BuildTree.cpp.o
+[2361/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/ComputeReplacements.cpp.o
+[2362/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Nodes.cpp.o
+[2363/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Mutations.cpp.o
+[2364/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Synthesis.cpp.o
+[2365/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/AtomicChange.cpp.o
+[2366/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Tree.cpp.o
+[2367/2809] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningFilesystem.cpp.o
+[2368/2809] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningService.cpp.o
+[2369/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/RefactoringActions.cpp.o
+[2370/2809] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningTool.cpp.o
+[2371/2809] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Tokens.cpp.o
+[2372/2809] Linking CXX static library lib/libclangToolingSyntax.a
+[2373/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Parsing.cpp.o
+[2374/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/RenamingAction.cpp.o
+[2375/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/RangeSelector.cpp.o
+[2376/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/RewriteRule.cpp.o
+[2377/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/SourceCode.cpp.o
+[2378/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/SourceCodeBuilders.cpp.o
+[2379/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Stencil.cpp.o
+[2380/2809] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Transformer.cpp.o
+[2381/2809] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/DirectoryScanner.cpp.o
+[2382/2809] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o
+[2383/2809] Linking CXX static library lib/libclangDirectoryWatcher.a
+[2384/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/CommentToXML.cpp.o
+[2385/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/FileIndexRecord.cpp.o
+[2386/2809] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRFindingAction.cpp.o
+[2387/2809] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningWorker.cpp.o
+[2388/2809] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/ModuleDepCollector.cpp.o
+[2389/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexSymbol.cpp.o
+[2390/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexingAction.cpp.o
+[2391/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/USRGeneration.cpp.o
+[2392/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexingContext.cpp.o
+[2393/2809] Building CXX object tools/clang/lib/IndexSerialization/CMakeFiles/obj.clangIndexSerialization.dir/SerializablePathCollection.cpp.o
+[2394/2809] Linking CXX static library lib/libclangIndexSerialization.a
+[2395/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexDecl.cpp.o
+[2396/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/AnalyzerOptions.cpp.o
+[2397/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/APSIntType.cpp.o
+[2398/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BlockCounter.cpp.o
+[2399/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BasicValueFactory.cpp.o
+[2400/2809] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o
+FAILED: tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o -MF tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o.d -o tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp: In member function ‘void {anonymous}::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream>)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1309:10: error: cannot convert ‘{anonymous}::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream>)::<lambda(llvm::ModulePassManager&)>’ to ‘const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&’
+ 1309 |         });
+      |          ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/Config.h:21,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTO.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTOBackend.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:37:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:590:74: note:   initializing argument 1 of ‘void llvm::PassBuilder::registerPipelineStartEPCallback(const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&)’
+  590 |       const std::function<void(ModulePassManager &, OptimizationLevel)> &C) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1314:8: error: cannot convert ‘{anonymous}::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream>)::<lambda(llvm::ModulePassManager&)>’ to ‘const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&’
+ 1314 |       });
+      |        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/Config.h:21,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTO.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTOBackend.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:37:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:590:74: note:   initializing argument 1 of ‘void llvm::PassBuilder::registerPipelineStartEPCallback(const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&)’
+  590 |       const std::function<void(ModulePassManager &, OptimizationLevel)> &C) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1399:10: error: cannot convert ‘{anonymous}::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream>)::<lambda(llvm::ModulePassManager&)>’ to ‘const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&’
+ 1399 |         });
+      |          ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/Config.h:21,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTO.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTOBackend.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:37:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:590:74: note:   initializing argument 1 of ‘void llvm::PassBuilder::registerPipelineStartEPCallback(const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&)’
+  590 |       const std::function<void(ModulePassManager &, OptimizationLevel)> &C) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1404:10: error: cannot convert ‘{anonymous}::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream>)::<lambda(llvm::ModulePassManager&)>’ to ‘const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&’
+ 1404 |         });
+      |          ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/Config.h:21,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTO.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/LTO/LTOBackend.h:22,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:37:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:590:74: note:   initializing argument 1 of ‘void llvm::PassBuilder::registerPipelineStartEPCallback(const std::function<void(llvm::PassManager<llvm::Module>&, llvm::PassBuilder::OptimizationLevel)>&)’
+  590 |       const std::function<void(ModulePassManager &, OptimizationLevel)> &C) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[2401/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexBody.cpp.o
+[2402/2809] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexTypeSourceInfo.cpp.o
+[2403/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/AnalysisManager.cpp.o
+[2404/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BugReporter.cpp.o
+[2405/2809] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BugReporterVisitors.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+86.96user 11.11system 0:16.85elapsed 581%CPU (0avgtext+0avgdata 681280maxresident)k
+0inputs+3079136outputs (277major+4053984minor)pagefaults 0swaps
