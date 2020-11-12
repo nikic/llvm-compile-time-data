@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh ReleaseLTO-g" failed
+
+STDOUT:
+[198/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Delta.c.o
+[199/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/HuffEnc.c.o
+[200/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/BwtSort.c.o
+[201/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Lzma2Dec.c.o
+[202/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Lzma2Enc.c.o
+[203/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzFindMt.c.o
+[204/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/MtCoder.c.o
+[205/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzFind.c.o
+[206/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd7Dec.c.o
+[207/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd7Enc.c.o
+[208/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd7.c.o
+[209/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzmaDec.c.o
+[210/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd8Dec.c.o
+[211/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd8Enc.c.o
+[212/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Sha256.c.o
+[213/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Sort.c.o
+[214/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Xz.c.o
+[215/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/XzCrc64.c.o
+[216/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Threads.c.o
+[217/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/XzEnc.c.o
+[218/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/XzIn.c.o
+[219/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/7zCrc.c.o
+[220/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/Ppmd8.c.o
+[221/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/7zCrcOpt.c.o
+[222/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/XzDec.c.o
+[223/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o
+[224/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o
+[225/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o
+[226/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o
+[227/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o
+[228/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o
+[229/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/tableau.c.o
+[230/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o
+[231/650] Building C object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/C/LzmaEnc.c.o
+[232/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o
+[233/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/term.c.o
+[234/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o
+[235/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o
+[236/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAlignedAllocator.cpp.o
+[237/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o
+[238/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btActivatingCollisionAlgorithm.cpp.o
+[239/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o
+[240/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o
+[241/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o
+[242/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o
+[243/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o
+[244/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o
+[245/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o
+[246/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o
+[247/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o
+[248/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o
+[249/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o
+[250/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o
+[251/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o
+[252/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o
+[253/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o
+[254/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_suecrypt.c.o
+[255/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o
+[256/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_table.c.o
+[257/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_text.c.o
+[258/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o
+[259/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_tnef.c.o
+[260/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o
+[261/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o
+[262/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o
+[263/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o
+[264/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o
+[265/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o
+[266/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o
+FAILED: CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -O3 -fomit-frame-pointer -flto -DNDEBUG -g   -w -Werror=date-time -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btConvexShape.cpp
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -DNDEBUG -O3 -fomit-frame-pointer -flto -DNDEBUG -g -w -Werror=date-time -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btConvexShape.cpp 
+1.	<eof> parser at end of file
+2.	Optimizer
+ #0 0x000055ac2b160b81 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1be6b81)
+ #1 0x000055ac2b15e944 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1be4944)
+ #2 0x000055ac2b15ebe1 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1be4be1)
+ #3 0x000055ac2b0d0c58 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b56c58)
+ #4 0x00007f28a54923c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x000055ac2abfd59a auto std::__find_if<std::pair<llvm::Value*, llvm::WeakTrackingVH>*, __gnu_cxx::__ops::_Iter_pred<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> >::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&)::'lambda'(auto&)> >(auto, auto, __gnu_cxx::__ops::_Iter_pred<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> >::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&)::'lambda'(auto&)>, std::random_access_iterator_tag) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x168359a)
+ #6 0x000055ac2abfe3c2 llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> >::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x16843c2)
+ #7 0x000055ac2ac00735 llvm::ModuleToPostOrderCGSCCPassAdaptor<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> > >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1686735)
+ #8 0x000055ac2ac01866 llvm::detail::PassModel<llvm::Module, llvm::ModuleToPostOrderCGSCCPassAdaptor<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> > >, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1687866)
+ #9 0x000055ac2aaf3fa2 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1579fa2)
+#10 0x000055ac2abf3740 llvm::ModuleInlinerWrapperPass::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1679740)
+#11 0x000055ac2c129286 llvm::detail::PassModel<llvm::Module, llvm::ModuleInlinerWrapperPass, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2baf286)
+#12 0x000055ac2aaf3fa2 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1579fa2)
+#13 0x000055ac2b41a927 (anonymous namespace)::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1ea0927)
+#14 0x000055ac2b41f6a5 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1ea56a5)
+#15 0x000055ac2c0aa639 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2b30639)
+#16 0x000055ac2c4d37d9 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f597d9)
+#17 0x000055ac2ba411c1 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24c71c1)
+#18 0x000055ac2b9f337b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x247937b)
+#19 0x000055ac2bb11cbc clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2597cbc)
+#20 0x000055ac29ff808b cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa7e08b)
+#21 0x000055ac29ff597b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa7b97b)
+#22 0x000055ac2b8aa4b9 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x23304b9)
+#23 0x000055ac2b0d0d57 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b56d57)
+#24 0x000055ac2b8aafa5 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2330fa5)
+#25 0x000055ac2b8802dc clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x23062dc)
+#26 0x000055ac2b880ce6 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2306ce6)
+#27 0x000055ac2b88b001 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2311001)
+#28 0x000055ac29f811c3 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa071c3)
+#29 0x00007f28a4f610b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#30 0x000055ac29ff550e _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa7b50e)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/btConvexShape-461d42.cpp
+clang-12: note: diagnostic msg: /tmp/btConvexShape-461d42.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[267/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o
+[268/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o
+[269/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o
+[270/650] Linking CXX executable CTMark/7zip/7zip-benchmark
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
