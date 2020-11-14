@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[68/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ManagedStatic.cpp.o
+[69/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/LockFileManager.cpp.o
+[70/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBuffer.cpp.o
+[71/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MD5.cpp.o
+[72/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/NativeFormatting.cpp.o
+[73/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBufferRef.cpp.o
+[74/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/OptimizedStructLayout.cpp.o
+[75/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Optional.cpp.o
+[76/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Parallel.cpp.o
+[77/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/PluginLoader.cpp.o
+[78/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/PrettyStackTrace.cpp.o
+[79/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Regex.cpp.o
+[80/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributes.cpp.o
+[81/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RandomNumberGenerator.cpp.o
+[82/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributeParser.cpp.o
+[83/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ScaledNumber.cpp.o
+[84/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ScopedPrinter.cpp.o
+[85/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SHA1.cpp.o
+[86/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o
+[87/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SmallPtrSet.cpp.o
+[88/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SmallVector.cpp.o
+[89/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SourceMgr.cpp.o
+[90/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringExtras.cpp.o
+[91/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SpecialCaseList.cpp.o
+[92/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Statistic.cpp.o
+[93/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringMap.cpp.o
+[94/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringSaver.cpp.o
+[95/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringRef.cpp.o
+[96/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SuffixTree.cpp.o
+[97/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SymbolRemappingReader.cpp.o
+[98/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SystemUtils.cpp.o
+[99/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TargetParser.cpp.o
+[100/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TarWriter.cpp.o
+[101/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ThreadPool.cpp.o
+[102/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o
+[103/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Timer.cpp.o
+[104/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ToolOutputFile.cpp.o
+[105/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/UnicodeCaseFold.cpp.o
+[106/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Triple.cpp.o
+[107/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TrigramIndex.cpp.o
+[108/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Twine.cpp.o
+[109/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Unicode.cpp.o
+[110/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VersionTuple.cpp.o
+[111/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/X86TargetParser.cpp.o
+[112/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/WithColor.cpp.o
+[113/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o
+[114/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLParser.cpp.o
+[115/2824] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regcomp.c.o
+[116/2824] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regerror.c.o
+[117/2824] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regexec.c.o
+[118/2824] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regfree.c.o
+[119/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLTraits.cpp.o
+[120/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/raw_os_ostream.cpp.o
+[121/2824] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regstrlcpy.c.o
+[122/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/raw_ostream.cpp.o
+[123/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Atomic.cpp.o
+[124/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/xxhash.cpp.o
+[125/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Z3Solver.cpp.o
+[126/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DynamicLibrary.cpp.o
+[127/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Errno.cpp.o
+[128/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Memory.cpp.o
+[129/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Host.cpp.o
+[130/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Path.cpp.o
+[131/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Process.cpp.o
+[132/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Program.cpp.o
+[133/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RWMutex.cpp.o
+[134/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Valgrind.cpp.o
+[135/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Watchdog.cpp.o
+[136/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TargetRegistry.cpp.o
+[137/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ThreadLocal.cpp.o
+[138/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signals.cpp.o
+[139/2824] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Threading.cpp.o
+[140/2824] Linking CXX static library lib/libLLVMSupport.a
+[141/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Record.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Record.cpp:30:10: fatal error: llvm/Support/timer.h: No such file or directory
+   30 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[142/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Error.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Error.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Error.cpp:18:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Record.h:29:10: fatal error: llvm/Support/timer.h: No such file or directory
+   29 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[143/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Main.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Error.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/TGParser.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/Main.cpp:18:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Record.h:29:10: fatal error: llvm/Support/timer.h: No such file or directory
+   29 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[144/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/DetailedRecordsBackend.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Error.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/DetailedRecordsBackend.cpp:22:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Record.h:29:10: fatal error: llvm/Support/timer.h: No such file or directory
+   29 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[145/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/JSONBackend.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Error.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/JSONBackend.cpp:16:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Record.h:29:10: fatal error: llvm/Support/timer.h: No such file or directory
+   29 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[146/2824] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o
+FAILED: lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/TableGen -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o -MF lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o.d -o lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/SetTheory.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Error.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/TableGen/SetTheory.cpp:22:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/TableGen/Record.h:29:10: fatal error: llvm/Support/timer.h: No such file or directory
+   29 | #include "llvm/Support/timer.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+1.64user 0.38system 0:00.56elapsed 357%CPU (0avgtext+0avgdata 51860maxresident)k
+0inputs+59320outputs (0major+115880minor)pagefaults 0swaps
