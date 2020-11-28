@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+[563/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z01.c.o
+[564/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_trees.c.o
+[565/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z04.c.o
+[566/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z02.c.o
+[567/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/zlib_inflate.c.o
+[568/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z03.c.o
+[569/650] Linking C executable CTMark/ClamAV/clamscan
+[570/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z05.c.o
+[571/650] Building C object CTMark/sqlite3/CMakeFiles/sqlite3.dir/shell.c.o
+[572/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z07.c.o
+[573/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z09.c.o
+[574/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z06.c.o
+[575/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z11.c.o
+[576/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z10.c.o
+[577/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z13.c.o
+[578/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z12.c.o
+[579/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z08.c.o
+[580/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z14.c.o
+[581/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z15.c.o
+[582/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z17.c.o
+[583/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z16.c.o
+[584/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z18.c.o
+[585/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z19.c.o
+[586/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z20.c.o
+[587/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z21.c.o
+[588/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z24.c.o
+[589/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z25.c.o
+[590/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z26.c.o
+[591/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z27.c.o
+[592/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z28.c.o
+[593/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z23.c.o
+[594/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z30.c.o
+[595/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z31.c.o
+[596/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z29.c.o
+[597/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z22.c.o
+[598/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z32.c.o
+[599/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z34.c.o
+[600/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z35.c.o
+[601/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z33.c.o
+[602/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z36.c.o
+[603/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z39.c.o
+[604/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z38.c.o
+[605/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z40.c.o
+[606/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o
+FAILED: CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -DOS_UNIX=1 -DOS_DOS=0 -DOS_MAC=0 -DDB_FIX=0 -DUSE_STAT=1 -DSAFE_DFT=0 -DCOLLATE=1 -DLIB_DIR=\"lout.lib\" -DFONT_DIR=\"font\" -DMAPS_DIR=\"maps\" -DINCL_DIR=\"include\" -DDATA_DIR=\"data\" -DHYPH_DIR=\"hyph\" -DLOCALE_DIR=\"locale\" -DCHAR_IN=1 -DCHAR_OUT=0 -DLOCALE_ON=1 -DASSERT_ON=1 -DDEBUG_ON=0 -DPDF_COMPRESSION=0 -D_FORTIFY_SOURCE=0 -MD -MT CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o -MF CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o.d -o CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o   -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/consumer-typeset/z37.c
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang -DNDEBUG -fexperimental-new-pass-manager -O3 -w -Werror=date-time -DOS_UNIX=1 -DOS_DOS=0 -DOS_MAC=0 -DDB_FIX=0 -DUSE_STAT=1 -DSAFE_DFT=0 -DCOLLATE=1 -DLIB_DIR=\"lout.lib\" -DFONT_DIR=\"font\" -DMAPS_DIR=\"maps\" -DINCL_DIR=\"include\" -DDATA_DIR=\"data\" -DHYPH_DIR=\"hyph\" -DLOCALE_DIR=\"locale\" -DCHAR_IN=1 -DCHAR_OUT=0 -DLOCALE_ON=1 -DASSERT_ON=1 -DDEBUG_ON=0 -DPDF_COMPRESSION=0 -D_FORTIFY_SOURCE=0 -MD -MT CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o -MF CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o.d -o CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z37.c.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/consumer-typeset/z37.c
+1.	<eof> parser at end of file
+2.	Optimizer
+ #0 0x0000561b3a5fdb61 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c1cb61)
+ #1 0x0000561b3a5fb924 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c1a924)
+ #2 0x0000561b3a5fbbc1 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1c1abc1)
+ #3 0x0000561b3a56cb58 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b8bb58)
+ #4 0x00007fd85a6b13c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x00007fd85a1f6870 free (/lib/x86_64-linux-gnu/libc.so.6+0x9d870)
+ #6 0x0000561b397aa359 llvm::BasicAAResult::aliasPHI(llvm::PHINode const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::AAQueryInfo&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc9359)
+ #7 0x0000561b397aaced llvm::BasicAAResult::aliasCheckRecursive(llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::AAQueryInfo&, llvm::Value const*, llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc9ced)
+ #8 0x0000561b397a6ed0 llvm::BasicAAResult::aliasCheck(llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::AAQueryInfo&, llvm::Value const*, llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc5ed0)
+ #9 0x0000561b397a746d llvm::BasicAAResult::aliasGEP(llvm::GEPOperator const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::Value const*, llvm::AAQueryInfo&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc646d)
+#10 0x0000561b397aab20 llvm::BasicAAResult::aliasCheckRecursive(llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::AAQueryInfo&, llvm::Value const*, llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc9b20)
+#11 0x0000561b397a6ed0 llvm::BasicAAResult::aliasCheck(llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::Value const*, llvm::LocationSize, llvm::AAMDNodes const&, llvm::AAQueryInfo&, llvm::Value const*, llvm::Value const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc5ed0)
+#12 0x0000561b397a90c3 llvm::BasicAAResult::alias(llvm::MemoryLocation const&, llvm::MemoryLocation const&, llvm::AAQueryInfo&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xdc80c3)
+#13 0x0000561b39788bd3 llvm::AAResults::alias(llvm::MemoryLocation const&, llvm::MemoryLocation const&, llvm::AAQueryInfo&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xda7bd3)
+#14 0x0000561b39858407 llvm::MemoryDependenceResults::getSimplePointerDependencyFrom(llvm::MemoryLocation const&, bool, llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void>, false, false>, llvm::BasicBlock*, llvm::Instruction*, unsigned int*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xe77407)
+#15 0x0000561b3985ae3e llvm::MemoryDependenceResults::getPointerDependencyFrom(llvm::MemoryLocation const&, bool, llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void>, false, false>, llvm::BasicBlock*, llvm::Instruction*, unsigned int*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xe79e3e)
+#16 0x0000561b3985cb66 llvm::MemoryDependenceResults::GetNonLocalInfoForBlock(llvm::Instruction*, llvm::MemoryLocation const&, bool, llvm::BasicBlock*, std::vector<llvm::NonLocalDepEntry, std::allocator<llvm::NonLocalDepEntry> >*, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xe7bb66)
+#17 0x0000561b39862ac4 llvm::MemoryDependenceResults::getNonLocalPointerDepFromBB(llvm::Instruction*, llvm::PHITransAddr const&, llvm::MemoryLocation const&, bool, llvm::BasicBlock*, llvm::SmallVectorImpl<llvm::NonLocalDepResult>&, llvm::DenseMap<llvm::BasicBlock*, llvm::Value*, llvm::DenseMapInfo<llvm::BasicBlock*>, llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Value*> >&, bool, bool) (.localalias) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xe81ac4)
+#18 0x0000561b39864c2b llvm::MemoryDependenceResults::getNonLocalPointerDependency(llvm::Instruction*, llvm::SmallVectorImpl<llvm::NonLocalDepResult>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xe83c2b)
+#19 0x0000561b3a3a8001 llvm::GVN::processNonLocalLoad(llvm::LoadInst*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19c7001)
+#20 0x0000561b3a3a8609 llvm::GVN::processLoad(llvm::LoadInst*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19c7609)
+#21 0x0000561b3a3aba48 llvm::GVN::processInstruction(llvm::Instruction*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19caa48)
+#22 0x0000561b3a3ac2b8 llvm::GVN::processBlock(llvm::BasicBlock*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19cb2b8)
+#23 0x0000561b3a3ac668 llvm::GVN::iterateOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19cb668)
+#24 0x0000561b3a3ac94e llvm::GVN::runImpl(llvm::Function&, llvm::AssumptionCache&, llvm::DominatorTree&, llvm::TargetLibraryInfo const&, llvm::AAResults&, llvm::MemoryDependenceResults*, llvm::LoopInfo*, llvm::OptimizationRemarkEmitter*, llvm::MemorySSA*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19cb94e)
+#25 0x0000561b3a3ad248 llvm::GVN::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x19cc248)
+#26 0x0000561b3b5d5e96 llvm::detail::PassModel<llvm::Function, llvm::GVN, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::Function> >::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2bf4e96)
+#27 0x0000561b39f8efa2 llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function> >::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x15adfa2)
+#28 0x0000561b3b6a5a09 llvm::CGSCCToFunctionPassAdaptor<llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function> > >::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2cc4a09)
+#29 0x0000561b3b6a5bb6 llvm::detail::PassModel<llvm::LazyCallGraph::SCC, llvm::CGSCCToFunctionPassAdaptor<llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function> > >, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&>::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2cc4bb6)
+#30 0x0000561b3c8ff118 llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&>::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x3f1e118)
+#31 0x0000561b3a096a52 llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> >::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x16b5a52)
+#32 0x0000561b3a098ec5 llvm::ModuleToPostOrderCGSCCPassAdaptor<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> > >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x16b7ec5)
+#33 0x0000561b3a099ff6 llvm::detail::PassModel<llvm::Module, llvm::ModuleToPostOrderCGSCCPassAdaptor<llvm::DevirtSCCRepeatedPass<llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&> > >, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x16b8ff6)
+#34 0x0000561b39f8ab32 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x15a9b32)
+#35 0x0000561b3a08ab70 llvm::ModuleInlinerWrapperPass::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x16a9b70)
+#36 0x0000561b3b5d7926 llvm::detail::PassModel<llvm::Module, llvm::ModuleInlinerWrapperPass, llvm::PreservedAnalyses, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2bf6926)
+#37 0x0000561b39f8ab32 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module> >::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x15a9b32)
+#38 0x0000561b3a8b6626 (anonymous namespace)::EmitAssemblyHelper::EmitAssemblyWithNewPassManager(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ed5626)
+#39 0x0000561b3a8ba585 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::DataLayout const&, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1ed9585)
+#40 0x0000561b3b5566c9 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2b756c9)
+#41 0x0000561b3b98c7e9 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2fab7e9)
+#42 0x0000561b3aee49d1 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x25039d1)
+#43 0x0000561b3ae95a3b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x24b4a3b)
+#44 0x0000561b3afb539c clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x25d439c)
+#45 0x0000561b3948758b cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xaa658b)
+#46 0x0000561b39484e7b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xaa3e7b)
+#47 0x0000561b3ad4b129 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x236a129)
+#48 0x0000561b3a56cc57 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x1b8bc57)
+#49 0x0000561b3ad4bc15 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x236ac15)
+#50 0x0000561b3ad200fc clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x233f0fc)
+#51 0x0000561b3ad20b06 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x233fb06)
+#52 0x0000561b3ad27f62 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0x2346f62)
+#53 0x0000561b3940ca33 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xa2ba33)
+#54 0x00007fd85a1800b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#55 0x0000561b39484a0e _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+0xaa3a0e)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/z37-453952.c
+clang-12: note: diagnostic msg: /tmp/z37-453952.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[607/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z42.c.o
+[608/650] Building C object CTMark/consumer-typeset/CMakeFiles/consumer-typeset.dir/z41.c.o
+[609/650] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+[610/650] Building C object CTMark/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
