@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+[320/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[321/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[322/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[323/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[324/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[325/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[326/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[327/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[328/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[329/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[330/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[331/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[332/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[333/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[334/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[335/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[336/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[337/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[338/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[339/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[340/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[341/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[342/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[343/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[344/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[345/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[346/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[347/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[348/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[349/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[350/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[351/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[352/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[353/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[354/650] Linking CXX executable CTMark/Bullet/bullet
+[355/650] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+FAILED: CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -fno-exceptions -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -DNDEBUG -fexperimental-new-pass-manager -O3 -w -Werror=date-time -fno-exceptions -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+1.	<eof> parser at end of file
+2.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algo.h:4857:5: instantiating function definition 'std::sort<__gnu_cxx::__normal_iterator<int *, std::vector<int>>>'
+3.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algo.h:1962:5: instantiating function definition 'std::__sort<__gnu_cxx::__normal_iterator<int *, std::vector<int>>, __gnu_cxx::__ops::_Iter_less_iter>'
+4.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algo.h:1939:5: instantiating function definition 'std::__introsort_loop<__gnu_cxx::__normal_iterator<int *, std::vector<int>>, long, __gnu_cxx::__ops::_Iter_less_iter>'
+5.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algo.h:1916:5: instantiating function definition 'std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<int *, std::vector<int>>, __gnu_cxx::__ops::_Iter_less_iter>'
+6.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algo.h:78:5: instantiating function definition 'std::__move_median_to_first<__gnu_cxx::__normal_iterator<int *, std::vector<int>>, __gnu_cxx::__ops::_Iter_less_iter>'
+7.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/algorithmfwd.h:349:5: instantiating function definition 'std::iter_swap<__gnu_cxx::__normal_iterator<int *, std::vector<int>>, __gnu_cxx::__normal_iterator<int *, std::vector<int>>>'
+8.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/move.h:182:5: instantiating function definition 'std::swap<int>'
+9.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/move.h:182:5: LLVM IR generation of declaration 'std::swap'
+10.	/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/move.h:182:5: Mangling declaration 'std::swap'
+ #0 0x000055e7c72489e1 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1c239e1)
+ #1 0x000055e7c72467a4 llvm::sys::RunSignalHandlers() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1c217a4)
+ #2 0x000055e7c7246a41 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1c21a41)
+ #3 0x000055e7c71b6718 CrashRecoverySignalHandler(int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b91718)
+ #4 0x00007fafe4a513c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #5 0x000055e7c91a1c84 clang::Decl::isParameterPack() const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3b7cc84)
+ #6 0x000055e7c93205cb (anonymous namespace)::CXXNameMangler::mangleTemplateArgs(clang::TemplateName, clang::TemplateArgument const*, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfb5cb)
+ #7 0x000055e7c932087a (anonymous namespace)::CXXNameMangler::mangleUnresolvedTypeOrSimpleId(clang::QualType, llvm::StringRef) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfb87a)
+ #8 0x000055e7c9320be4 (anonymous namespace)::CXXNameMangler::mangleUnresolvedPrefix(clang::NestedNameSpecifier*, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfbbe4)
+ #9 0x000055e7c9324229 (anonymous namespace)::CXXNameMangler::mangleUnresolvedName(clang::NestedNameSpecifier*, clang::DeclarationName, clang::TemplateArgumentLoc const*, unsigned int, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cff229)
+#10 0x000055e7c93196a0 (anonymous namespace)::CXXNameMangler::mangleExpression(clang::Expr const*, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cf46a0)
+#11 0x000055e7c93202f9 (anonymous namespace)::CXXNameMangler::mangleTemplateArg(clang::TemplateArgument, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfb2f9)
+#12 0x000055e7c932059d (anonymous namespace)::CXXNameMangler::mangleTemplateArgs(clang::TemplateName, clang::TemplateArgument const*, unsigned int) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfb59d)
+#13 0x000055e7c932284f (anonymous namespace)::CXXNameMangler::manglePrefix(clang::NestedNameSpecifier*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cfd84f)
+#14 0x000055e7c93128bb (anonymous namespace)::CXXNameMangler::mangleType(clang::QualType) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3ced8bb)
+#15 0x000055e7c9316a4c (anonymous namespace)::CXXNameMangler::mangleBareFunctionType(clang::FunctionProtoType const*, bool, clang::FunctionDecl const*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cf1a4c)
+#16 0x000055e7c931bde1 (anonymous namespace)::CXXNameMangler::mangleFunctionEncoding(clang::GlobalDecl) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cf6de1)
+#17 0x000055e7c931e352 (anonymous namespace)::ItaniumMangleContextImpl::mangleCXXName(clang::GlobalDecl, llvm::raw_ostream&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3cf9352)
+#18 0x000055e7c75cbcd2 getMangledNameImpl(clang::CodeGen::CodeGenModule const&, clang::GlobalDecl, clang::NamedDecl const*, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1fa6cd2)
+#19 0x000055e7c75d0ea4 clang::CodeGen::CodeGenModule::getMangledName(clang::GlobalDecl) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1fabea4)
+#20 0x000055e7c760517b clang::CodeGen::CodeGenModule::EmitGlobal(clang::GlobalDecl) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1fe017b)
+#21 0x000055e7c760b259 clang::CodeGen::CodeGenModule::EmitTopLevelDecl(clang::Decl*) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1fe6259)
+#22 0x000055e7c81ac331 (anonymous namespace)::CodeGeneratorImpl::HandleTopLevelDecl(clang::DeclGroupRef) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2b87331)
+#23 0x000055e7c819fedd clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2b7aedd)
+#24 0x000055e7c8eb6bbc clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3891bbc)
+#25 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#26 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#27 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#28 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#29 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#30 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#31 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#32 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#33 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#34 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#35 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#36 0x000055e7c8eb734c clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x389234c)
+#37 0x000055e7c8eb53af clang::Sema::PerformPendingInstantiations(bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x38903af)
+#38 0x000055e7c8673257 clang::Sema::ActOnEndOfTranslationUnitFragment(clang::Sema::TUFragmentKind) (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x304e257)
+#39 0x000055e7c8673891 clang::Sema::ActOnEndOfTranslationUnit() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x304e891)
+#40 0x000055e7c853cc82 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f17c82)
+#41 0x000055e7c852da59 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f08a59)
+#42 0x000055e7c7b32c41 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x250dc41)
+#43 0x000055e7c7ae2a0b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x24bda0b)
+#44 0x000055e7c7c03403 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x25de403)
+#45 0x000055e7c60c2eeb cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa9deeb)
+#46 0x000055e7c60c07db ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa9b7db)
+#47 0x000055e7c7996b49 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2371b49)
+#48 0x000055e7c71b6817 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1b91817)
+#49 0x000055e7c7997635 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2372635)
+#50 0x000055e7c796badc clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2346adc)
+#51 0x000055e7c796c4e6 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x23474e6)
+#52 0x000055e7c7973952 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x234e952)
+#53 0x000055e7c6047543 main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa22543)
+#54 0x00007fafe45200b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#55 0x000055e7c60c036e _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xa9b36e)
+clang-12: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 12.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-12: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-12: note: diagnostic msg: /tmp/tramp3d-v4-e76cb7.cpp
+clang-12: note: diagnostic msg: /tmp/tramp3d-v4-e76cb7.sh
+clang-12: note: diagnostic msg: 
+
+********************
+[356/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[357/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/occur.cc.o
+[358/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[359/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
