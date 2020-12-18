@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh NewPM-O3" failed
+
+STDOUT:
+[290/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o
+[291/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o
+[292/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o
+[293/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o
+[294/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o
+[295/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o
+[296/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o
+[297/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o
+[298/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o
+[299/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o
+[300/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o
+[301/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o
+[302/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o
+[303/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o
+[304/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o
+[305/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o
+[306/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o
+[307/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o
+[308/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o
+[309/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o
+[310/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o
+[311/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o
+[312/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o
+[313/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o
+[314/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o
+[315/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o
+[316/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o
+[317/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o
+[318/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o
+[319/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o
+[320/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[321/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[322/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[323/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[324/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[325/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[326/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[327/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[328/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[329/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[330/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[331/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[332/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[333/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[334/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[335/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[336/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[337/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[338/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[339/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[340/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[341/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[342/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[343/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[344/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[345/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[346/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[347/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[348/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[349/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[350/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[351/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[352/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[353/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+FAILED: CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -I/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/kimwitu++ -DYYDEBUG=1 -MD -MT CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o -MF CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o.d -o CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/kimwitu++/k.cc
+In file included from /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/kimwitu++/k.cc:28:
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/set:60:
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2086:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_unique_pos' differs from that in the declaration
+    _M_get_insert_unique_pos(const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:843:7: note: previous declaration is here
+      _M_get_insert_unique_pos(const key_type& __k);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2118:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_equal_pos' differs from that in the declaration
+    _M_get_insert_equal_pos(const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:846:7: note: previous declaration is here
+      _M_get_insert_equal_pos(const key_type& __k);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2188:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_hint_unique_pos' differs from that in the declaration
+    _M_get_insert_hint_unique_pos(const_iterator __position,
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:849:7: note: previous declaration is here
+      _M_get_insert_hint_unique_pos(const_iterator __pos,
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2274:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_hint_equal_pos' differs from that in the declaration
+    _M_get_insert_hint_equal_pos(const_iterator __position, const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:853:7: note: previous declaration is here
+      _M_get_insert_hint_equal_pos(const_iterator __pos,
+      ^
+4 errors generated.
+[354/650] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[355/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[356/650] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[357/650] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+FAILED: CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fexperimental-new-pass-manager -O3   -w -Werror=date-time -fno-exceptions -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp:202:
+In file included from /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/map:60:
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2086:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_unique_pos' differs from that in the declaration
+    _M_get_insert_unique_pos(const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:843:7: note: previous declaration is here
+      _M_get_insert_unique_pos(const key_type& __k);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2118:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_equal_pos' differs from that in the declaration
+    _M_get_insert_equal_pos(const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:846:7: note: previous declaration is here
+      _M_get_insert_equal_pos(const key_type& __k);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2188:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_hint_unique_pos' differs from that in the declaration
+    _M_get_insert_hint_unique_pos(const_iterator __position,
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:849:7: note: previous declaration is here
+      _M_get_insert_hint_unique_pos(const_iterator __pos,
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:2274:5: error: return type of out-of-line definition of 'std::_Rb_tree::_M_get_insert_hint_equal_pos' differs from that in the declaration
+    _M_get_insert_hint_equal_pos(const_iterator __position, const key_type& __k)
+    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h:853:7: note: previous declaration is here
+      _M_get_insert_hint_equal_pos(const_iterator __pos,
+      ^
+4 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
