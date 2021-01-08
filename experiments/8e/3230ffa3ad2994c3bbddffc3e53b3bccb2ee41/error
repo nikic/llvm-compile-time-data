@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc: In instantiation of ‘clang::CompilerInvocation::generateCC1CommandLine(llvm::SmallVectorImpl<const char*>&, clang::CompilerInvocation::StringAllocator) const::<lambda(const auto:616&)> [with auto:616 = std::vector<std::__cxx11::basic_string<char> >]’:
+tools/clang/include/clang/Driver/Options.inc:6605:1:   required from here
+tools/clang/include/clang/Driver/Options.inc:6606:204: error: ‘std::shared_ptr<clang::TargetOptions> clang::CompilerInvocationBase::TargetOpts’ is inaccessible within this context
+ 6606 |        "OpenCL only. Enable or disable OpenCL extensions. The argument is a comma-separated sequence of one or more extension names, each prefixed by '+' or '-'.", nullptr, nullptr, "-cl-ext=", true, 0, TargetOpts->OpenCLExtensionsAsWritten, std::vector<std::string>({}), false, std::vector<std::string>({}), normalizeStringVector, denormalizeStringVector, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                                                                                                            ^~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6605:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6605 | OPTION_WITH_MARSHALLING(prefix_1, &"-cl-ext="[1], cl_ext_EQ, CommaJoined, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/CompilerInvocation.h:70:34: note: declared here
+   70 |   std::shared_ptr<TargetOptions> TargetOpts;
+      |                                  ^~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6606:204: error: invalid use of nonstatic data member ‘clang::CompilerInvocationBase::TargetOpts’
+ 6606 |        "OpenCL only. Enable or disable OpenCL extensions. The argument is a comma-separated sequence of one or more extension names, each prefixed by '+' or '-'.", nullptr, nullptr, "-cl-ext=", true, 0, TargetOpts->OpenCLExtensionsAsWritten, std::vector<std::string>({}), false, std::vector<std::string>({}), normalizeStringVector, denormalizeStringVector, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                                                                                                            ^~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6605:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6605 | OPTION_WITH_MARSHALLING(prefix_1, &"-cl-ext="[1], cl_ext_EQ, CommaJoined, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc: In instantiation of ‘clang::CompilerInvocation::generateCC1CommandLine(llvm::SmallVectorImpl<const char*>&, clang::CompilerInvocation::StringAllocator) const::<lambda(const auto:617&)> [with auto:617 = unsigned int]’:
+tools/clang/include/clang/Driver/Options.inc:6609:1:   required from here
+tools/clang/include/clang/Driver/Options.inc:6610:88: error: ‘std::shared_ptr<clang::LangOptions> clang::CompilerInvocationBase::LangOpts’ is inaccessible within this context
+ 6610 |        "Generate code for CUDA device", nullptr, nullptr, "-fcuda-is-device", true, 0, LangOpts->CUDAIsDevice, false, false, false, normalizeSimpleFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6609:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6609 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-is-device"[1], fcuda_is_device, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/CompilerInvocation.h:67:32: note: declared here
+   67 |   std::shared_ptr<LangOptions> LangOpts;
+      |                                ^~~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6610:88: error: invalid use of nonstatic data member ‘clang::CompilerInvocationBase::LangOpts’
+ 6610 |        "Generate code for CUDA device", nullptr, nullptr, "-fcuda-is-device", true, 0, LangOpts->CUDAIsDevice, false, false, false, normalizeSimpleFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6609:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6609 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-is-device"[1], fcuda_is_device, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc: In instantiation of ‘clang::CompilerInvocation::generateCC1CommandLine(llvm::SmallVectorImpl<const char*>&, clang::CompilerInvocation::StringAllocator) const::<lambda(const auto:618&)> [with auto:618 = std::__cxx11::basic_string<char>]’:
+tools/clang/include/clang/Driver/Options.inc:6613:1:   required from here
+tools/clang/include/clang/Driver/Options.inc:6614:125: error: ‘clang::CodeGenOptions clang::CompilerInvocation::CodeGenOpts’ is private within this context
+ 6614 |        "Incorporate CUDA device-side binary into host object file.", nullptr, nullptr, "-fcuda-include-gpubinary", true, 0, CodeGenOpts.CudaGpuBinaryFileName, std::string(), false, std::string(), normalizeString, denormalizeString, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                             ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6613:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6613 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-include-gpubinary"[1], fcuda_include_gpubinary, Separate, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/CompilerInvocation.h:127:18: note: declared private here
+  127 |   CodeGenOptions CodeGenOpts;
+      |                  ^~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6614:125: error: invalid use of nonstatic data member ‘clang::CompilerInvocation::CodeGenOpts’
+ 6614 |        "Incorporate CUDA device-side binary into host object file.", nullptr, nullptr, "-fcuda-include-gpubinary", true, 0, CodeGenOpts.CudaGpuBinaryFileName, std::string(), false, std::string(), normalizeString, denormalizeString, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                             ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6613:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6613 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-include-gpubinary"[1], fcuda_include_gpubinary, Separate, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc: In instantiation of ‘clang::CompilerInvocation::generateCC1CommandLine(llvm::SmallVectorImpl<const char*>&, clang::CompilerInvocation::StringAllocator) const::<lambda(const auto:619&)> [with auto:619 = unsigned int]’:
+tools/clang/include/clang/Driver/Options.inc:6617:1:   required from here
+tools/clang/include/clang/Driver/Options.inc:6618:119: error: ‘std::shared_ptr<clang::LangOptions> clang::CompilerInvocationBase::LangOpts’ is inaccessible within this context
+ 6618 |        "Allow variadic functions in CUDA device code.", nullptr, nullptr, "-fcuda-allow-variadic-functions", true, 0, LangOpts->CUDAAllowVariadicFunctions, false, false, false, normalizeSimpleFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                       ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6617:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6617 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-allow-variadic-functions"[1], fcuda_allow_variadic_functions, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/CompilerInvocation.h:67:32: note: declared here
+   67 |   std::shared_ptr<LangOptions> LangOpts;
+      |                                ^~~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6618:119: error: invalid use of nonstatic data member ‘clang::CompilerInvocationBase::LangOpts’
+ 6618 |        "Allow variadic functions in CUDA device code.", nullptr, nullptr, "-fcuda-allow-variadic-functions", true, 0, LangOpts->CUDAAllowVariadicFunctions, false, false, false, normalizeSimpleFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                       ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6617:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6617 | OPTION_WITH_MARSHALLING(prefix_1, &"-fcuda-allow-variadic-functions"[1], fcuda_allow_variadic_functions, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+tools/clang/include/clang/Driver/Options.inc: In instantiation of ‘clang::CompilerInvocation::generateCC1CommandLine(llvm::SmallVectorImpl<const char*>&, clang::CompilerInvocation::StringAllocator) const::<lambda(const auto:620&)> [with auto:620 = unsigned int]’:
+tools/clang/include/clang/Driver/Options.inc:6621:1:   required from here
+tools/clang/include/clang/Driver/Options.inc:6622:142: error: ‘std::shared_ptr<clang::LangOptions> clang::CompilerInvocationBase::LangOpts’ is inaccessible within this context
+ 6622 |        "Don't treat unattributed constexpr functions as __host__ __device__.", nullptr, nullptr, "-fno-cuda-host-device-constexpr", true, 0, LangOpts->CUDAHostDeviceConstexpr, true, false, true, normalizeSimpleNegativeFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                                              ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6621:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6621 | OPTION_WITH_MARSHALLING(prefix_1, &"-fno-cuda-host-device-constexpr"[1], fno_cuda_host_device_constexpr, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/CompilerInvocation.h:67:32: note: declared here
+   67 |   std::shared_ptr<LangOptions> LangOpts;
+      |                                ^~~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6622:142: error: invalid use of nonstatic data member ‘clang::CompilerInvocationBase::LangOpts’
+ 6622 |        "Don't treat unattributed constexpr functions as __host__ __device__.", nullptr, nullptr, "-fno-cuda-host-device-constexpr", true, 0, LangOpts->CUDAHostDeviceConstexpr, true, false, true, normalizeSimpleNegativeFlag, denormalizeSimpleFlag, mergeForwardValue, extractForwardValue, -1)
+      |                                                                                                                                              ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:3185:33: note: in definition of macro ‘GENERATE_OPTION_WITH_MARSHALLING’
+ 3185 |            static_cast<decltype(KEYPATH)>((IMPLIED_CHECK) ? (IMPLIED_VALUE)    \
+      |                                 ^~~~~~~
+tools/clang/include/clang/Driver/Options.inc:6621:1: note: in expansion of macro ‘OPTION_WITH_MARSHALLING’
+ 6621 | OPTION_WITH_MARSHALLING(prefix_1, &"-fno-cuda-host-device-constexpr"[1], fno_cuda_host_device_constexpr, Flag, INVALID, INVALID, nullptr, CC1Option | NoDriverOption, 0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+[2358/2849] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTUnit.cpp.o
+[2359/2849] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTConsumers.cpp.o
+[2360/2849] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CreateInvocationFromCommandLine.cpp.o
+[2361/2849] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o
+[2362/2849] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInstance.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+2253.28user 80.46system 6:32.18elapsed 595%CPU (0avgtext+0avgdata 1689300maxresident)k
+0inputs+5872168outputs (263major+52757984minor)pagefaults 0swaps
