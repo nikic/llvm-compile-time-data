@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2705/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Error.cpp.o
+[2706/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LatencyBenchmarkRunner.cpp.o
+[2707/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LlvmState.cpp.o
+[2708/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/MCInstrDescView.cpp.o
+[2709/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/ParallelSnippetGenerator.cpp.o
+[2710/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o
+[2711/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterAliasing.cpp.o
+[2712/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterValue.cpp.o
+[2713/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SchedClassResolution.cpp.o
+[2714/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SerialSnippetGenerator.cpp.o
+[2715/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetFile.cpp.o
+[2716/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetGenerator.cpp.o
+[2717/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetRepetitor.cpp.o
+[2718/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Target.cpp.o
+[2719/2849] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/UopsBenchmarkRunner.cpp.o
+[2720/2849] Linking CXX static library lib/libLLVMExegesis.a
+[2721/2849] Building CXX object tools/llvm-exegesis/lib/X86/CMakeFiles/LLVMExegesisX86.dir/Target.cpp.o
+[2722/2849] Building CXX object tools/llvm-exegesis/lib/X86/CMakeFiles/LLVMExegesisX86.dir/X86Counter.cpp.o
+[2723/2849] Linking CXX static library lib/libLLVMExegesisX86.a
+[2724/2849] Building CXX object tools/llvm-isel-fuzzer/CMakeFiles/llvm-isel-fuzzer.dir/DummyISelFuzzer.cpp.o
+[2725/2849] Building CXX object tools/llvm-isel-fuzzer/CMakeFiles/llvm-isel-fuzzer.dir/llvm-isel-fuzzer.cpp.o
+[2726/2849] Linking CXX executable bin/llvm-isel-fuzzer
+[2727/2849] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2728/2849] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/llvm-itanium-demangle-fuzzer.cpp.o
+[2729/2849] Linking CXX executable bin/llvm-itanium-demangle-fuzzer
+[2730/2849] Building CXX object tools/llvm-jitlink/llvm-jitlink-executor/CMakeFiles/llvm-jitlink-executor.dir/llvm-jitlink-executor.cpp.o
+[2731/2849] Linking CXX executable bin/llvm-jitlink-executor
+[2732/2849] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2733/2849] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/llvm-microsoft-demangle-fuzzer.cpp.o
+[2734/2849] Linking CXX executable bin/llvm-microsoft-demangle-fuzzer
+[2735/2849] Building ObjcopyOpts.inc...
+[2736/2849] Building InstallNameToolOpts.inc...
+[2737/2849] Building BitcodeStripOpts.inc...
+[2738/2849] Building StripOpts.inc...
+[2739/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/Buffer.cpp.o
+[2740/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/CopyConfig.cpp.o
+[2741/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/llvm-objcopy.cpp.o
+[2742/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/COFFObjcopy.cpp.o
+[2743/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Object.cpp.o
+[2744/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Reader.cpp.o
+[2745/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Writer.cpp.o
+[2746/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFConfig.cpp.o
+[2747/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFObjcopy.cpp.o
+[2748/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/Object.cpp.o
+[2749/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOObjcopy.cpp.o
+[2750/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOReader.cpp.o
+[2751/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOWriter.cpp.o
+[2752/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOLayoutBuilder.cpp.o
+[2753/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/Object.cpp.o
+[2754/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Object.cpp.o
+[2755/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Reader.cpp.o
+[2756/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Writer.cpp.o
+[2757/2849] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/WasmObjcopy.cpp.o
+[2758/2849] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexDiagnostic.cpp.o
+[2759/2849] Building CXX object tools/llvm-opt-fuzzer/CMakeFiles/llvm-opt-fuzzer.dir/DummyOptFuzzer.cpp.o
+[2760/2849] Building CXX object tools/llvm-opt-fuzzer/CMakeFiles/llvm-opt-fuzzer.dir/llvm-opt-fuzzer.cpp.o
+[2761/2849] Linking CXX executable bin/llvm-objcopy
+[2762/2849] Generating ../../bin/llvm-install-name-tool
+[2763/2849] Generating ../../bin/llvm-strip
+[2764/2849] Generating ../../bin/llvm-bitcode-strip
+[2765/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ARMWinEHPrinter.cpp.o
+[2766/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/COFFDumper.cpp.o
+[2767/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/COFFImportDumper.cpp.o
+[2768/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ELFDumper.cpp.o
+[2769/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/llvm-readobj.cpp.o
+[2770/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/MachODumper.cpp.o
+[2771/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ObjDumper.cpp.o
+[2772/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/WasmDumper.cpp.o
+[2773/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/Win64EHDumper.cpp.o
+[2774/2849] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/Rewrite.cpp.o
+[2775/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/WindowsResourceDumper.cpp.o
+[2776/2849] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/XCOFFDumper.cpp.o
+[2777/2849] Building CXX object tools/llvm-special-case-list-fuzzer/CMakeFiles/llvm-special-case-list-fuzzer.dir/DummySpecialCaseListFuzzer.cpp.o
+[2778/2849] Building CXX object tools/llvm-special-case-list-fuzzer/CMakeFiles/llvm-special-case-list-fuzzer.dir/special-case-list-fuzzer.cpp.o
+[2779/2849] Linking CXX executable bin/llvm-special-case-list-fuzzer
+[2780/2849] Building Opts.inc...
+[2781/2849] Linking CXX shared library lib/libclang-cpp.so.12git
+[2782/2849] Creating library symlink lib/libclang-cpp.so
+[2783/2849] Building CXX object tools/llvm-yaml-numeric-parser-fuzzer/CMakeFiles/llvm-yaml-numeric-parser-fuzzer.dir/DummyYAMLNumericParserFuzzer.cpp.o
+[2784/2849] Building CXX object tools/llvm-yaml-numeric-parser-fuzzer/CMakeFiles/llvm-yaml-numeric-parser-fuzzer.dir/yaml-numeric-parser-fuzzer.cpp.o
+[2785/2849] Linking CXX executable bin/llvm-readobj
+[2786/2849] Generating ../../bin/llvm-readelf
+[2787/2849] Building CXX object tools/llvm-yaml-parser-fuzzer/CMakeFiles/llvm-yaml-parser-fuzzer.dir/DummyYAMLParserFuzzer.cpp.o
+[2788/2849] Building CXX object tools/llvm-yaml-parser-fuzzer/CMakeFiles/llvm-yaml-parser-fuzzer.dir/yaml-parser-fuzzer.cpp.o
+[2789/2849] Building CXX object tools/llvm-symbolizer/CMakeFiles/llvm-symbolizer.dir/llvm-symbolizer.cpp.o
+[2790/2849] Linking CXX executable bin/llvm-yaml-numeric-parser-fuzzer
+[2791/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/archive2yaml.cpp.o
+[2792/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/obj2yaml.cpp.o
+[2793/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/coff2yaml.cpp.o
+[2794/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/dwarf2yaml.cpp.o
+[2795/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o
+[2796/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/macho2yaml.cpp.o
+[2797/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/minidump2yaml.cpp.o
+[2798/2849] Linking CXX executable bin/llvm-yaml-parser-fuzzer
+[2799/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/xcoff2yaml.cpp.o
+[2800/2849] Creating export file for Remarks
+[2801/2849] Building CXX object tools/remarks-shlib/CMakeFiles/Remarks.dir/libremarks.cpp.o
+[2802/2849] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/wasm2yaml.cpp.o
+[2803/2849] Linking CXX shared library lib/libRemarks.so.12git
+[2804/2849] Creating library symlink lib/libRemarks.so
+[2805/2849] Building CXX object tools/yaml2obj/CMakeFiles/yaml2obj.dir/yaml2obj.cpp.o
+[2806/2849] Linking CXX executable bin/llvm-symbolizer
+[2807/2849] Generating ../../bin/llvm-addr2line
+[2808/2849] Building CXX object examples/Bye/CMakeFiles/Bye.dir/Bye.cpp.o
+[2809/2849] Linking CXX shared module lib/Bye.so
+[2810/2849] Building CXX object unittests/Passes/CMakeFiles/TestPlugin.dir/TestPlugin.cpp.o
+[2811/2849] Linking CXX shared module unittests/Passes/TestPlugin.so
+[2812/2849] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/SecondLib.dir/PipSqueak.cpp.o
+[2813/2849] Linking CXX executable bin/yaml2obj
+FAILED: bin/yaml2obj 
+: && /usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG  -fuse-ld=gold    -Wl,-O3 -Wl,--gc-sections tools/yaml2obj/CMakeFiles/yaml2obj.dir/yaml2obj.cpp.o  -o bin/yaml2obj  -Wl,-rpath,"\$ORIGIN/../lib"  lib/libLLVMObjectYAML.a  lib/libLLVMSupport.a  -lpthread  lib/libLLVMObject.a  lib/libLLVMBitReader.a  lib/libLLVMCore.a  lib/libLLVMRemarks.a  lib/libLLVMBitstreamReader.a  lib/libLLVMMCParser.a  lib/libLLVMTextAPI.a  lib/libLLVMMC.a  lib/libLLVMBinaryFormat.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMDebugInfoMSF.a  lib/libLLVMSupport.a  -lrt  -ldl  -lpthread  -lm  lib/libLLVMDemangle.a && :
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+collect2: error: ld returned 1 exit status
+[2814/2849] Linking CXX shared library unittests/Support/DynamicLibrary/SecondLib.so
+[2815/2849] Linking CXX executable bin/obj2yaml
+FAILED: bin/obj2yaml 
+: && /usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG  -fuse-ld=gold    -Wl,-O3 -Wl,--gc-sections tools/obj2yaml/CMakeFiles/obj2yaml.dir/archive2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/obj2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/coff2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/dwarf2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/macho2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/minidump2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/xcoff2yaml.cpp.o tools/obj2yaml/CMakeFiles/obj2yaml.dir/wasm2yaml.cpp.o  -o bin/obj2yaml  -Wl,-rpath,"\$ORIGIN/../lib"  lib/libLLVMBinaryFormat.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMDebugInfoDWARF.a  lib/libLLVMObject.a  lib/libLLVMObjectYAML.a  lib/libLLVMSupport.a  -lpthread  lib/libLLVMObject.a  lib/libLLVMBitReader.a  lib/libLLVMCore.a  lib/libLLVMRemarks.a  lib/libLLVMBitstreamReader.a  lib/libLLVMMCParser.a  lib/libLLVMTextAPI.a  lib/libLLVMMC.a  lib/libLLVMBinaryFormat.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMDebugInfoMSF.a  lib/libLLVMSupport.a  -lrt  -ldl  -lpthread  -lm  lib/libLLVMDemangle.a && :
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+lib/libLLVMObjectYAML.a(ELFYAML.cpp.o):ELFYAML.cpp:function llvm::yaml::MappingTraits<std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> > >::mapping(llvm::yaml::IO&, std::unique_ptr<llvm::ELFYAML::Chunk, std::default_delete<llvm::ELFYAML::Chunk> >&): error: undefined reference to 'llvm::ELFYAML::SectionHeaderTable::TypeStr'
+collect2: error: ld returned 1 exit status
+[2816/2849] Linking CXX executable bin/llvm-opt-fuzzer
+[2817/2849] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/Indexing.cpp.o
+[2818/2849] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexCodeCompletion.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+3410.30user 124.26system 9:52.28elapsed 596%CPU (0avgtext+0avgdata 1695892maxresident)k
+0inputs+9434840outputs (1651major+79811307minor)pagefaults 0swaps
