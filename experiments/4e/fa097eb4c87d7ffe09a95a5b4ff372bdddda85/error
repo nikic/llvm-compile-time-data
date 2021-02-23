@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp: In member function ‘llvm::VPRecipeOrVPValueTy llvm::VPRecipeBuilder::tryToCreateWidenRecipe(llvm::Instruction*, llvm::VFRange&, llvm::VPlanPtr&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8467:43: error: conversion from ‘llvm::VPWidenCallRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8467 |     return tryToWidenCall(CI, Range, *Plan);
+      |                                           ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8483:56: error: conversion from ‘llvm::VPWidenPHIRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8483 |       return new VPWidenPHIRecipe(Phi, RdxDesc, *StartV);
+      |                                                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8486:36: error: conversion from ‘llvm::VPWidenPHIRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8486 |     return new VPWidenPHIRecipe(Phi);
+      |                                    ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8498:41: error: conversion from ‘llvm::VPWidenGEPRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8498 |                                 OrigLoop);
+      |                                         ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8504:49: error: conversion from ‘llvm::VPWidenSelectRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8504 |                                    InvariantCond);
+      |                                                 ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:8507:33: error: conversion from ‘llvm::VPWidenRecipe*’ to ‘llvm::VPRecipeOrVPValueTy’ {aka ‘llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>’} is ambiguous
+ 8507 |   return tryToWiden(Instr, *Plan);
+      |                                 ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/TinyPtrVector.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:44,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 0; Type = llvm::VPRecipeBase*; Types = {llvm::VPValue*}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:117:5: note: candidate: ‘llvm::pointer_union_detail::PointerUnionMembers<Derived, ValTy, I, Type, Types ...>::PointerUnionMembers(Type) [with Derived = llvm::PointerUnion<llvm::VPRecipeBase*, llvm::VPValue*>; ValTy = llvm::PointerIntPair<void*, 1, int, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*>, llvm::PointerIntPairInfo<void*, 1, llvm::pointer_union_detail::PointerUnionUIntTraits<llvm::VPRecipeBase*, llvm::VPValue*> > >; int I = 1; Type = llvm::VPValue*; Types = {}]’
+  117 |     PointerUnionMembers(Type V)
+      |     ^~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:168:15: note:   inherited here
+  168 |   using Base::Base;
+      |               ^~~~
+[1435/2858] Building X86GenFastISel.inc...
+[1436/2858] Building X86GenGlobalISel.inc...
+[1437/2858] Building X86GenRegisterBank.inc...
+[1438/2858] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[1439/2858] Building X86GenInstrInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+45.98user 4.88system 0:09.63elapsed 527%CPU (0avgtext+0avgdata 631092maxresident)k
+0inputs+518032outputs (11major+1849696minor)pagefaults 0swaps
