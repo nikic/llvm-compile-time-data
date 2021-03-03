@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1324/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumModules.cpp.o
+[1325/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumTypes.cpp.o
+[1326/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeEnumSymbols.cpp.o
+[1327/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeExeSymbol.cpp.o
+[1328/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeFunctionSymbol.cpp.o
+[1329/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeInlineSiteSymbol.cpp.o
+[1330/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeLineNumber.cpp.o
+[1331/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativePublicSymbol.cpp.o
+[1332/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeRawSymbol.cpp.o
+[1333/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSourceFile.cpp.o
+[1334/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSymbolEnumerator.cpp.o
+[1335/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeArray.cpp.o
+[1336/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeBuiltin.cpp.o
+[1337/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeEnum.cpp.o
+[1338/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeFunctionSig.cpp.o
+[1339/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypePointer.cpp.o
+[1340/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeTypedef.cpp.o
+[1341/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeUDT.cpp.o
+[1342/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeVTShape.cpp.o
+[1343/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NamedStreamMap.cpp.o
+[1344/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFile.cpp.o
+[1345/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFileBuilder.cpp.o
+[1346/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSession.cpp.o
+[1347/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBStringTable.cpp.o
+[1348/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBStringTableBuilder.cpp.o
+[1349/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PublicsStream.cpp.o
+[1350/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/GSIStreamBuilder.cpp.o
+[1351/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/RawError.cpp.o
+[1352/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolStream.cpp.o
+[1353/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolCache.cpp.o
+[1354/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiHashing.cpp.o
+[1355/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStream.cpp.o
+[1356/2862] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/DIPrinter.cpp.o
+[1357/2862] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStreamBuilder.cpp.o
+[1358/2862] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/SymbolizableObjectFile.cpp.o
+[1359/2862] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/Symbolize.cpp.o
+[1360/2862] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngine.cpp.o
+[1361/2862] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngineBindings.cpp.o
+[1362/2862] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/GDBRegistrationListener.cpp.o
+[1363/2862] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/SectionMemoryManager.cpp.o
+[1364/2862] Building CXX object lib/ExecutionEngine/CMakeFiles/LLVMExecutionEngine.dir/TargetSelect.cpp.o
+[1365/2862] Building CXX object lib/ExecutionEngine/Interpreter/CMakeFiles/LLVMInterpreter.dir/ExternalFunctions.cpp.o
+[1366/2862] Building CXX object lib/ExecutionEngine/Interpreter/CMakeFiles/LLVMInterpreter.dir/Execution.cpp.o
+[1367/2862] Building CXX object lib/ExecutionEngine/Interpreter/CMakeFiles/LLVMInterpreter.dir/Interpreter.cpp.o
+[1368/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/JITLink.cpp.o
+[1369/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/JITLinkGeneric.cpp.o
+[1370/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/JITLinkMemoryManager.cpp.o
+[1371/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/MachO.cpp.o
+[1372/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/EHFrameSupport.cpp.o
+[1373/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/MachO_arm64.cpp.o
+[1374/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/MachO_x86_64.cpp.o
+[1375/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/MachOLinkGraphBuilder.cpp.o
+[1376/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/ELF.cpp.o
+[1377/2862] Building CXX object lib/ExecutionEngine/JITLink/CMakeFiles/LLVMJITLink.dir/ELF_x86_64.cpp.o
+[1378/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/CompileUtils.cpp.o
+[1379/2862] Building CXX object lib/ExecutionEngine/MCJIT/CMakeFiles/LLVMMCJIT.dir/MCJIT.cpp.o
+[1380/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/CompileOnDemandLayer.cpp.o
+[1381/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/Core.cpp.o
+[1382/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/DebugUtils.cpp.o
+[1383/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/DebugObjectManagerPlugin.cpp.o
+[1384/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/ExecutionUtils.cpp.o
+[1385/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/IndirectionUtils.cpp.o
+[1386/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/IRCompileLayer.cpp.o
+[1387/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/IRTransformLayer.cpp.o
+[1388/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/JITTargetMachineBuilder.cpp.o
+[1389/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/LazyReexports.cpp.o
+[1390/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/Layer.cpp.o
+[1391/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/MachOPlatform.cpp.o
+[1392/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/LLJIT.cpp.o
+[1393/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/Mangling.cpp.o
+[1394/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/ObjectTransformLayer.cpp.o
+[1395/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/ObjectLinkingLayer.cpp.o
+[1396/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/OrcABISupport.cpp.o
+[1397/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/RTDyldObjectLinkingLayer.cpp.o
+[1398/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/OrcV2CBindings.cpp.o
+[1399/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/SpeculateAnalyses.cpp.o
+[1400/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/Speculation.cpp.o
+[1401/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/TargetProcessControl.cpp.o
+[1402/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/ThreadSafeModule.cpp.o
+[1403/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/TPCDebugObjectRegistrar.cpp.o
+[1404/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/TPCDynamicLibrarySearchGenerator.cpp.o
+[1405/2862] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/OrcError.cpp.o
+[1406/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/TPCEHFrameRegistrar.cpp.o
+[1407/2862] Building CXX object lib/ExecutionEngine/Orc/CMakeFiles/LLVMOrcJIT.dir/TPCIndirectionUtils.cpp.o
+[1408/2862] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/TargetProcessControlTypes.cpp.o
+[1409/2862] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/RPCError.cpp.o
+[1410/2862] Building CXX object lib/ExecutionEngine/Orc/TargetProcess/CMakeFiles/LLVMOrcTargetProcess.dir/JITLoaderGDB.cpp.o
+[1411/2862] Building CXX object lib/ExecutionEngine/Orc/TargetProcess/CMakeFiles/LLVMOrcTargetProcess.dir/RegisterEHFrames.cpp.o
+[1412/2862] Building CXX object lib/ExecutionEngine/Orc/TargetProcess/CMakeFiles/LLVMOrcTargetProcess.dir/TargetExecutionUtils.cpp.o
+[1413/2862] Linking CXX static library lib/libLLVMOrcShared.a
+[1414/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/JITSymbol.cpp.o
+[1415/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RTDyldMemoryManager.cpp.o
+[1416/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RuntimeDyld.cpp.o
+[1417/2862] Linking CXX static library lib/libLLVMOrcTargetProcess.a
+[1418/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RuntimeDyldCOFF.cpp.o
+[1419/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RuntimeDyldChecker.cpp.o
+[1420/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RuntimeDyldELF.cpp.o
+[1421/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/RuntimeDyldMachO.cpp.o
+[1422/2862] Building CXX object lib/ExecutionEngine/RuntimeDyld/CMakeFiles/LLVMRuntimeDyld.dir/Targets/RuntimeDyldELFMips.cpp.o
+[1423/2862] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/Target.cpp.o
+[1424/2862] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetIntrinsicInfo.cpp.o
+[1425/2862] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetLoweringObjectFile.cpp.o
+[1426/2862] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachineC.cpp.o
+[1427/2862] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachine.cpp.o
+[1428/2862] Building X86GenCallingConv.inc...
+[1429/2862] Building X86GenAsmWriter.inc...
+[1430/2862] Building X86GenAsmWriter1.inc...
+[1431/2862] Building X86GenAsmMatcher.inc...
+[1432/2862] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o
+FAILED: lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/Instrumentation -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o -MF lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o.d -o lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/DataFlowSanitizer.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/DataFlowSanitizer.cpp: In member function ‘llvm::Align {anonymous}::DFSanFunction::getOriginAlign(llvm::Align)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/DataFlowSanitizer.cpp:1902:25: error: ‘kMinOriginAlignment’ was not declared in this scope; did you mean ‘MinOriginAlignment’?
+ 1902 |   return Align(std::max(kMinOriginAlignment, Alignment));
+      |                         ^~~~~~~~~~~~~~~~~~~
+      |                         MinOriginAlignment
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/DataFlowSanitizer.cpp: In member function ‘bool {anonymous}::DFSanFunction::useCallbackLoadLabelAndOrigin(uint64_t, llvm::Align)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/DataFlowSanitizer.cpp:1920:20: error: ‘kMinOriginAlignment’ was not declared in this scope; did you mean ‘MinOriginAlignment’?
+ 1920 |   if (Alignment >= kMinOriginAlignment &&
+      |                    ^~~~~~~~~~~~~~~~~~~
+      |                    MinOriginAlignment
+[1433/2862] Building X86GenExegesis.inc...
+[1434/2862] Building X86GenEVEX2VEXTables.inc...
+[1435/2862] Building X86GenDisassemblerTables.inc...
+[1436/2862] Building X86GenDAGISel.inc...
+[1437/2862] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+32.88user 4.24system 0:08.84elapsed 419%CPU (0avgtext+0avgdata 423776maxresident)k
+0inputs+467096outputs (11major+1431981minor)pagefaults 0swaps
