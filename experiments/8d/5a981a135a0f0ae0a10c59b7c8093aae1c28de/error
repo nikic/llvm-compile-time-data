@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[957/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallPrinter.cpp.o
+[958/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CaptureTracking.cpp.o
+[959/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CmpInstAnalysis.cpp.o
+[960/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CostModel.cpp.o
+[961/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CodeMetrics.cpp.o
+[962/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstantFolding.cpp.o
+[963/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDG.cpp.o
+[964/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstraintSystem.cpp.o
+[965/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDGPrinter.cpp.o
+[966/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Delinearization.cpp.o
+[967/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DemandedBits.cpp.o
+[968/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceAnalysis.cpp.o
+[969/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DevelopmentModeInlineAdvisor.cpp.o
+[970/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceGraphBuilder.cpp.o
+[971/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DivergenceAnalysis.cpp.o
+[972/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomPrinter.cpp.o
+[973/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomTreeUpdater.cpp.o
+[974/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DominanceFrontier.cpp.o
+[975/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/EHPersonalities.cpp.o
+[976/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/FunctionPropertiesAnalysis.cpp.o
+[977/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GuardUtils.cpp.o
+[978/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GlobalsModRef.cpp.o
+[979/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/HeatUtils.cpp.o
+[980/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IRSimilarityIdentifier.cpp.o
+[981/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVDescriptors.cpp.o
+[982/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVUsers.cpp.o
+[983/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ImportedFunctionsInliningStatistics.cpp.o
+[984/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IndirectCallPromotionAnalysis.cpp.o
+[985/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineCost.cpp.o
+[986/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineAdvisor.cpp.o
+[987/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineSizeEstimatorAnalysis.cpp.o
+[988/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstCount.cpp.o
+[989/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionPrecedenceTracking.cpp.o
+[990/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Interval.cpp.o
+[991/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IntervalPartition.cpp.o
+[992/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBranchProbabilityInfo.cpp.o
+[993/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBlockFrequencyInfo.cpp.o
+[994/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyCallGraph.cpp.o
+[995/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyValueInfo.cpp.o
+[996/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LegacyDivergenceAnalysis.cpp.o
+[997/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Lint.cpp.o
+[998/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Loads.cpp.o
+[999/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAccessAnalysis.cpp.o
+[1000/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAnalysisManager.cpp.o
+[1001/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopCacheAnalysis.cpp.o
+[1002/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopNestAnalysis.cpp.o
+[1003/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopUnrollAnalyzer.cpp.o
+[1004/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopInfo.cpp.o
+[1005/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopPass.cpp.o
+[1006/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MLInlineAdvisor.cpp.o
+[1007/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemDepPrinter.cpp.o
+[1008/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemDerefPrinter.cpp.o
+[1009/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryBuiltins.cpp.o
+[1010/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryDependenceAnalysis.cpp.o
+[1011/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryLocation.cpp.o
+[1012/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSA.cpp.o
+[1013/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSAUpdater.cpp.o
+[1014/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleDebugInfoPrinter.cpp.o
+[1015/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleSummaryAnalysis.cpp.o
+[1016/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MustExecute.cpp.o
+[1017/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAliasAnalysis.cpp.o
+[1018/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAnalysisUtils.cpp.o
+[1019/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCInstKind.cpp.o
+[1020/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/OptimizationRemarkEmitter.cpp.o
+[1021/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PHITransAddr.cpp.o
+[1022/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PhiValues.cpp.o
+[1023/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PostDominators.cpp.o
+[1024/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ProfileSummaryInfo.cpp.o
+[1025/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PtrUseVisitor.cpp.o
+[1026/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionInfo.cpp.o
+[1027/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPass.cpp.o
+[1028/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPrinter.cpp.o
+[1029/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReleaseModeModelRunner.cpp.o
+[1030/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReplayInlineAdvisor.cpp.o
+[1031/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+[1032/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionAliasAnalysis.cpp.o
+[1033/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionDivision.cpp.o
+[1034/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionNormalization.cpp.o
+[1035/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackLifetime.cpp.o
+[1036/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+[1037/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyncDependenceAnalysis.cpp.o
+[1038/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyntheticCountsUtils.cpp.o
+[1039/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TFUtils.cpp.o
+[1040/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetLibraryInfo.cpp.o
+[1041/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetTransformInfo.cpp.o
+[1042/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Trace.cpp.o
+[1043/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeBasedAliasAnalysis.cpp.o
+[1044/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeMetadataUtils.cpp.o
+[1045/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScopedNoAliasAA.cpp.o
+[1046/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLattice.cpp.o
+[1047/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLatticeUtils.cpp.o
+[1048/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueTracking.cpp.o
+[1049/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VectorUtils.cpp.o
+[1050/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VFABIDemangling.cpp.o
+[1051/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/Caching.cpp.o
+[1052/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTO.cpp.o
+[1053/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o
+[1054/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOModule.cpp.o
+[1055/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOCodeGenerator.cpp.o
+[1056/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/SummaryBasedOptimizations.cpp.o
+[1057/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/UpdateCompilerUsed.cpp.o
+[1058/2863] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/ThinLTOCodeGenerator.cpp.o
+[1059/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFStreamer.cpp.o
+[1060/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MachObjectWriter.cpp.o
+[1061/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/StringTableBuilder.cpp.o
+[1062/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/SubtargetFeature.cpp.o
+[1063/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WasmObjectWriter.cpp.o
+[1064/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WinCOFFObjectWriter.cpp.o
+[1065/2863] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/XCOFFObjectWriter.cpp.o
+[1066/2863] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o
+[1067/2863] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Transforms/InstCombine -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp: In member function ‘llvm::Instruction* llvm::InstCombinerImpl::visitSelectInst(llvm::SelectInst&)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp:2909:30: error: ‘using BuilderTy = class llvm::IRBuilder<llvm::TargetFolder, llvm::IRBuilderCallbackInserter>’ {aka ‘class llvm::IRBuilder<llvm::TargetFolder, llvm::IRBuilderCallbackInserter>’} has no member named ‘CreateLogicalAnd’; did you mean ‘CreateLoad’?
+ 2909 |         Value *And = Builder.CreateLogicalAnd(CondVal, TrueSI->getCondition());
+      |                              ^~~~~~~~~~~~~~~~
+      |                              CreateLoad
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp:2926:29: error: ‘using BuilderTy = class llvm::IRBuilder<llvm::TargetFolder, llvm::IRBuilderCallbackInserter>’ {aka ‘class llvm::IRBuilder<llvm::TargetFolder, llvm::IRBuilderCallbackInserter>’} has no member named ‘CreateLogicalOr’
+ 2926 |         Value *Or = Builder.CreateLogicalOr(CondVal, FalseSI->getCondition());
+      |                             ^~~~~~~~~~~~~~~
+[1068/2863] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.o
+[1069/2863] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.o
+[1070/2863] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[1071/2863] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionSimplify.cpp.o
+[1072/2863] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAG.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+48.06user 3.81system 0:12.61elapsed 411%CPU (0avgtext+0avgdata 624924maxresident)k
+0inputs+353248outputs (11major+1328911minor)pagefaults 0swaps
