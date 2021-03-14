@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2697/2877] Building CXX object tools/llvm-exegesis/lib/X86/CMakeFiles/LLVMExegesisX86.dir/Target.cpp.o
+[2698/2877] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2699/2877] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/llvm-itanium-demangle-fuzzer.cpp.o
+[2700/2877] Building CXX object tools/llvm-isel-fuzzer/CMakeFiles/llvm-isel-fuzzer.dir/llvm-isel-fuzzer.cpp.o
+[2701/2877] Linking CXX static library lib/libLLVMExegesisX86.a
+[2702/2877] Building CXX object tools/llvm-jitlink/llvm-jitlink-executor/CMakeFiles/llvm-jitlink-executor.dir/llvm-jitlink-executor.cpp.o
+[2703/2877] Linking CXX executable bin/llvm-jitlink-executor
+[2704/2877] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2705/2877] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/llvm-microsoft-demangle-fuzzer.cpp.o
+[2706/2877] Linking CXX executable bin/llvm-itanium-demangle-fuzzer
+[2707/2877] Building ObjcopyOpts.inc...
+[2708/2877] Building InstallNameToolOpts.inc...
+[2709/2877] Building BitcodeStripOpts.inc...
+[2710/2877] Building StripOpts.inc...
+[2711/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/CopyConfig.cpp.o
+[2712/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/llvm-objcopy.cpp.o
+[2713/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/COFFObjcopy.cpp.o
+[2714/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Object.cpp.o
+[2715/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Reader.cpp.o
+[2716/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Writer.cpp.o
+[2717/2877] Linking CXX executable bin/llvm-microsoft-demangle-fuzzer
+[2718/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFConfig.cpp.o
+[2719/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFObjcopy.cpp.o
+[2720/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/Object.cpp.o
+[2721/2877] Linking CXX executable bin/clang-ast-dump
+[2722/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOObjcopy.cpp.o
+[2723/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOReader.cpp.o
+[2724/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOWriter.cpp.o
+[2725/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOLayoutBuilder.cpp.o
+[2726/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/Object.cpp.o
+[2727/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Object.cpp.o
+[2728/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Reader.cpp.o
+[2729/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Writer.cpp.o
+[2730/2877] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/WasmObjcopy.cpp.o
+[2731/2877] Building CXX object tools/llvm-opt-fuzzer/CMakeFiles/llvm-opt-fuzzer.dir/DummyOptFuzzer.cpp.o
+[2732/2877] Building CXX object tools/llvm-opt-fuzzer/CMakeFiles/llvm-opt-fuzzer.dir/llvm-opt-fuzzer.cpp.o
+[2733/2877] Linking CXX executable bin/llvm-objcopy
+[2734/2877] Generating ../../bin/llvm-install-name-tool
+[2735/2877] Generating ../../bin/llvm-strip
+[2736/2877] Generating ../../bin/llvm-bitcode-strip
+[2737/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ARMWinEHPrinter.cpp.o
+[2738/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/COFFDumper.cpp.o
+[2739/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/COFFImportDumper.cpp.o
+[2740/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ELFDumper.cpp.o
+[2741/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/llvm-readobj.cpp.o
+[2742/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/MachODumper.cpp.o
+[2743/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/ObjDumper.cpp.o
+[2744/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/WasmDumper.cpp.o
+[2745/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/Win64EHDumper.cpp.o
+[2746/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/WindowsResourceDumper.cpp.o
+[2747/2877] Building CXX object tools/llvm-readobj/CMakeFiles/llvm-readobj.dir/XCOFFDumper.cpp.o
+[2748/2877] Linking CXX executable bin/llvm-isel-fuzzer
+[2749/2877] Building CXX object tools/llvm-special-case-list-fuzzer/CMakeFiles/llvm-special-case-list-fuzzer.dir/DummySpecialCaseListFuzzer.cpp.o
+[2750/2877] Building CXX object tools/llvm-special-case-list-fuzzer/CMakeFiles/llvm-special-case-list-fuzzer.dir/special-case-list-fuzzer.cpp.o
+[2751/2877] Linking CXX executable bin/llvm-special-case-list-fuzzer
+[2752/2877] Building Opts.inc...
+[2753/2877] Linking CXX executable bin/llvm-readobj
+[2754/2877] Generating ../../bin/llvm-readelf
+[2755/2877] Building CXX object tools/llvm-yaml-numeric-parser-fuzzer/CMakeFiles/llvm-yaml-numeric-parser-fuzzer.dir/DummyYAMLNumericParserFuzzer.cpp.o
+[2756/2877] Building CXX object tools/llvm-yaml-numeric-parser-fuzzer/CMakeFiles/llvm-yaml-numeric-parser-fuzzer.dir/yaml-numeric-parser-fuzzer.cpp.o
+[2757/2877] Linking CXX executable bin/clang-import-test
+[2758/2877] Building CXX object tools/llvm-yaml-parser-fuzzer/CMakeFiles/llvm-yaml-parser-fuzzer.dir/DummyYAMLParserFuzzer.cpp.o
+[2759/2877] Building CXX object tools/llvm-symbolizer/CMakeFiles/llvm-symbolizer.dir/llvm-symbolizer.cpp.o
+[2760/2877] Building CXX object tools/llvm-yaml-parser-fuzzer/CMakeFiles/llvm-yaml-parser-fuzzer.dir/yaml-parser-fuzzer.cpp.o
+[2761/2877] Linking CXX executable bin/llvm-yaml-numeric-parser-fuzzer
+[2762/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/archive2yaml.cpp.o
+[2763/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/obj2yaml.cpp.o
+[2764/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/coff2yaml.cpp.o
+[2765/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/dwarf2yaml.cpp.o
+[2766/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o
+[2767/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/macho2yaml.cpp.o
+[2768/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/minidump2yaml.cpp.o
+[2769/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/xcoff2yaml.cpp.o
+[2770/2877] Linking CXX executable bin/llvm-yaml-parser-fuzzer
+[2771/2877] Creating export file for Remarks
+[2772/2877] Building CXX object tools/remarks-shlib/CMakeFiles/Remarks.dir/libremarks.cpp.o
+[2773/2877] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/wasm2yaml.cpp.o
+[2774/2877] Linking CXX shared library lib/libRemarks.so.13git
+[2775/2877] Creating library symlink lib/libRemarks.so
+[2776/2877] Building CXX object tools/yaml2obj/CMakeFiles/yaml2obj.dir/yaml2obj.cpp.o
+[2777/2877] Linking CXX executable bin/llvm-symbolizer
+[2778/2877] Generating ../../bin/llvm-addr2line
+[2779/2877] Building CXX object examples/Bye/CMakeFiles/Bye.dir/Bye.cpp.o
+[2780/2877] Linking CXX shared module lib/Bye.so
+[2781/2877] Building CXX object unittests/Passes/CMakeFiles/TestPlugin.dir/TestPlugin.cpp.o
+[2782/2877] Linking CXX shared module unittests/Passes/TestPlugin.so
+[2783/2877] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/SecondLib.dir/PipSqueak.cpp.o
+[2784/2877] Linking CXX executable bin/llvm-opt-fuzzer
+[2785/2877] Linking CXX shared module unittests/Support/DynamicLibrary/SecondLib.so
+[2786/2877] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/PipSqueak.dir/PipSqueak.cpp.o
+[2787/2877] Linking CXX executable bin/yaml2obj
+[2788/2877] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/DynamicLibraryLib.dir/ExportedFuncs.cpp.o
+[2789/2877] Linking CXX static library lib/libDynamicLibraryLib.a
+[2790/2877] Building CXX object utils/unittest/CMakeFiles/gtest.dir/googletest/src/gtest-all.cc.o
+[2791/2877] Linking CXX shared module unittests/Support/DynamicLibrary/PipSqueak.so
+[2792/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[2793/2877] Building CXX object utils/unittest/CMakeFiles/gtest.dir/googlemock/src/gmock-all.cc.o
+[2794/2877] Building CXX object utils/unittest/UnitTestMain/CMakeFiles/gtest_main.dir/TestMain.cpp.o
+[2795/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[2796/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[2797/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[2798/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[2799/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[2800/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[2801/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o
+[2802/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[2803/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[2804/2877] Linking CXX static library lib/libgtest.a
+[2805/2877] Linking CXX executable bin/obj2yaml
+[2806/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o
+[2807/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[2808/2877] Linking CXX static library lib/libLLVMTestingSupport.a
+[2809/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[2810/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[2811/2877] Linking CXX static library lib/libgtest_main.a
+[2812/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[2813/2877] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o
+[2814/2877] Linking CXX static library lib/libbenchmark.a
+[2815/2877] Linking CXX static library lib/libbenchmark_main.a
+[2816/2877] Linking CXX executable bin/clang-13
+[2817/2877] Creating executable symlink bin/clang
+[2818/2877] ASTNodeAPI.json
+[2819/2877] NodeIntrospection.inc
+FAILED: tools/clang/include/clang/Tooling/NodeIntrospection.inc 
+cd /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling && /usr/bin/cmake -E make_directory /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling/generated/ && /root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/DumpTool/generate_cxx_src_locs.py --json-input-path /root/llvm-compile-time-tracker/llvm-project-build/ASTNodeAPI.json --output-file generated/NodeIntrospection.inc --empty-implementation 0 && /usr/bin/cmake -E copy_if_different /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling/generated/NodeIntrospection.inc /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/include/clang/Tooling/NodeIntrospection.inc
+/bin/sh: 1: /root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/DumpTool/generate_cxx_src_locs.py: not found
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+145.98user 16.93system 0:28.78elapsed 566%CPU (0avgtext+0avgdata 834552maxresident)k
+40inputs+5705872outputs (1070major+6672303minor)pagefaults 0swaps
