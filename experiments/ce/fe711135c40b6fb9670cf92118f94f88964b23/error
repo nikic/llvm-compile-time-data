@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2572/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/PointerSortingChecker.cpp.o
+[2573/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/cert/PutenvWithAutoChecker.cpp.o
+[2574/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ReturnPointerRangeChecker.cpp.o
+[2575/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/RetainCountChecker/RetainCountChecker.cpp.o
+[2576/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/RetainCountChecker/RetainCountDiagnostics.cpp.o
+[2577/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ReturnUndefChecker.cpp.o
+[2578/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ReturnValueChecker.cpp.o
+[2579/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/SimpleStreamChecker.cpp.o
+[2580/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/RunLoopAutoreleaseLeakChecker.cpp.o
+[2581/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/SmartPtrChecker.cpp.o
+[2582/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/SmartPtrModeling.cpp.o
+[2583/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/StackAddrEscapeChecker.cpp.o
+[2584/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/StdLibraryFunctionsChecker.cpp.o
+[2585/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/STLAlgorithmModeling.cpp.o
+[2586/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/StreamChecker.cpp.o
+[2587/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/Taint.cpp.o
+[2588/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/TaintTesterChecker.cpp.o
+[2589/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/TestAfterDivZeroChecker.cpp.o
+[2590/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/TraversalChecker.cpp.o
+[2591/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/TrustNonnullChecker.cpp.o
+[2592/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UndefBranchChecker.cpp.o
+[2593/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UndefResultChecker.cpp.o
+[2594/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UndefCapturedBlockVarChecker.cpp.o
+[2595/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UndefinedArraySubscriptChecker.cpp.o
+[2596/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UndefinedAssignmentChecker.cpp.o
+[2597/2877] Building CXX object tools/clang/lib/Tooling/DumpTool/CMakeFiles/clang-ast-dump.dir/ASTSrcLocProcessor.cpp.o
+[2598/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UninitializedObject/UninitializedPointee.cpp.o
+[2599/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UnixAPIChecker.cpp.o
+[2600/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UninitializedObject/UninitializedObjectChecker.cpp.o
+[2601/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/UnreachableCodeChecker.cpp.o
+[2602/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/VforkChecker.cpp.o
+[2603/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/ASTUtils.cpp.o
+[2604/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/PtrTypesSemantics.cpp.o
+[2605/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/VLASizeChecker.cpp.o
+[2606/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ValistChecker.cpp.o
+[2607/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/VirtualCallChecker.cpp.o
+[2608/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/NoUncountedMembersChecker.cpp.o
+[2609/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/RefCntblBaseVirtualDtorChecker.cpp.o
+[2610/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/UncountedCallArgsChecker.cpp.o
+[2611/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/UncountedLambdaCapturesChecker.cpp.o
+[2612/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/CheckerRegistry.cpp.o
+[2613/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/CreateCheckerManager.cpp.o
+[2614/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/WebKit/UncountedLocalVarsChecker.cpp.o
+[2615/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/ModelConsumer.cpp.o
+[2616/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/AffectedRangeManager.cpp.o
+[2617/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/BreakableToken.cpp.o
+[2618/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/ModelInjector.cpp.o
+[2619/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/ContinuationIndenter.cpp.o
+[2620/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/Format.cpp.o
+[2621/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/FormatToken.cpp.o
+[2622/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/FormatTokenLexer.cpp.o
+[2623/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/NamespaceEndCommentsFixer.cpp.o
+[2624/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/SortJavaScriptImports.cpp.o
+[2625/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/AnalyzerHelpFlags.cpp.o
+[2626/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/TokenAnalyzer.cpp.o
+[2627/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/TokenAnnotator.cpp.o
+[2628/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/UnwrappedLineFormatter.cpp.o
+[2629/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/UnwrappedLineParser.cpp.o
+[2630/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/FrontendActions.cpp.o
+[2631/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/UsingDeclarationsSorter.cpp.o
+[2632/2877] Building CXX object tools/clang/lib/Testing/CMakeFiles/obj.clangTesting.dir/CommandLineArgs.cpp.o
+[2633/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/WhitespaceManager.cpp.o
+[2634/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/diagtool_main.cpp.o
+[2635/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/DiagTool.cpp.o
+[2636/2877] Linking CXX static library lib/libclangTesting.a
+[2637/2877] Building CXX object tools/clang/lib/Tooling/DumpTool/CMakeFiles/clang-ast-dump.dir/ClangSrcLocDump.cpp.o
+[2638/2877] Building CXX object tools/clang/lib/Format/CMakeFiles/obj.clangFormat.dir/MacroExpander.cpp.o
+[2639/2877] Building CXX object tools/clang/lib/StaticAnalyzer/Frontend/CMakeFiles/obj.clangStaticAnalyzerFrontend.dir/AnalysisConsumer.cpp.o
+[2640/2877] Linking CXX static library lib/libclangFormat.a
+[2641/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/ShowEnabledWarnings.cpp.o
+[2642/2877] Linking CXX static library lib/libclangIndex.a
+[2643/2877] Linking CXX static library lib/libclangCrossTU.a
+[2644/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/ListWarnings.cpp.o
+[2645/2877] Linking CXX static library lib/libclangToolingRefactoring.a
+[2646/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/FindDiagnosticID.cpp.o
+[2647/2877] Linking CXX static library lib/libclangTransformer.a
+[2648/2877] Linking CXX executable bin/apinotes-test
+[2649/2877] Linking CXX static library lib/libclangStaticAnalyzerCore.a
+[2650/2877] Building CXX object tools/clang/tools/clang-format/CMakeFiles/clang-format.dir/ClangFormat.cpp.o
+[2651/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/DiagnosticNames.cpp.o
+[2652/2877] Building CXX object tools/clang/tools/clang-fuzzer/handle-llvm/CMakeFiles/obj.clangHandleLLVM.dir/handle_llvm.cpp.o
+[2653/2877] Linking CXX static library lib/libclangHandleLLVM.a
+[2654/2877] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/TreeView.cpp.o
+[2655/2877] Linking CXX executable bin/clang-format
+[2656/2877] Linking CXX static library lib/libclangStaticAnalyzerCheckers.a
+[2657/2877] Building CXX object tools/clang/tools/clang-offload-bundler/CMakeFiles/clang-offload-bundler.dir/ClangOffloadBundler.cpp.o
+[2658/2877] Linking CXX static library lib/libclangStaticAnalyzerFrontend.a
+[2659/2877] Building CXX object tools/clang/tools/clang-offload-wrapper/CMakeFiles/clang-offload-wrapper.dir/ClangOffloadWrapper.cpp.o
+[2660/2877] Building CXX object tools/clang/tools/clang-fuzzer/handle-cxx/CMakeFiles/obj.clangHandleCXX.dir/handle_cxx.cpp.o
+[2661/2877] Creating export file for libclang
+[2662/2877] Generating ../../../../bin/hmaptool
+[2663/2877] Linking CXX executable bin/clang-offload-bundler
+[2664/2877] Building CXX object tools/lli/ChildTarget/CMakeFiles/lli-child-target.dir/ChildTarget.cpp.o
+[2665/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Analysis.cpp.o
+[2666/2877] Linking CXX executable bin/clang-offload-wrapper
+[2667/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Assembler.cpp.o
+[2668/2877] Building CXX object tools/clang/tools/clang-import-test/CMakeFiles/clang-import-test.dir/clang-import-test.cpp.o
+[2669/2877] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1_main.cpp.o
+[2670/2877] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1as_main.cpp.o
+[2671/2877] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/driver.cpp.o
+[2672/2877] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1gen_reproducer_main.cpp.o
+[2673/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/BenchmarkResult.cpp.o
+[2674/2877] Linking CXX executable bin/lli-child-target
+[2675/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Clustering.cpp.o
+[2676/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/CodeTemplate.cpp.o
+[2677/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Error.cpp.o
+[2678/2877] Linking CXX executable bin/diagtool
+[2679/2877] Linking CXX executable bin/clang-ast-dump
+[2680/2877] Linking CXX executable bin/clang-import-test
+[2681/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/MCInstrDescView.cpp.o
+[2682/2877] Linking CXX executable bin/clang-13
+[2683/2877] Creating executable symlink bin/clang
+[2684/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o
+[2685/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterAliasing.cpp.o
+[2686/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterValue.cpp.o
+[2687/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SchedClassResolution.cpp.o
+[2688/2877] ASTNodeAPI.json
+[2689/2877] NodeIntrospection.inc
+FAILED: tools/clang/include/clang/Tooling/NodeIntrospection.inc 
+cd /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling && /usr/bin/cmake -E make_directory /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling/generated/ && /root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/DumpTool/generate_cxx_src_locs.py --json-input-path /root/llvm-compile-time-tracker/llvm-project-build/ASTNodeAPI.json --output-file generated/NodeIntrospection.inc --empty-implementation 0 && /usr/bin/cmake -E copy_if_different /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/lib/Tooling/generated/NodeIntrospection.inc /root/llvm-compile-time-tracker/llvm-project-build/tools/clang/include/clang/Tooling/NodeIntrospection.inc
+/bin/sh: 1: /root/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/DumpTool/generate_cxx_src_locs.py: not found
+[2690/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LatencyBenchmarkRunner.cpp.o
+[2691/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LlvmState.cpp.o
+[2692/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/BenchmarkRunner.cpp.o
+[2693/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/ParallelSnippetGenerator.cpp.o
+[2694/2877] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SerialSnippetGenerator.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+160.66user 16.86system 0:31.10elapsed 570%CPU (0avgtext+0avgdata 834716maxresident)k
+0inputs+5519128outputs (794major+7042895minor)pagefaults 0swaps
