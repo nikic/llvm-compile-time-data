@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[224/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Magic.cpp.o
+[225/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Minidump.cpp.o
+[226/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackDocument.cpp.o
+[227/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackDocumentYAML.cpp.o
+[228/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackReader.cpp.o
+[229/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackWriter.cpp.o
+[230/2876] Creating export file for LLVMHello
+[231/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Wasm.cpp.o
+[232/2876] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/XCOFF.cpp.o
+[233/2876] Building CXX object lib/Bitstream/Reader/CMakeFiles/LLVMBitstreamReader.dir/BitstreamReader.cpp.o
+[234/2876] Building CXX object lib/Extensions/CMakeFiles/LLVMExtensions.dir/Extensions.cpp.o
+[235/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ConstantPools.cpp.o
+[236/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmBackend.cpp.o
+[237/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ELFObjectWriter.cpp.o
+[238/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoCOFF.cpp.o
+[239/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfo.cpp.o
+[240/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoDarwin.cpp.o
+[241/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoWasm.cpp.o
+[242/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoELF.cpp.o
+[243/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoXCOFF.cpp.o
+[244/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmMacro.cpp.o
+[245/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeEmitter.cpp.o
+[246/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmStreamer.cpp.o
+[247/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAssembler.cpp.o
+[248/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeView.cpp.o
+[249/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCDwarf.cpp.o
+[250/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCContext.cpp.o
+[251/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFObjectTargetWriter.cpp.o
+[252/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFStreamer.cpp.o
+[253/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInst.cpp.o
+[254/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCExpr.cpp.o
+[255/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCFragment.cpp.o
+[256/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstPrinter.cpp.o
+[257/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrAnalysis.cpp.o
+[258/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLabel.cpp.o
+[259/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrDesc.cpp.o
+[260/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrInfo.cpp.o
+[261/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLinkerOptimizationHint.cpp.o
+[262/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachObjectTargetWriter.cpp.o
+[263/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCNullStreamer.cpp.o
+[264/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachOStreamer.cpp.o
+[265/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectFileInfo.cpp.o
+[266/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectStreamer.cpp.o
+[267/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectWriter.cpp.o
+[268/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCRegisterInfo.cpp.o
+[269/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCPseudoProbe.cpp.o
+[270/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSchedule.cpp.o
+[271/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSection.cpp.o
+[272/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionCOFF.cpp.o
+[273/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionELF.cpp.o
+[274/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionMachO.cpp.o
+[275/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionWasm.cpp.o
+[276/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionXCOFF.cpp.o
+[277/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSubtargetInfo.cpp.o
+[278/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCStreamer.cpp.o
+[279/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbol.cpp.o
+[280/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolELF.cpp.o
+[281/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolXCOFF.cpp.o
+[282/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptions.cpp.o
+[283/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptionsCommandFlags.cpp.o
+[284/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCValue.cpp.o
+[285/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmObjectTargetWriter.cpp.o
+[286/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmStreamer.cpp.o
+[287/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MachObjectWriter.cpp.o
+[288/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/StringTableBuilder.cpp.o
+[289/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/SubtargetFeature.cpp.o
+[290/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WasmObjectWriter.cpp.o
+[291/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/XCOFFObjectWriter.cpp.o
+[292/2876] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WinCOFFObjectWriter.cpp.o
+[293/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.o
+[294/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/ELFAsmParser.cpp.o
+[295/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/COFFAsmParser.cpp.o
+[296/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/COFFMasmParser.cpp.o
+[297/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmLexer.cpp.o
+[298/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/DarwinAsmParser.cpp.o
+[299/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParser.cpp.o
+[300/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParserExtension.cpp.o
+[301/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCTargetAsmParser.cpp.o
+[302/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MasmParser.cpp.o
+[303/2876] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCDisassembler.cpp.o
+[304/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/WasmAsmParser.cpp.o
+[305/2876] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/Disassembler.cpp.o
+[306/2876] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCExternalSymbolizer.cpp.o
+[307/2876] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCSymbolizer.cpp.o
+[308/2876] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCRelocationInfo.cpp.o
+[309/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/CodeEmitter.cpp.o
+[310/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/HardwareUnit.cpp.o
+[311/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HWEventListener.cpp.o
+[312/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Context.cpp.o
+[313/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/LSUnit.cpp.o
+[314/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RegisterFile.cpp.o
+[315/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RetireControlUnit.cpp.o
+[316/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/ResourceManager.cpp.o
+[317/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/Scheduler.cpp.o
+[318/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/InstrBuilder.cpp.o
+[319/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Instruction.cpp.o
+[320/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Pipeline.cpp.o
+[321/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/DispatchStage.cpp.o
+[322/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/EntryStage.cpp.o
+[323/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/ExecuteStage.cpp.o
+[324/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InOrderIssueStage.cpp.o
+[325/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InstructionTables.cpp.o
+[326/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/MicroOpQueueStage.cpp.o
+[327/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/RetireStage.cpp.o
+[328/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/Stage.cpp.o
+[329/2876] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Support.cpp.o
+[330/2876] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG   -std=c++14  -fno-exceptions -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Signposts.cpp
+In file included from /usr/include/c++/9/memory:80,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:23,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Signposts.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Signposts.cpp:10:
+/usr/include/c++/9/bits/unique_ptr.h: In instantiation of ‘void std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = llvm::SignpostEmitterImpl]’:
+/usr/include/c++/9/bits/unique_ptr.h:292:17:   required from ‘std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = llvm::SignpostEmitterImpl; _Dp = std::default_delete<llvm::SignpostEmitterImpl>]’
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Signposts.cpp:99:34:   required from here
+/usr/include/c++/9/bits/unique_ptr.h:79:16: error: invalid application of ‘sizeof’ to incomplete type ‘llvm::SignpostEmitterImpl’
+   79 |  static_assert(sizeof(_Tp)>0,
+      |                ^~~~~~~~~~~
+[331/2876] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Arg.cpp.o
+[332/2876] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[333/2876] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Option.cpp.o
+[334/2876] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[335/2876] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+8.49user 0.75system 0:06.83elapsed 135%CPU (0avgtext+0avgdata 429500maxresident)k
+0inputs+63608outputs (0major+269100minor)pagefaults 0swaps
