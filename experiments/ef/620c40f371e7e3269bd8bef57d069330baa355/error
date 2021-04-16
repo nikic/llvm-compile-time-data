@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Found Python3: /usr/bin/python3.8 (found suitable version "3.8.5", minimum required is "3.6") found components: Interpreter 
+-- Linker detection: GNU Gold
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- Targeting X86
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Clang version: 13.0.0
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG - Failed
+-- Looking for include file sys/inotify.h
+-- Looking for include file sys/inotify.h - found
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Failed to find LLVM FileCheck
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/llvm-compile-time-tracker/llvm-project-build
+ninja: Entering directory `./llvm-project-build'
+[1/2878] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[2/2878] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[3/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ABIBreak.cpp.o
+[4/2878] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+[5/2878] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[6/2878] Linking CXX static library lib/libLLVMDemangle.a
+[7/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG   -std=c++14  -fno-exceptions -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/APInt.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/APInt.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In function ‘llvm::hash_code llvm::hashing::detail::hash_combine_range_impl(InputIteratorT, InputIteratorT)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:429:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  429 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In member function ‘llvm::hash_code llvm::hashing::detail::hash_combine_recursive_helper::combine(size_t, char*, char*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:579:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  579 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+[8/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG   -std=c++14  -fno-exceptions -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/AMDGPUMetadata.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Optional.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/AMDGPUMetadata.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/AMDGPUMetadata.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In function ‘llvm::hash_code llvm::hashing::detail::hash_combine_range_impl(InputIteratorT, InputIteratorT)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:429:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  429 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In member function ‘llvm::hash_code llvm::hashing::detail::hash_combine_recursive_helper::combine(size_t, char*, char*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:579:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  579 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+[9/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG   -std=c++14  -fno-exceptions -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/APFloat.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/APFloat.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In function ‘llvm::hash_code llvm::hashing::detail::hash_combine_range_impl(InputIteratorT, InputIteratorT)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:429:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  429 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h: In member function ‘llvm::hash_code llvm::hashing::detail::hash_combine_recursive_helper::combine(size_t, char*, char*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:579:10: error: ‘rotate’ is not a member of ‘std’; did you mean ‘llvm::hashing::detail::rotate’?
+  579 |     std::rotate(buffer, buffer_ptr, buffer_end);
+      |          ^~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:172:17: note: ‘llvm::hashing::detail::rotate’ declared here
+  172 | inline uint64_t rotate(uint64_t val, size_t shift) {
+      |                 ^~~~~~
+[10/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AArch64TargetParser.cpp.o
+[11/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMTargetParser.cpp.o
+[12/2878] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFixedPoint.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+5.31user 0.44system 0:01.57elapsed 366%CPU (0avgtext+0avgdata 142972maxresident)k
+0inputs+27472outputs (0major+207551minor)pagefaults 0swaps
