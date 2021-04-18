@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1847/2878] Building X86GenInstrInfo.inc...
+[1848/2878] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[1849/2878] Linking CXX static library lib/libclangBasic.a
+[1850/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Lexer.cpp.o
+[1851/2878] Linking CXX static library lib/libclangAPINotes.a
+[1852/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/HeaderSearch.cpp.o
+[1853/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/LiteralSupport.cpp.o
+[1854/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/ModuleMap.cpp.o
+[1855/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPCallbacks.cpp.o
+[1856/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPConditionalDirectiveRecord.cpp.o
+[1857/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/MacroArgs.cpp.o
+[1858/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/MacroInfo.cpp.o
+[1859/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPCaching.cpp.o
+[1860/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPDirectives.cpp.o
+[1861/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPExpressions.cpp.o
+[1862/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPLexerChange.cpp.o
+[1863/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o
+[1864/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPMacroExpansion.cpp.o
+[1865/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/ScratchBuffer.cpp.o
+[1866/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Pragma.cpp.o
+[1867/2878] Building X86GenSubtargetInfo.inc...
+[1868/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessorLexer.cpp.o
+[1869/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o
+[1870/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenConcatenation.cpp.o
+[1871/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[1872/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[1873/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[1874/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[1875/2878] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenLexer.cpp.o
+[1876/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallLowering.cpp.o
+[1877/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[1878/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerAMXType.cpp.o
+[1879/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DomainReassignment.cpp.o
+[1880/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DiscriminateMemOps.cpp.o
+[1881/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerAMXIntrinsics.cpp.o
+[1882/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerTileCopy.cpp.o
+[1883/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TileConfig.cpp.o
+[1884/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PreTileConfig.cpp.o
+[1885/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ExpandPseudo.cpp.o
+[1886/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.o
+[1887/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupBWInsts.cpp.o
+[1888/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidStoreForwardingBlocks.cpp.o
+[1889/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupSetCC.cpp.o
+[1890/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupLEAs.cpp.o
+[1891/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.o
+[1892/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FlagsCopyLowering.cpp.o
+[1893/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FrameLowering.cpp.o
+[1894/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstructionSelector.cpp.o
+[1895/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectBranchTracking.cpp.o
+[1896/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+[1897/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.o
+[1898/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectThunks.cpp.o
+[1899/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[1900/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertPrefetch.cpp.o
+[1901/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[1902/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[1903/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[1904/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86EvexToVex.cpp.o
+[1905/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LegalizerInfo.cpp.o
+[1906/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[1907/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+[1908/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[1909/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[1910/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[1911/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[1912/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1913/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[1914/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1915/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterBankInfo.cpp.o
+[1916/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[1917/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1918/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1919/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[1920/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1921/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1922/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1923/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1924/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1925/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1926/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1927/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertWait.cpp.o
+[1928/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1929/2878] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1930/2878] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1931/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[1932/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1933/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1934/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1935/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1936/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1937/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1938/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1939/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1940/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1941/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1942/2878] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1943/2878] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1944/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1945/2878] Linking CXX static library lib/libLLVMX86Info.a
+[1946/2878] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1947/2878] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1948/2878] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1949/2878] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘ld_plugin_status onload(ld_plugin_tv*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:442:48: warning: cast between incompatible function types from ‘ld_plugin_message’ {aka ‘ld_plugin_status (*)(int, const char*, ...)’} to ‘ld_plugin_get_wrap_symbols’ {aka ‘ld_plugin_status (*)(long unsigned int*, const char***)’} [-Wcast-function-type]
+  442 |           (ld_plugin_get_wrap_symbols)tv->tv_u.tv_message;
+      |                                                ^~~~~~~~~~
+[1950/2878] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1951/2878] Linking CXX static library lib/libLLVMX86Desc.a
+[1952/2878] Linking CXX static library lib/libclangLex.a
+[1953/2878] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1954/2878] Linking CXX executable bin/llvm-ar
+FAILED: bin/llvm-ar 
+: && /usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG  -fuse-ld=gold    -Wl,-O3 -Wl,--gc-sections tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o  -o bin/llvm-ar  -Wl,-rpath,"\$ORIGIN/../lib"  lib/libLLVMX86AsmParser.a  lib/libLLVMX86Desc.a  lib/libLLVMX86Info.a  lib/libLLVMBinaryFormat.a  lib/libLLVMCore.a  lib/libLLVMDlltoolDriver.a  lib/libLLVMLibDriver.a  lib/libLLVMObject.a  lib/libLLVMSupport.a  -lpthread  lib/libLLVMMCDisassembler.a  lib/libLLVMMCParser.a  lib/libLLVMMC.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMTextAPI.a  lib/libLLVMOption.a  lib/libLLVMBitReader.a  lib/libLLVMCore.a  lib/libLLVMBinaryFormat.a  lib/libLLVMRemarks.a  lib/libLLVMBitstreamReader.a  lib/libLLVMSupport.a  -lrt  -ldl  -lpthread  -lm  lib/libLLVMDemangle.a && :
+lib/libLLVMCore.a(Value.cpp.o):Value.cpp:function llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses): error: undefined reference to 'llvm::Value::dump() const'
+lib/libLLVMCore.a(Value.cpp.o):Value.cpp:function llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses): error: undefined reference to 'llvm::Type::dump() const'
+lib/libLLVMCore.a(Value.cpp.o):Value.cpp:function llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses): error: undefined reference to 'llvm::Value::dump() const'
+lib/libLLVMCore.a(Value.cpp.o):Value.cpp:function llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses): error: undefined reference to 'llvm::Type::dump() const'
+lib/libLLVMCore.a(Constants.cpp.o):Constants.cpp:function llvm::ConstantExpr::getGetElementPtr(llvm::Type*, llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool, llvm::Optional<unsigned int>, llvm::Type*): error: undefined reference to 'llvm::Type::dump() const'
+lib/libLLVMCore.a(Constants.cpp.o):Constants.cpp:function llvm::ConstantExpr::getGetElementPtr(llvm::Type*, llvm::Constant*, llvm::ArrayRef<llvm::Value*>, bool, llvm::Optional<unsigned int>, llvm::Type*): error: undefined reference to 'llvm::Type::dump() const'
+collect2: error: ld returned 1 exit status
+[1955/2878] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o
+[1956/2878] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+[1957/2878] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+[1958/2878] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+[1959/2878] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+532.33user 21.37system 1:37.74elapsed 566%CPU (0avgtext+0avgdata 929444maxresident)k
+0inputs+1759528outputs (44major+12533125minor)pagefaults 0swaps
