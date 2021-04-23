@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1741/2888] Copying clang's ppc_wrappers/tmmintrin.h...
+[1742/2888] Copying clang's ppc_wrappers/smmintrin.h...
+[1743/2888] Copying clang's openmp_wrappers/math.h...
+[1744/2888] Copying clang's openmp_wrappers/complex.h...
+[1745/2888] Copying clang's openmp_wrappers/cmath...
+[1746/2888] Copying clang's openmp_wrappers/complex...
+[1747/2888] Copying clang's openmp_wrappers/__clang_openmp_device_functions.h...
+[1748/2888] Copying clang's openmp_wrappers/complex_cmath.h...
+[1749/2888] Copying clang's openmp_wrappers/new...
+[1750/2888] Copying clang's riscv_vector.h...
+[1751/2888] Building arm_fp16.h...
+[1752/2888] Copying clang's arm_fp16.h...
+[1753/2888] Building arm_bf16.h...
+[1754/2888] Copying clang's arm_bf16.h...
+[1755/2888] Building arm_sve.h...
+[1756/2888] Copying clang's arm_sve.h...
+[1757/2888] Building arm_mve.h...
+[1758/2888] Building arm_cde.h...
+[1759/2888] Copying clang's arm_mve.h...
+[1760/2888] Copying clang's arm_cde.h...
+[1761/2888] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesTypes.cpp.o
+[1762/2888] Generating VCSVersion.inc
+[1763/2888] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesYAMLCompiler.cpp.o
+[1764/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ObjCRuntime.cpp.o
+[1765/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Attributes.cpp.o
+[1766/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Builtins.cpp.o
+[1767/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CharInfo.cpp.o
+[1768/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CodeGenOptions.cpp.o
+[1769/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Cuda.cpp.o
+[1770/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Diagnostic.cpp.o
+[1771/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticOptions.cpp.o
+[1772/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ExpressionTraits.cpp.o
+[1773/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o
+[1774/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o
+[1775/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileSystemStatCache.cpp.o
+[1776/2888] Building arm_neon.h...
+[1777/2888] Copying clang's arm_neon.h...
+[1778/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/IdentifierTable.cpp.o
+[1779/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangOptions.cpp.o
+[1780/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangStandards.cpp.o
+[1781/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenCLOptions.cpp.o
+[1782/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o
+[1783/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenMPKinds.cpp.o
+[1784/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OperatorPrecedence.cpp.o
+[1785/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ProfileList.cpp.o
+[1786/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/NoSanitizeList.cpp.o
+[1787/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerSpecialCaseList.cpp.o
+[1788/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sanitizers.cpp.o
+[1789/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceLocation.cpp.o
+[1790/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+[1791/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Stack.cpp.o
+[1792/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetID.cpp.o
+[1793/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetInfo.cpp.o
+[1794/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets.cpp.o
+[1795/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AArch64.cpp.o
+[1796/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AMDGPU.cpp.o
+[1797/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARC.cpp.o
+[1798/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AVR.cpp.o
+[1799/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARM.cpp.o
+[1800/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/BPF.cpp.o
+[1801/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Hexagon.cpp.o
+[1802/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Lanai.cpp.o
+[1803/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/M68k.cpp.o
+[1804/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/MSP430.cpp.o
+[1805/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Mips.cpp.o
+[1806/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/NVPTX.cpp.o
+[1807/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/OSTargets.cpp.o
+[1808/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PNaCl.cpp.o
+[1809/2888] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[1810/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PPC.cpp.o
+[1811/2888] Linking CXX static library lib/libLLVMMCParser.a
+[1812/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/RISCV.cpp.o
+[1813/2888] Linking CXX static library lib/libLLVMObject.a
+[1814/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SPIR.cpp.o
+[1815/2888] Linking CXX static library lib/libLLVMLibDriver.a
+[1816/2888] Linking CXX static library lib/libLLVMInterfaceStub.a
+[1817/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticIDs.cpp.o
+[1818/2888] Linking CXX static library lib/libLLVMObjectYAML.a
+[1819/2888] Linking CXX static library lib/libLLVMDebugInfoDWARF.a
+[1820/2888] Linking CXX static library lib/libLLVMDebugInfoGSYM.a
+[1821/2888] Linking CXX static library lib/libLLVMAnalysis.a
+[1822/2888] Linking CXX static library lib/libLLVMDebugInfoPDB.a
+[1823/2888] Linking CXX static library lib/libLLVMJITLink.a
+[1824/2888] Linking CXX static library lib/libLLVMBitWriter.a
+[1825/2888] Linking CXX static library lib/libLLVMSymbolize.a
+[1826/2888] Linking CXX static library lib/libLLVMTarget.a
+[1827/2888] Linking CXX static library lib/libLLVMRuntimeDyld.a
+[1828/2888] Linking CXX static library lib/libLLVMTransformUtils.a
+[1829/2888] Linking CXX static library lib/libLLVMCoverage.a
+[1830/2888] Linking CXX static library lib/libLLVMExecutionEngine.a
+[1831/2888] Linking CXX static library lib/libLLVMAggressiveInstCombine.a
+[1832/2888] Linking CXX static library lib/libLLVMFrontendOpenMP.a
+[1833/2888] Linking CXX static library lib/libLLVMInstrumentation.a
+[1834/2888] Linking CXX static library lib/libLLVMVectorize.a
+[1835/2888] Linking CXX static library lib/libLLVMInstCombine.a
+[1836/2888] Linking CXX static library lib/libLLVMObjCARCOpts.a
+[1837/2888] Linking CXX static library lib/libLLVMLinker.a
+[1838/2888] Linking CXX static library lib/libLLVMMCJIT.a
+[1839/2888] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[1840/2888] Linking CXX static library lib/libLLVMXRay.a
+[1841/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Sparc.cpp.o
+[1842/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/TCE.cpp.o
+[1843/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SystemZ.cpp.o
+[1844/2888] Linking CXX static library lib/libLLVMScalarOpts.a
+[1845/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/VE.cpp.o
+[1846/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/WebAssembly.cpp.o
+[1847/2888] Linking CXX static library lib/libLLVMFuzzMutate.a
+[1848/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/X86.cpp.o
+[1849/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/XCore.cpp.o
+[1850/2888] Linking CXX static library lib/libLLVMipo.a
+[1851/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TokenKinds.cpp.o
+[1852/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TypeTraits.cpp.o
+[1853/2888] Linking CXX static library lib/libLLVMCoroutines.a
+[1854/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Version.cpp.o
+[1855/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o
+FAILED: tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o -MF tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o.d -o tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Le64.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Targets/Le64.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Targets/Le64.cpp:25:10: fatal error: clang/Basic/BuiltinsLe64.def: No such file or directory
+   25 | #include "clang/Basic/BuiltinsLe64.def"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[1856/2888] Linking CXX static library lib/libLLVMPasses.a
+[1857/2888] Linking CXX static library lib/libLLVMCodeGen.a
+[1858/2888] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[1859/2888] Building X86GenSubtargetInfo.inc...
+[1860/2888] Building X86GenInstrInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+47.76user 5.77system 0:09.44elapsed 566%CPU (0avgtext+0avgdata 418576maxresident)k
+0inputs+968520outputs (26major+2136076minor)pagefaults 0swaps
