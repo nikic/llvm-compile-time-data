@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[358/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsection.cpp.o
+[359/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionRecord.cpp.o
+[360/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionVisitor.cpp.o
+[361/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolRVASubsection.cpp.o
+[362/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolsSubsection.cpp.o
+[363/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/EnumTables.cpp.o
+[364/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Formatters.cpp.o
+[365/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/GlobalTypeTableBuilder.cpp.o
+[366/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/LazyRandomTypeCollection.cpp.o
+[367/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Line.cpp.o
+[368/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/MergingTypeTableBuilder.cpp.o
+[369/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordName.cpp.o
+[370/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordSerialization.cpp.o
+[371/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SimpleTypeSerializer.cpp.o
+[372/2891] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDag.cpp.o
+[373/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/StringsAndChecksums.cpp.o
+[374/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[375/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordMapping.cpp.o
+[376/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordHelpers.cpp.o
+[377/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolSerializer.cpp.o
+[378/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeDumpVisitor.cpp.o
+[379/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndexDiscovery.cpp.o
+[380/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndex.cpp.o
+[381/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeHashing.cpp.o
+[382/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordHelpers.cpp.o
+[383/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[384/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[385/2891] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[386/2891] Building CXX object lib/LineEditor/CMakeFiles/LLVMLineEditor.dir/LineEditor.cpp.o
+[387/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ArchitectureSet.cpp.o
+[388/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Architecture.cpp.o
+[389/2891] Linking CXX static library lib/libLLVMLineEditor.a
+[390/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/PackedVersion.cpp.o
+[391/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Platform.cpp.o
+[392/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/InterfaceFile.cpp.o
+[393/2891] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[394/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Symbol.cpp.o
+[395/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Target.cpp.o
+[396/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStub.cpp.o
+[397/2891] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubCommon.cpp.o
+[398/2891] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Annotations.cpp.o
+[399/2891] Linking CXX static library lib/libLLVMTextAPI.a
+[400/2891] Linking CXX static library lib/libLLVMMC.a
+[401/2891] Building CXX object lib/WindowsManifest/CMakeFiles/LLVMWindowsManifest.dir/WindowsManifestMerger.cpp.o
+[402/2891] Linking CXX static library lib/libLLVMMCDisassembler.a
+[403/2891] Linking CXX static library lib/libLLVMWindowsManifest.a
+[404/2891] Linking CXX static library lib/libLLVMMCA.a
+[405/2891] Building CXX object utils/PerfectShuffle/CMakeFiles/llvm-PerfectShuffle.dir/PerfectShuffle.cpp.o
+[406/2891] Building CXX object utils/FileCheck/CMakeFiles/FileCheck.dir/FileCheck.cpp.o
+[407/2891] Linking CXX executable bin/llvm-PerfectShuffle
+[408/2891] Building C object utils/count/CMakeFiles/count.dir/count.c.o
+[409/2891] Linking C executable bin/count
+[410/2891] Building CXX object utils/not/CMakeFiles/not.dir/not.cpp.o
+[411/2891] Linking CXX executable bin/FileCheck
+[412/2891] Building CXX object utils/yaml-bench/CMakeFiles/yaml-bench.dir/YAMLBench.cpp.o
+[413/2891] Linking CXX executable bin/not
+[414/2891] Creating export file for LTO
+[415/2891] Creating export file for LLVMgold
+[416/2891] Linking CXX executable bin/yaml-bench
+[417/2891] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o
+FAILED: lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -DGTEST_HAS_TR1_TUPLE=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Testing/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -I/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include -I/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -Wno-suggest-override -std=c++14 -MD -MT lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o -MF lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o.d -o lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/SupportHelpers.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/gtest-param-test.h:193,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/gtest.h:62,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/internal/gmock-internal-utils.h:49,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:53,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/SupportHelpers.cpp:2:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/internal/gtest-param-util-generated.h:57:40: error: missing binary operator before token "("
+   57 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/internal/gtest-param-util-generated.h:5149:41: error: missing binary operator before token "("
+ 5149 | #if defined(__clang__) &&  __has_warning("-Wdeprecated-copy")
+      |                                         ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/SupportHelpers.cpp:2:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:61:40: error: missing binary operator before token "("
+   61 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/SupportHelpers.cpp:2:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:4424:40: error: missing binary operator before token "("
+ 4424 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+[418/2891] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ASTTableGen.cpp.o
+[419/2891] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o
+FAILED: lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -DGTEST_HAS_TR1_TUPLE=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Testing/Support -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -I/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include -I/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -Wno-suggest-override -std=c++14 -MD -MT lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o -MF lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o.d -o lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/gtest-param-test.h:193,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/gtest.h:62,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/internal/gmock-internal-utils.h:49,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:53,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/Error.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/internal/gtest-param-util-generated.h:57:40: error: missing binary operator before token "("
+   57 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googletest/include/gtest/internal/gtest-param-util-generated.h:5149:41: error: missing binary operator before token "("
+ 5149 | #if defined(__clang__) &&  __has_warning("-Wdeprecated-copy")
+      |                                         ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/Error.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:61:40: error: missing binary operator before token "("
+   61 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/SupportHelpers.h:18,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/Error.h:14,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock-matchers.h:4424:40: error: missing binary operator before token "("
+ 4424 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/Error.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock.h:58:40: error: missing binary operator before token "("
+   58 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Testing/Support/Error.h:16,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Testing/Support/Error.cpp:9:
+/root/llvm-compile-time-tracker/llvm-project/llvm/utils/unittest/googlemock/include/gmock/gmock.h:99:40: error: missing binary operator before token "("
+   99 | #if defined(__clang__) && __has_warning("-Wdeprecated-copy")
+      |                                        ^
+[420/2891] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[421/2891] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchTree.cpp.o
+[422/2891] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+176.63user 8.47system 0:34.63elapsed 534%CPU (0avgtext+0avgdata 659964maxresident)k
+128inputs+489368outputs (9major+4846040minor)pagefaults 0swaps
