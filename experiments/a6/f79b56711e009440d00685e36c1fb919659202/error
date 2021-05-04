@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2677/2903] Linking CXX executable bin/apinotes-test
+[2678/2903] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/DiagnosticNames.cpp.o
+[2679/2903] Building CXX object tools/clang/tools/clang-fuzzer/handle-llvm/CMakeFiles/obj.clangHandleLLVM.dir/handle_llvm.cpp.o
+[2680/2903] Linking CXX static library lib/libclangHandleLLVM.a
+[2681/2903] Building CXX object tools/clang/tools/clang-offload-bundler/CMakeFiles/clang-offload-bundler.dir/ClangOffloadBundler.cpp.o
+[2682/2903] Building CXX object tools/clang/tools/diagtool/CMakeFiles/diagtool.dir/TreeView.cpp.o
+[2683/2903] Linking CXX executable bin/clang-format
+[2684/2903] Building CXX object tools/clang/tools/clang-offload-wrapper/CMakeFiles/clang-offload-wrapper.dir/ClangOffloadWrapper.cpp.o
+[2685/2903] Linking CXX executable bin/clang-offload-bundler
+[2686/2903] Building CXX object tools/clang/tools/clang-diff/CMakeFiles/clang-diff.dir/ClangDiff.cpp.o
+[2687/2903] Building CXX object tools/clang/tools/clang-scan-deps/CMakeFiles/clang-scan-deps.dir/ClangScanDeps.cpp.o
+[2688/2903] Building CXX object tools/clang/tools/clang-fuzzer/handle-cxx/CMakeFiles/obj.clangHandleCXX.dir/handle_cxx.cpp.o
+[2689/2903] Linking CXX static library lib/libclangHandleCXX.a
+[2690/2903] Building C object tools/clang/tools/c-index-test/CMakeFiles/c-index-test.dir/c-index-test.c.o
+[2691/2903] Linking CXX executable bin/clang-offload-wrapper
+[2692/2903] Building CXX object tools/clang/tools/clang-import-test/CMakeFiles/clang-import-test.dir/clang-import-test.cpp.o
+[2693/2903] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/driver.cpp.o
+[2694/2903] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1as_main.cpp.o
+[2695/2903] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1_main.cpp.o
+[2696/2903] Building CXX object tools/clang/tools/driver/CMakeFiles/clang.dir/cc1gen_reproducer_main.cpp.o
+[2697/2903] Linking CXX executable bin/diagtool
+[2698/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexCXX.cpp.o
+[2699/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/ARCMigrate.cpp.o
+[2700/2903] Building CXX object tools/clang/tools/c-index-test/CMakeFiles/c-index-test.dir/core_main.cpp.o
+[2701/2903] Building CXX object tools/clang/tools/clang-refactor/CMakeFiles/clang-refactor.dir/ClangRefactor.cpp.o
+[2702/2903] Building CXX object tools/clang/tools/clang-refactor/CMakeFiles/clang-refactor.dir/TestSupport.cpp.o
+[2703/2903] Building CXX object tools/clang/tools/clang-rename/CMakeFiles/clang-rename.dir/ClangRename.cpp.o
+[2704/2903] Linking CXX executable bin/clang-diff
+[2705/2903] Building CXX object tools/clang/tools/clang-shlib/CMakeFiles/clang-cpp.dir/clang-shlib.cpp.o
+[2706/2903] Linking CXX executable bin/clang-scan-deps
+[2707/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXCompilationDatabase.cpp.o
+[2708/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXLoadedDiagnostic.cpp.o
+[2709/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXSourceLocation.cpp.o
+[2710/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXIndexDataConsumer.cpp.o
+[2711/2903] Linking CXX executable bin/clang-import-test
+[2712/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXStoredDiagnostic.cpp.o
+[2713/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXString.cpp.o
+[2714/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXType.cpp.o
+[2715/2903] Linking CXX executable bin/clang-rename
+[2716/2903] Linking CXX executable bin/clang-refactor
+[2717/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexDiagnostic.cpp.o
+[2718/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexer.cpp.o
+[2719/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexCodeCompletion.cpp.o
+[2720/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexHigh.cpp.o
+[2721/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/BuildSystem.cpp.o
+[2722/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexUSRs.cpp.o
+[2723/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndexInclusionStack.cpp.o
+[2724/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/FatalErrorHandler.cpp.o
+[2725/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXComment.cpp.o
+[2726/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CXCursor.cpp.o
+[2727/2903] Building CXX object tools/lli/ChildTarget/CMakeFiles/lli-child-target.dir/ChildTarget.cpp.o
+[2728/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/Indexing.cpp.o
+[2729/2903] Building CXX object tools/llvm-cfi-verify/lib/CMakeFiles/LLVMCFIVerify.dir/FileAnalysis.cpp.o
+[2730/2903] Building CXX object tools/llvm-cfi-verify/lib/CMakeFiles/LLVMCFIVerify.dir/GraphBuilder.cpp.o
+[2731/2903] Linking CXX executable bin/clang-13
+[2732/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/Rewrite.cpp.o
+[2733/2903] Linking CXX static library lib/libLLVMCFIVerify.a
+[2734/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Analysis.cpp.o
+[2735/2903] Creating executable symlink bin/clang
+[2736/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Assembler.cpp.o
+[2737/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Clustering.cpp.o
+[2738/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/BenchmarkResult.cpp.o
+[2739/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/BenchmarkRunner.cpp.o
+[2740/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Error.cpp.o
+[2741/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/CodeTemplate.cpp.o
+[2742/2903] Linking CXX executable bin/lli-child-target
+[2743/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LatencyBenchmarkRunner.cpp.o
+[2744/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/MCInstrDescView.cpp.o
+[2745/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/PerfHelper.cpp.o
+[2746/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/LlvmState.cpp.o
+[2747/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterAliasing.cpp.o
+[2748/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/ParallelSnippetGenerator.cpp.o
+[2749/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/RegisterValue.cpp.o
+[2750/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SchedClassResolution.cpp.o
+[2751/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SerialSnippetGenerator.cpp.o
+[2752/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetFile.cpp.o
+[2753/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetGenerator.cpp.o
+[2754/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/SnippetRepetitor.cpp.o
+[2755/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/UopsBenchmarkRunner.cpp.o
+[2756/2903] Building CXX object tools/llvm-exegesis/lib/CMakeFiles/LLVMExegesis.dir/Target.cpp.o
+[2757/2903] Building CXX object tools/llvm-exegesis/lib/X86/CMakeFiles/LLVMExegesisX86.dir/X86Counter.cpp.o
+[2758/2903] Building CXX object tools/llvm-isel-fuzzer/CMakeFiles/llvm-isel-fuzzer.dir/DummyISelFuzzer.cpp.o
+[2759/2903] Linking CXX static library lib/libLLVMExegesis.a
+[2760/2903] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2761/2903] Building CXX object tools/llvm-isel-fuzzer/CMakeFiles/llvm-isel-fuzzer.dir/llvm-isel-fuzzer.cpp.o
+[2762/2903] Building CXX object tools/llvm-itanium-demangle-fuzzer/CMakeFiles/llvm-itanium-demangle-fuzzer.dir/llvm-itanium-demangle-fuzzer.cpp.o
+[2763/2903] Building CXX object tools/llvm-exegesis/lib/X86/CMakeFiles/LLVMExegesisX86.dir/Target.cpp.o
+[2764/2903] Building CXX object tools/llvm-jitlink/llvm-jitlink-executor/CMakeFiles/llvm-jitlink-executor.dir/llvm-jitlink-executor.cpp.o
+[2765/2903] Linking CXX static library lib/libLLVMExegesisX86.a
+[2766/2903] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/DummyDemanglerFuzzer.cpp.o
+[2767/2903] Building CXX object tools/llvm-microsoft-demangle-fuzzer/CMakeFiles/llvm-microsoft-demangle-fuzzer.dir/llvm-microsoft-demangle-fuzzer.cpp.o
+[2768/2903] Linking CXX executable bin/llvm-jitlink-executor
+[2769/2903] Building ObjcopyOpts.inc...
+[2770/2903] Building InstallNameToolOpts.inc...
+[2771/2903] Building BitcodeStripOpts.inc...
+[2772/2903] Building StripOpts.inc...
+[2773/2903] Building CXX object tools/clang/tools/libclang/CMakeFiles/libclang.dir/CIndex.cpp.o
+[2774/2903] Linking CXX executable bin/llvm-itanium-demangle-fuzzer
+[2775/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/llvm-objcopy.cpp.o
+[2776/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/COFFObjcopy.cpp.o
+[2777/2903] Linking CXX executable bin/llvm-microsoft-demangle-fuzzer
+[2778/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Reader.cpp.o
+[2779/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Object.cpp.o
+[2780/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/COFF/Writer.cpp.o
+[2781/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFConfig.cpp.o
+[2782/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/ELFObjcopy.cpp.o
+[2783/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/ELF/Object.cpp.o
+[2784/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOReader.cpp.o
+[2785/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOObjcopy.cpp.o
+[2786/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/CopyConfig.cpp.o
+[2787/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOLayoutBuilder.cpp.o
+[2788/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/MachOWriter.cpp.o
+[2789/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/MachO/Object.cpp.o
+[2790/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Object.cpp.o
+[2791/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Reader.cpp.o
+[2792/2903] Building ObjdumpOpts.inc...
+FAILED: tools/llvm-objdump/ObjdumpOpts.inc 
+cd /root/llvm-compile-time-tracker/llvm-project-build && /root/llvm-compile-time-tracker/llvm-project-build/bin/llvm-tblgen -gen-opt-parser-defs -I /root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-objdump -I/root/llvm-compile-time-tracker/llvm-project-build/include -I/root/llvm-compile-time-tracker/llvm-project/llvm/include /root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-objdump/ObjdumpOpts.td --write-if-changed -o tools/llvm-objdump/ObjdumpOpts.inc -d tools/llvm-objdump/ObjdumpOpts.inc.d
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/llvm-objdump/ObjdumpOpts.td:11:1: error: expected name for ClassID
+<<<<<<< Updated upstream
+^
+[2793/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/Writer.cpp.o
+[2794/2903] Building CXX object tools/llvm-objcopy/CMakeFiles/llvm-objcopy.dir/wasm/WasmObjcopy.cpp.o
+[2795/2903] Linking CXX executable bin/llvm-isel-fuzzer
+[2796/2903] Linking CXX shared library lib/libclang.so.13
+[2797/2903] Linking CXX shared library lib/libclang-cpp.so.13git
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+146.17user 17.87system 0:28.83elapsed 569%CPU (0avgtext+0avgdata 691300maxresident)k
+0inputs+6549064outputs (1755major+6909974minor)pagefaults 0swaps
