@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1825/2914] Linking CXX static library lib/libLLVMLibDriver.a
+[1826/2914] Linking CXX static library lib/libLLVMCoverage.a
+[1827/2914] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1828/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1829/2914] Linking CXX static library lib/libLLVMXRay.a
+[1830/2914] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1831/2914] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1832/2914] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘ld_plugin_status onload(ld_plugin_tv*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:442:48: warning: cast between incompatible function types from ‘ld_plugin_message’ {aka ‘ld_plugin_status (*)(int, const char*, ...)’} to ‘ld_plugin_get_wrap_symbols’ {aka ‘ld_plugin_status (*)(long unsigned int*, const char***)’} [-Wcast-function-type]
+  442 |           (ld_plugin_get_wrap_symbols)tv->tv_u.tv_message;
+      |                                                ^~~~~~~~~~
+[1833/2914] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1834/2914] Copying clang's tmmintrin.h...
+[1835/2914] Copying clang's tsxldtrkintrin.h...
+[1836/2914] Copying clang's tgmath.h...
+[1837/2914] Linking CXX static library lib/libLLVMX86Desc.a
+[1838/2914] Copying clang's vadefs.h...
+[1839/2914] Copying clang's uintrintrin.h...
+[1840/2914] Copying clang's unwind.h...
+[1841/2914] Copying clang's vaesintrin.h...
+[1842/2914] Copying clang's varargs.h...
+[1843/2914] Copying clang's vecintrin.h...
+[1844/2914] Copying clang's wasm_simd128.h...
+[1845/2914] Copying clang's vpclmulqdqintrin.h...
+[1846/2914] Copying clang's waitpkgintrin.h...
+[1847/2914] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1848/2914] Copying clang's wbnoinvdintrin.h...
+[1849/2914] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o
+FAILED: lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/Passes -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o -MF lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o.d -o lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp: In function ‘LLVMOpaqueError* LLVMRunPasses(LLVMModuleRef, const char*, LLVMTargetMachineRef, LLVMPassBuilderOptionsRef)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:56:59: error: no matching function for call to ‘llvm::PassBuilder::PassBuilder(bool&, llvm::TargetMachine*&, llvm::PipelineTuningOptions&, const llvm::NoneType&, llvm::PassInstrumentationCallbacks*)’
+   56 |   PassBuilder PB(Debug, Machine, PassOpts->PTO, None, &PIC);
+      |                                                           ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:16:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:269:12: note: candidate: ‘llvm::PassBuilder::PassBuilder(llvm::TargetMachine*, llvm::PipelineTuningOptions, llvm::Optional<llvm::PGOOptions>, llvm::PassInstrumentationCallbacks*)’
+  269 |   explicit PassBuilder(TargetMachine *TM = nullptr,
+      |            ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:269:12: note:   candidate expects 4 arguments, 5 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:139:7: note: candidate: ‘llvm::PassBuilder::PassBuilder(const llvm::PassBuilder&)’
+  139 | class PassBuilder {
+      |       ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:139:7: note:   candidate expects 1 argument, 5 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:139:7: note: candidate: ‘llvm::PassBuilder::PassBuilder(llvm::PassBuilder&&)’
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:139:7: note:   candidate expects 1 argument, 5 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:58:32: error: no matching function for call to ‘llvm::AnalysisManager<llvm::Loop, llvm::LoopStandardAnalysisResults&>::AnalysisManager(bool&)’
+   58 |   LoopAnalysisManager LAM(Debug);
+      |                                ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Verifier.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager(llvm::AnalysisManager<IRUnitT, ExtraArgTs>&&) [with IRUnitT = llvm::Loop; ExtraArgTs = {llvm::LoopStandardAnalysisResults&}]’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:19: note:   no known conversion for argument 1 from ‘bool’ to ‘llvm::AnalysisManager<llvm::Loop, llvm::LoopStandardAnalysisResults&>&&’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |                   ^~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager() [with IRUnitT = llvm::Loop; ExtraArgTs = {llvm::LoopStandardAnalysisResults&}]’
+  735 |   AnalysisManager();
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note:   candidate expects 0 arguments, 1 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:59:36: error: no matching function for call to ‘llvm::AnalysisManager<llvm::Function>::AnalysisManager(bool&)’
+   59 |   FunctionAnalysisManager FAM(Debug);
+      |                                    ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Verifier.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager(llvm::AnalysisManager<IRUnitT, ExtraArgTs>&&) [with IRUnitT = llvm::Function; ExtraArgTs = {}]’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:19: note:   no known conversion for argument 1 from ‘bool’ to ‘llvm::AnalysisManager<llvm::Function>&&’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |                   ^~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager() [with IRUnitT = llvm::Function; ExtraArgTs = {}]’
+  735 |   AnalysisManager();
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note:   candidate expects 0 arguments, 1 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:60:34: error: no matching function for call to ‘llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>::AnalysisManager(bool&)’
+   60 |   CGSCCAnalysisManager CGAM(Debug);
+      |                                  ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Verifier.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager(llvm::AnalysisManager<IRUnitT, ExtraArgTs>&&) [with IRUnitT = llvm::LazyCallGraph::SCC; ExtraArgTs = {llvm::LazyCallGraph&}]’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:19: note:   no known conversion for argument 1 from ‘bool’ to ‘llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&&’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |                   ^~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager() [with IRUnitT = llvm::LazyCallGraph::SCC; ExtraArgTs = {llvm::LazyCallGraph&}]’
+  735 |   AnalysisManager();
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note:   candidate expects 0 arguments, 1 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:61:34: error: no matching function for call to ‘llvm::AnalysisManager<llvm::Module>::AnalysisManager(bool&)’
+   61 |   ModuleAnalysisManager MAM(Debug);
+      |                                  ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Verifier.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager(llvm::AnalysisManager<IRUnitT, ExtraArgTs>&&) [with IRUnitT = llvm::Module; ExtraArgTs = {}]’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:736:19: note:   no known conversion for argument 1 from ‘bool’ to ‘llvm::AnalysisManager<llvm::Module>&&’
+  736 |   AnalysisManager(AnalysisManager &&);
+      |                   ^~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note: candidate: ‘llvm::AnalysisManager<IRUnitT, ExtraArgTs>::AnalysisManager() [with IRUnitT = llvm::Module; ExtraArgTs = {}]’
+  735 |   AnalysisManager();
+      |   ^~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:735:3: note:   candidate expects 0 arguments, 1 provided
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:70:30: error: no matching function for call to ‘llvm::PassManager<llvm::Module>::PassManager(bool&)’
+   70 |   ModulePassManager MPM(Debug);
+      |                              ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Verifier.h:24,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilderBindings.cpp:15:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:476:3: note: candidate: ‘llvm::PassManager<IRUnitT, AnalysisManagerT, ExtraArgTs>::PassManager(llvm::PassManager<IRUnitT, AnalysisManagerT, ExtraArgTs>&&) [with IRUnitT = llvm::Module; AnalysisManagerT = llvm::AnalysisManager<llvm::Module>; ExtraArgTs = {}]’
+  476 |   PassManager(PassManager &&Arg) : Passes(std::move(Arg.Passes)) {}
+      |   ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:476:29: note:   no known conversion for argument 1 from ‘bool’ to ‘llvm::PassManager<llvm::Module>&&’
+  476 |   PassManager(PassManager &&Arg) : Passes(std::move(Arg.Passes)) {}
+      |               ~~~~~~~~~~~~~~^~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:470:12: note: candidate: ‘llvm::PassManager<IRUnitT, AnalysisManagerT, ExtraArgTs>::PassManager() [with IRUnitT = llvm::Module; AnalysisManagerT = llvm::AnalysisManager<llvm::Module>; ExtraArgTs = {}]’
+  470 |   explicit PassManager() {}
+      |            ^~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:470:12: note:   candidate expects 0 arguments, 1 provided
+[1850/2914] Copying clang's wmmintrin.h...
+[1851/2914] Copying clang's __wmmintrin_aes.h...
+[1852/2914] Copying clang's __wmmintrin_pclmul.h...
+[1853/2914] Linking CXX static library lib/libLLVMX86CodeGen.a
+[1854/2914] Linking CXX executable bin/llvm-ar
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+51.88user 6.51system 0:10.17elapsed 573%CPU (0avgtext+0avgdata 418592maxresident)k
+0inputs+1089496outputs (46major+2604790minor)pagefaults 0swaps
