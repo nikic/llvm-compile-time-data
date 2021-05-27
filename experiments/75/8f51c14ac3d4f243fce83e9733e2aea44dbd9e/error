@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1917/2914] Linking CXX static library lib/libLLVMCoroutines.a
+[1918/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[1919/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[1920/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterBankInfo.cpp.o
+[1921/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[1922/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[1923/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[1924/2914] Linking CXX static library lib/libLLVMCodeGen.a
+[1925/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[1926/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[1927/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[1928/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[1929/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[1930/2914] Linking CXX static library lib/libLLVMInterpreter.a
+[1931/2914] Linking CXX static library lib/libLLVMMIRParser.a
+[1932/2914] Linking CXX static library lib/libLLVMAsmPrinter.a
+[1933/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[1934/2914] Linking CXX static library lib/libLLVMDWARFLinker.a
+[1935/2914] Linking CXX static library lib/libLLVMSelectionDAG.a
+[1936/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[1937/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86VZeroUpper.cpp.o
+[1938/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinAllocaExpander.cpp.o
+[1939/2914] Linking CXX static library lib/libLLVMGlobalISel.a
+[1940/2914] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertWait.cpp.o
+[1941/2914] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[1942/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[1943/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[1944/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[1945/2914] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[1946/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[1947/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[1948/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[1949/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[1950/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[1951/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[1952/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[1953/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[1954/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[1955/2914] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[1956/2914] Linking CXX static library lib/libLLVMX86Info.a
+[1957/2914] Linking CXX static library lib/libLLVMLibDriver.a
+[1958/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[1959/2914] Linking CXX static library lib/libLLVMCoverage.a
+[1960/2914] Building CXX object tools/lto/CMakeFiles/LTO.dir/LTODisassembler.cpp.o
+[1961/2914] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[1962/2914] Linking CXX static library lib/libLLVMX86Disassembler.a
+[1963/2914] Building CXX object tools/lto/CMakeFiles/LTO.dir/lto.cpp.o
+[1964/2914] Linking CXX static library lib/libLLVMXRay.a
+[1965/2914] Building CXX object tools/gold/CMakeFiles/LLVMgold.dir/gold-plugin.cpp.o
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp: In function ‘ld_plugin_status onload(ld_plugin_tv*)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/tools/gold/gold-plugin.cpp:442:48: warning: cast between incompatible function types from ‘ld_plugin_message’ {aka ‘ld_plugin_status (*)(int, const char*, ...)’} to ‘ld_plugin_get_wrap_symbols’ {aka ‘ld_plugin_status (*)(long unsigned int*, const char***)’} [-Wcast-function-type]
+  442 |           (ld_plugin_get_wrap_symbols)tv->tv_u.tv_message;
+      |                                                ^~~~~~~~~~
+[1966/2914] Building CXX object tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar.cpp.o
+[1967/2914] Linking CXX static library lib/libLLVMX86Desc.a
+[1968/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPConditionalDirectiveRecord.cpp.o
+[1969/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPCallbacks.cpp.o
+[1970/2914] Linking CXX static library lib/libLLVMPasses.a
+[1971/2914] Linking CXX static library lib/libLLVMX86AsmParser.a
+[1972/2914] Linking CXX static library lib/libLLVMLTO.a
+[1973/2914] Linking CXX static library lib/libLLVMOrcJIT.a
+[1974/2914] Linking CXX static library lib/libLLVMX86CodeGen.a
+[1975/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPExpressions.cpp.o
+[1976/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPDirectives.cpp.o
+[1977/2914] Linking CXX executable bin/lli-child-target
+[1978/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPLexerChange.cpp.o
+[1979/2914] Linking CXX executable bin/llvm-ar
+[1980/2914] Generating ../../bin/llvm-dlltool
+[1981/2914] Generating ../../bin/llvm-lib
+[1982/2914] Generating ../../bin/llvm-ranlib
+[1983/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PPMacroExpansion.cpp.o
+[1984/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Pragma.cpp.o
+[1985/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/ScratchBuffer.cpp.o
+[1986/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessorLexer.cpp.o
+[1987/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenConcatenation.cpp.o
+[1988/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/TokenLexer.cpp.o
+[1989/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+[1990/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseAST.cpp.o
+[1991/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+[1992/2914] Linking CXX shared library lib/libLTO.so.13git
+[1993/2914] Creating library symlink lib/libLTO.so
+[1994/2914] Linking CXX shared module lib/LLVMgold.so
+[1995/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+[1996/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExpr.cpp.o
+[1997/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o
+FAILED: tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Lex -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o -MF tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o.d -o tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/PreprocessingRecord.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/PreprocessingRecord.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/PreprocessingRecord.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:542:31: warning: comma-separated list in using-declaration only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  542 |     using PPCallbacks::Elifdef, PPCallback::Elifndef;
+      |                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:542:33: error: ‘PPCallback’ has not been declared
+  542 |     using PPCallbacks::Elifdef, PPCallback::Elifndef;
+      |                                 ^~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:20,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/PreprocessingRecord.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PPCallbacks.h:390:16: warning: ‘virtual void clang::PPCallbacks::Elifndef(clang::SourceLocation, clang::SourceRange, clang::SourceLocation)’ was hidden [-Woverloaded-virtual]
+  390 |   virtual void Elifndef(SourceLocation Loc, SourceRange ConditionRange,
+      |                ^~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/PreprocessingRecord.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:545:10: warning:   by ‘virtual void clang::PreprocessingRecord::Elifndef(clang::SourceLocation, const clang::Token&, const clang::MacroDefinition&)’ [-Woverloaded-virtual]
+  545 |     void Elifndef(SourceLocation Loc, const Token &MacroNameTok,
+      |          ^~~~~~~~
+[1998/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o
+[1999/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseInit.cpp.o
+[2000/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseObjc.cpp.o
+[2001/2914] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenMP.cpp.o
+[2002/2914] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o
+FAILED: tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Lex -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o -MF tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o.d -o tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/Preprocessor.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Preprocessor.cpp
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Preprocessor.cpp:48:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:542:31: warning: comma-separated list in using-declaration only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  542 |     using PPCallbacks::Elifdef, PPCallback::Elifndef;
+      |                               ^
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:542:33: error: ‘PPCallback’ has not been declared
+  542 |     using PPCallbacks::Elifdef, PPCallback::Elifndef;
+      |                                 ^~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/Preprocessor.h:29,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Preprocessor.cpp:27:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PPCallbacks.h:390:16: warning: ‘virtual void clang::PPCallbacks::Elifndef(clang::SourceLocation, clang::SourceRange, clang::SourceLocation)’ was hidden [-Woverloaded-virtual]
+  390 |   virtual void Elifndef(SourceLocation Loc, SourceRange ConditionRange,
+      |                ^~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Lex/Preprocessor.cpp:48:
+/root/llvm-compile-time-tracker/llvm-project/clang/include/clang/Lex/PreprocessingRecord.h:545:10: warning:   by ‘virtual void clang::PreprocessingRecord::Elifndef(clang::SourceLocation, const clang::Token&, const clang::MacroDefinition&)’ [-Woverloaded-virtual]
+  545 |     void Elifndef(SourceLocation Loc, const Token &MacroNameTok,
+      |          ^~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+55.88user 7.34system 0:11.91elapsed 530%CPU (0avgtext+0avgdata 422912maxresident)k
+0inputs+1597640outputs (294major+2808698minor)pagefaults 0swaps
