@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2352/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GlobalModuleIndex.cpp.o
+[2353/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GeneratePCH.cpp.o
+[2354/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/PCHContainerOperations.cpp.o
+[2355/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReaderDecl.cpp.o
+[2356/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleManager.cpp.o
+[2357/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriter.cpp.o
+[2358/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedDiagnosticConsumer.cpp.o
+[2359/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTMerge.cpp.o
+[2360/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedIncludesSource.cpp.o
+[2361/2915] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTReader.cpp.o
+[2362/2915] Linking CXX static library lib/libclangSerialization.a
+[2363/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTUnit.cpp.o
+[2364/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInstance.cpp.o
+[2365/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTConsumers.cpp.o
+[2366/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyGraph.cpp.o
+[2367/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CreateInvocationFromCommandLine.cpp.o
+[2368/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DiagnosticRenderer.cpp.o
+[2369/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendOptions.cpp.o
+[2370/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/HeaderIncludeGen.cpp.o
+[2371/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyFile.cpp.o
+[2372/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InitHeaderSearch.cpp.o
+[2373/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LayoutOverrideSource.cpp.o
+[2374/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LogDiagnosticPrinter.cpp.o
+[2375/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/MultiplexConsumer.cpp.o
+[2376/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendAction.cpp.o
+[2377/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InitPreprocessor.cpp.o
+[2378/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendActions.cpp.o
+[2379/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ModuleDependencyCollector.cpp.o
+[2380/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o
+[2381/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticReader.cpp.o
+[2382/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrintPreprocessedOutput.cpp.o
+[2383/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticBuffer.cpp.o
+[2384/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticPrinter.cpp.o
+[2385/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticPrinter.cpp.o
+[2386/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnostic.cpp.o
+[2387/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/FixItRewriter.cpp.o
+[2388/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrecompiledPreamble.cpp.o
+[2389/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/VerifyDiagnosticConsumer.cpp.o
+[2390/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TestModuleFileExtension.cpp.o
+[2391/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/HTMLPrint.cpp.o
+[2392/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteMacros.cpp.o
+[2393/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/InclusionRewriter.cpp.o
+[2394/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteTest.cpp.o
+[2395/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteModernObjC.cpp.o
+[2396/2915] Building CXX object tools/clang/lib/Tooling/Core/CMakeFiles/obj.clangToolingCore.dir/Diagnostic.cpp.o
+[2397/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteObjC.cpp.o
+[2398/2915] Building CXX object tools/clang/lib/Tooling/Inclusions/CMakeFiles/obj.clangToolingInclusions.dir/IncludeStyle.cpp.o
+[2399/2915] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/FrontendActions.cpp.o
+[2400/2915] Building CXX object tools/clang/lib/Tooling/Core/CMakeFiles/obj.clangToolingCore.dir/Replacement.cpp.o
+[2401/2915] Linking CXX static library lib/libclangToolingCore.a
+[2402/2915] Building CXX object tools/clang/lib/Tooling/Inclusions/CMakeFiles/obj.clangToolingInclusions.dir/HeaderIncludes.cpp.o
+[2403/2915] Linking CXX static library lib/libclangToolingInclusions.a
+[2404/2915] Building CXX object tools/clang/lib/FrontendTool/CMakeFiles/obj.clangFrontendTool.dir/ExecuteCompilerInvocation.cpp.o
+[2405/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/ASTSelectionRequirements.cpp.o
+[2406/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Extract/SourceExtraction.cpp.o
+[2407/2915] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InterfaceStubFunctionsConsumer.cpp.o
+[2408/2915] Linking CXX static library lib/libclangFrontend.a
+[2409/2915] Linking CXX static library lib/libclangCodeGen.a
+[2410/2915] Linking CXX static library lib/libclangRewriteFrontend.a
+[2411/2915] Linking CXX static library lib/libclangFrontendTool.a
+[2412/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Extract/Extract.cpp.o
+[2413/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Lookup.cpp.o
+[2414/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/SymbolOccurrences.cpp.o
+[2415/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/AtomicChange.cpp.o
+[2416/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/RefactoringActions.cpp.o
+[2417/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/ASTSelection.cpp.o
+[2418/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/RenamingAction.cpp.o
+[2419/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRFindingAction.cpp.o
+[2420/2915] Building CXX object tools/clang/lib/Tooling/ASTDiff/CMakeFiles/obj.clangToolingASTDiff.dir/ASTDiff.cpp.o
+[2421/2915] Linking CXX static library lib/libclangToolingASTDiff.a
+[2422/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRFinder.cpp.o
+[2423/2915] Building CXX object tools/clang/lib/Tooling/DumpTool/CMakeFiles/clang-ast-dump.dir/ClangSrcLocDump.cpp.o
+[2424/2915] Building CXX object tools/clang/lib/Tooling/DumpTool/CMakeFiles/clang-ast-dump.dir/ASTSrcLocProcessor.cpp.o
+[2425/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/ComputeReplacements.cpp.o
+[2426/2915] Linking CXX executable bin/clang-ast-dump
+[2427/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Nodes.cpp.o
+[2428/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Mutations.cpp.o
+[2429/2915] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRLocFinder.cpp.o
+[2430/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Synthesis.cpp.o
+[2431/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Tree.cpp.o
+[2432/2915] ASTNodeAPI.json
+[2433/2915] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningService.cpp.o
+[2434/2915] NodeIntrospection.inc
+[2435/2915] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningFilesystem.cpp.o
+[2436/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/Tokens.cpp.o
+[2437/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CommonOptionsParser.cpp.o
+[2438/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ArgumentsAdjusters.cpp.o
+[2439/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/CompilationDatabase.cpp.o
+[2440/2915] Building CXX object tools/clang/lib/Tooling/Syntax/CMakeFiles/obj.clangToolingSyntax.dir/BuildTree.cpp.o
+[2441/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/AllTUsExecution.cpp.o
+[2442/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/ExpandResponseFilesCompilationDatabase.cpp.o
+[2443/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FileMatchTrie.cpp.o
+[2444/2915] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningWorker.cpp.o
+[2445/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/FixIt.cpp.o
+[2446/2915] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningTool.cpp.o
+[2447/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/InterpolatingCompilationDatabase.cpp.o
+[2448/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Execution.cpp.o
+[2449/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/GuessTargetAndModeCompilationDatabase.cpp.o
+[2450/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/JSONCompilationDatabase.cpp.o
+[2451/2915] Linking CXX static library lib/libclangToolingSyntax.a
+[2452/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Refactoring.cpp.o
+[2453/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/StandaloneExecution.cpp.o
+[2454/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/NodeIntrospection.cpp.o
+[2455/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/Tooling.cpp.o
+[2456/2915] Building CXX object tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/RefactoringCallbacks.cpp.o
+[2457/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Parsing.cpp.o
+[2458/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/SourceCodeBuilders.cpp.o
+[2459/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/SourceCode.cpp.o
+[2460/2915] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/ModuleDepCollector.cpp.o
+[2461/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/RangeSelector.cpp.o
+[2462/2915] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/DirectoryScanner.cpp.o
+[2463/2915] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o
+FAILED: tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/DirectoryWatcher -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/DirectoryWatcher -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o -MF tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o.d -o tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/DirectoryWatcher/linux/DirectoryWatcher-linux.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/DirectoryWatcher/linux/DirectoryWatcher-linux.cpp: In member function ‘void {anonymous}::DirectoryWatcherLinux::InotifyPollingLoop()’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/DirectoryWatcher/linux/DirectoryWatcher-linux.cpp:178:44: error: ‘NAME_MAX’ was not declared in this scope
+  178 |       30 * (sizeof(struct inotify_event) + NAME_MAX + 1);
+      |                                            ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/DirectoryWatcher/linux/DirectoryWatcher-linux.cpp:187:47: error: size of array ‘buffer’ is not an integral constant-expression
+  187 |     alignas(struct inotify_event) char buffer[EventBufferLength];
+      |                                               ^~~~~~~~~~~~~~~~~
+[2464/2915] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/FileIndexRecord.cpp.o
+[2465/2915] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/CommentToXML.cpp.o
+[2466/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/RewriteRule.cpp.o
+[2467/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Transformer.cpp.o
+[2468/2915] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Stencil.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+7146.50user 303.51system 20:48.43elapsed 596%CPU (0avgtext+0avgdata 2015468maxresident)k
+8inputs+17373400outputs (413major+190842093minor)pagefaults 0swaps
