@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[1081/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/ELFAsmParser.cpp.o
+[1082/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/DarwinAsmParser.cpp.o
+[1083/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCTargetAsmParser.cpp.o
+[1084/2916] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCDisassembler.cpp.o
+[1085/2916] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCRelocationInfo.cpp.o
+[1086/2916] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCSymbolizer.cpp.o
+[1087/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/CodeEmitter.cpp.o
+[1088/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Context.cpp.o
+[1089/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HWEventListener.cpp.o
+[1090/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/HardwareUnit.cpp.o
+[1091/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/LSUnit.cpp.o
+[1092/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RegisterFile.cpp.o
+[1093/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/ResourceManager.cpp.o
+[1094/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/RetireControlUnit.cpp.o
+[1095/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/HardwareUnits/Scheduler.cpp.o
+[1096/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/InstrBuilder.cpp.o
+[1097/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Instruction.cpp.o
+[1098/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Pipeline.cpp.o
+[1099/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/DispatchStage.cpp.o
+[1100/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/EntryStage.cpp.o
+[1101/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/ExecuteStage.cpp.o
+[1102/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InOrderIssueStage.cpp.o
+[1103/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/InstructionTables.cpp.o
+[1104/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/MicroOpQueueStage.cpp.o
+[1105/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/RetireStage.cpp.o
+[1106/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Stages/Stage.cpp.o
+[1107/2916] Building CXX object lib/MCA/CMakeFiles/LLVMMCA.dir/Support.cpp.o
+[1108/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Archive.cpp.o
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/Object/Archive.cpp:13:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Object/Archive.h: In member function ‘llvm::object::Archive::child_iterator llvm::object::Archive::child_end() const’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Object/Archive.h:147:48: warning: ‘*((void*)&<anonymous> +40)’ is used uninitialized in this function [-Wuninitialized]
+  147 |     ChildFallibleIterator(const Child &C) : C(C) {}
+      |                                                ^
+[1109/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ArchiveWriter.cpp.o
+[1110/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/WasmAsmParser.cpp.o
+[1111/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Binary.cpp.o
+[1112/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFModuleDefinition.cpp.o
+[1113/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFImportFile.cpp.o
+[1114/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFObjectFile.cpp.o
+[1115/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Decompressor.cpp.o
+[1116/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELF.cpp.o
+[1117/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELFObjectFile.cpp.o
+[1118/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Error.cpp.o
+[1119/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/FaultMapParser.cpp.o
+[1120/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRObjectFile.cpp.o
+[1121/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/IRSymtab.cpp.o
+[1122/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOObjectFile.cpp.o
+[1123/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOUniversal.cpp.o
+[1124/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Minidump.cpp.o
+[1125/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Object.cpp.o
+[1126/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ObjectFile.cpp.o
+[1127/2916] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/Disassembler.cpp.o
+[1128/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RelocationResolver.cpp.o
+[1129/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolicFile.cpp.o
+[1130/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/SymbolSize.cpp.o
+[1131/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiFile.cpp.o
+[1132/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/TapiUniversal.cpp.o
+[1133/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/MachOUniversalWriter.cpp.o
+[1134/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WasmObjectFile.cpp.o
+[1135/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsMachineFlag.cpp.o
+[1136/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/WindowsResource.cpp.o
+[1137/2916] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCExternalSymbolizer.cpp.o
+[1138/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[1139/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ArchiveYAML.cpp.o
+[1140/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLDebugSections.cpp.o
+[1141/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLSymbols.cpp.o
+[1142/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLTypeHashing.cpp.o
+[1143/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/CodeViewYAMLTypes.cpp.o
+[1144/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ArchiveEmitter.cpp.o
+[1145/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFYAML.cpp.o
+[1146/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DWARFEmitter.cpp.o
+[1147/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DWARFYAML.cpp.o
+[1148/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/XCOFFObjectFile.cpp.o
+[1149/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/RecordStreamer.cpp.o
+[1150/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ELFYAML.cpp.o
+[1151/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOYAML.cpp.o
+[1152/2916] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ModuleSymbolTable.cpp.o
+[1153/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MinidumpEmitter.cpp.o
+[1154/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MinidumpYAML.cpp.o
+[1155/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o
+[1156/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/WasmYAML.cpp.o
+[1157/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o
+[1158/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o
+[1159/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/YAML.cpp.o
+[1160/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFYAML.cpp.o
+[1161/2916] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Arg.cpp.o
+[1162/2916] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[1163/2916] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Option.cpp.o
+[1164/2916] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[1165/2916] Linking CXX static library lib/libLLVMOption.a
+[1166/2916] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkParser.cpp.o
+[1167/2916] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkSerializer.cpp.o
+[1168/2916] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/Remark.cpp.o
+[1169/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Ilib/ObjectYAML -I/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/XCOFFEmitter.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/XCOFFEmitter.cpp
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/XCOFFEmitter.cpp: In constructor ‘{anonymous}::XCOFFWriter::XCOFFWriter(llvm::XCOFFYAML::Object&, llvm::raw_ostream&, llvm::yaml::ErrorHandler)’:
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/XCOFFEmitter.cpp:35:32: error: ambiguous overload for ‘operator==’ (operand types are ‘llvm::yaml::Hex16’ and ‘llvm::XCOFF::MagicNumber’)
+   35 |     Is64Bit = Obj.Header.Magic == XCOFF::XCOFF64;
+      |               ~~~~~~~~~~~~~~~~ ^~ ~~~~~~~~~~~~~~
+      |                          |               |
+      |                          |               llvm::XCOFF::MagicNumber
+      |                          llvm::yaml::Hex16
+/root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/XCOFFEmitter.cpp:35:32: note: candidate: ‘operator==(int, int)’ <built-in>
+   35 |     Is64Bit = Obj.Header.Magic == XCOFF::XCOFF64;
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ArchiveYAML.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:12,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/XCOFFEmitter.cpp:17:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/YAMLTraits.h:1676:14: note: candidate: ‘bool llvm::yaml::Hex16::operator==(const llvm::yaml::Hex16&) const’
+ 1676 |         bool operator==(const _type &rhs) const { return value == rhs.value; } \
+      |              ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/YAMLTraits.h:1688:1: note: in expansion of macro ‘LLVM_YAML_STRONG_TYPEDEF’
+ 1688 | LLVM_YAML_STRONG_TYPEDEF(uint16_t, Hex16)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/YAMLTraits.h:1677:14: note: candidate: ‘bool llvm::yaml::Hex16::operator==(const uint16_t&) const’
+ 1677 |         bool operator==(const _base &rhs) const { return value == rhs; }       \
+      |              ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/YAMLTraits.h:1688:1: note: in expansion of macro ‘LLVM_YAML_STRONG_TYPEDEF’
+ 1688 | LLVM_YAML_STRONG_TYPEDEF(uint16_t, Hex16)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+[1170/2916] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkFormat.cpp.o
+[1171/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/WasmEmitter.cpp.o
+[1172/2916] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MasmParser.cpp.o
+[1173/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/yaml2obj.cpp.o
+[1174/2916] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ELFEmitter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+389.18user 19.44system 1:09.94elapsed 584%CPU (0avgtext+0avgdata 908972maxresident)k
+0inputs+1132992outputs (13major+10894026minor)pagefaults 0swaps
