@@ -1,0 +1,146 @@
+MESSAGE: Execution of "./build_llvm_project.sh" failed
+
+STDOUT:
+[2428/2918] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/SourceCodeBuilders.cpp.o
+[2429/2918] Building CXX object tools/clang/lib/Tooling/Refactoring/CMakeFiles/obj.clangToolingRefactoring.dir/Rename/USRFindingAction.cpp.o
+[2430/2918] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Stencil.cpp.o
+[2431/2918] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/DirectoryScanner.cpp.o
+[2432/2918] Building CXX object tools/clang/lib/Tooling/Transformer/CMakeFiles/obj.clangTransformer.dir/Transformer.cpp.o
+[2433/2918] Building CXX object tools/clang/lib/DirectoryWatcher/CMakeFiles/obj.clangDirectoryWatcher.dir/linux/DirectoryWatcher-linux.cpp.o
+[2434/2918] Linking CXX static library lib/libclangDirectoryWatcher.a
+[2435/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/CommentToXML.cpp.o
+[2436/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/FileIndexRecord.cpp.o
+[2437/2918] Building CXX object tools/clang/lib/Tooling/DumpTool/CMakeFiles/clang-ast-dump.dir/ClangSrcLocDump.cpp.o
+[2438/2918] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningWorker.cpp.o
+[2439/2918] Building CXX object tools/clang/lib/Tooling/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/ModuleDepCollector.cpp.o
+[2440/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexSymbol.cpp.o
+[2441/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexDecl.cpp.o
+[2442/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/USRGeneration.cpp.o
+[2443/2918] Building CXX object tools/clang/lib/IndexSerialization/CMakeFiles/obj.clangIndexSerialization.dir/SerializablePathCollection.cpp.o
+[2444/2918] Linking CXX static library lib/libclangIndexSerialization.a
+[2445/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexingContext.cpp.o
+[2446/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexBody.cpp.o
+[2447/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/APSIntType.cpp.o
+[2448/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/AnalyzerOptions.cpp.o
+[2449/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BasicValueFactory.cpp.o
+[2450/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BlockCounter.cpp.o
+[2451/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexingAction.cpp.o
+[2452/2918] Building CXX object tools/clang/lib/Index/CMakeFiles/obj.clangIndex.dir/IndexTypeSourceInfo.cpp.o
+[2453/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/Checker.cpp.o
+[2454/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/AnalysisManager.cpp.o
+[2455/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BugReporter.cpp.o
+[2456/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CallEvent.cpp.o
+[2457/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CheckerRegistryData.cpp.o
+[2458/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CommonBugCategories.cpp.o
+[2459/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ConstraintManager.cpp.o
+[2460/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CheckerHelpers.cpp.o
+[2461/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/DynamicExtent.cpp.o
+[2462/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/BugReporterVisitors.cpp.o
+[2463/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/DynamicType.cpp.o
+[2464/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CheckerContext.cpp.o
+[2465/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/Environment.cpp.o
+[2466/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CheckerManager.cpp.o
+[2467/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/CoreEngine.cpp.o
+[2468/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExplodedGraph.cpp.o
+[2469/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExprEngine.cpp.o
+[2470/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExprEngineC.cpp.o
+[2471/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/FunctionSummary.cpp.o
+[2472/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExprEngineCXX.cpp.o
+[2473/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/LoopWidening.cpp.o
+[2474/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/MemRegion.cpp.o
+[2475/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExprEngineCallAndReturn.cpp.o
+[2476/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/HTMLDiagnostics.cpp.o
+[2477/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/RangeConstraintManager.cpp.o
+[2478/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ExprEngineObjC.cpp.o
+[2479/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/RangedConstraintManager.cpp.o
+[2480/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/PlistDiagnostics.cpp.o
+[2481/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/LoopUnrolling.cpp.o
+[2482/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/ProgramState.cpp.o
+[2483/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SMTConstraintManager.cpp.o
+[2484/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SarifDiagnostics.cpp.o
+[2485/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SimpleConstraintManager.cpp.o
+[2486/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SVals.cpp.o
+[2487/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SymbolManager.cpp.o
+[2488/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SimpleSValBuilder.cpp.o
+[2489/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/RegionStore.cpp.o
+[2490/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/WorkList.cpp.o
+[2491/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/SValBuilder.cpp.o
+[2492/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/Store.cpp.o
+[2493/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/TextDiagnostics.cpp.o
+[2494/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ArrayBoundCheckerV2.cpp.o
+[2495/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/AnalysisOrderChecker.cpp.o
+[2496/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/ArrayBoundChecker.cpp.o
+[2497/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/AnalyzerStatsChecker.cpp.o
+[2498/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/BasicObjCFoundationChecks.cpp.o
+[2499/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/BlockInCriticalSectionChecker.cpp.o
+[2500/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/BoolAssignmentChecker.cpp.o
+[2501/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/BuiltinFunctionChecker.cpp.o
+[2502/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CStringChecker.cpp.o
+[2503/2918] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o
+FAILED: tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes /usr/bin/ccache /usr/bin/c++  -DGTEST_HAS_RTTI=0 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Itools/clang/lib/Sema -I/root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema -I/root/llvm-compile-time-tracker/llvm-project/clang/include -Itools/clang/include -Iinclude -I/root/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -O3 -DNDEBUG    -fno-exceptions -fno-rtti -std=c++14 -MD -MT tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o -MF tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o.d -o tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o -c /root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp: In member function ‘void clang::Sema::CheckArrayAccess(const clang::Expr*, const clang::Expr*, const clang::ArraySubscriptExpr*, bool, bool)’:
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14601:57: error: no matching function for call to ‘llvm::APSInt::toString(int, bool)’
+14601 |                               << index.toString(10, true) << AddrBits
+      |                                                         ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:82:8: note: candidate: ‘void llvm::APSInt::toString(llvm::SmallVectorImpl<char>&, unsigned int) const’
+   82 |   void toString(SmallVectorImpl<char> &Str, unsigned Radix = 10) const {
+      |        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:82:40: note:   no known conversion for argument 1 from ‘int’ to ‘llvm::SmallVectorImpl<char>&’
+   82 |   void toString(SmallVectorImpl<char> &Str, unsigned Radix = 10) const {
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note: candidate: ‘void llvm::APInt::toString(llvm::SmallVectorImpl<char>&, unsigned int, bool, bool) const’
+ 1741 |   void toString(SmallVectorImpl<char> &Str, unsigned Radix, bool Signed,
+      |        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note:   candidate expects 4 arguments, 2 provided
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14603:62: error: no matching function for call to ‘llvm::APInt::toString(int, bool)’
+14603 |                               << ElemBytes.toString(10, false)
+      |                                                              ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note: candidate: ‘void llvm::APInt::toString(llvm::SmallVectorImpl<char>&, unsigned int, bool, bool) const’
+ 1741 |   void toString(SmallVectorImpl<char> &Str, unsigned Radix, bool Signed,
+      |        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note:   candidate expects 4 arguments, 2 provided
+/root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14604:61: error: no matching function for call to ‘llvm::APInt::toString(int, bool)’
+14604 |                               << MaxElems.toString(10, false)
+      |                                                             ^
+In file included from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFixedPoint.h:19,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:17,
+                 from /root/llvm-compile-time-tracker/llvm-project/clang/lib/Sema/SemaChecking.cpp:14:
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note: candidate: ‘void llvm::APInt::toString(llvm::SmallVectorImpl<char>&, unsigned int, bool, bool) const’
+ 1741 |   void toString(SmallVectorImpl<char> &Str, unsigned Radix, bool Signed,
+      |        ^~~~~~~~
+/root/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:1741:8: note:   candidate expects 4 arguments, 2 provided
+[2504/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CastSizeChecker.cpp.o
+[2505/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CallAndMessageChecker.cpp.o
+[2506/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CStringSyntaxChecker.cpp.o
+[2507/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CastValueChecker.cpp.o
+[2508/2918] Building CXX object tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/obj.clangStaticAnalyzerCheckers.dir/CastToStructChecker.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+Command exited with non-zero status 1
+97.21user 13.06system 0:18.88elapsed 583%CPU (0avgtext+0avgdata 783480maxresident)k
+0inputs+3472504outputs (312major+4854504minor)pagefaults 0swaps
