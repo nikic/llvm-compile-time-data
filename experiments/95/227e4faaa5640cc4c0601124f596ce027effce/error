@@ -1,0 +1,133 @@
+MESSAGE: Execution of "./build_llvm_test_suite.sh ReleaseLTO-g "-fno-experimental-new-pass-manager"" failed
+
+STDOUT:
+[403/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o
+[404/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o
+[405/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o
+[406/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o
+[407/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o
+[408/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o
+[409/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o
+[410/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o
+[411/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o
+[412/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+[413/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o
+[414/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o
+[415/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[416/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+[417/650] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[418/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[419/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[420/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[421/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[422/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+[423/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[424/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/condensing.c.o
+[425/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/context.c.o
+[426/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/defs.c.o
+[427/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgparser.c.o
+[428/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgscanner.c.o
+[429/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/doc-proof.c.o
+[430/650] Linking CXX executable CTMark/kimwitu++/kc
+[431/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/flags.c.o
+[432/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/graph.c.o
+[433/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/hash.c.o
+[434/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/hasharray.c.o
+[435/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/iaparser.c.o
+[436/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/foldfg.c.o
+[437/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/iascanner.c.o
+[438/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/kbo.c.o
+[439/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/memory.c.o
+[440/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/misc.c.o
+[441/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/list.c.o
+[442/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/order.c.o
+[443/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/partition.c.o
+[444/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/options.c.o
+[445/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/proofcheck.c.o
+[446/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/renaming.c.o
+[447/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/resolution.c.o
+[448/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rpos.c.o
+[449/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rules-inf.c.o
+[450/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rules-red.c.o
+[451/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rules-split.c.o
+[452/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rules-sort.c.o
+[453/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/rules-ur.c.o
+[454/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/sharing.c.o
+[455/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/search.c.o
+[456/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/st.c.o
+[457/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/stack.c.o
+[458/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/strings.c.o
+[459/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/sort.c.o
+[460/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/subst.c.o
+[461/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/symbol.c.o
+[462/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/table.c.o
+[463/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/terminator.c.o
+[464/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/subsumption.c.o
+[465/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/unify.c.o
+[466/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/vector.c.o
+[467/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_clamscan.c.o
+[468/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_manager.c.o
+[469/650] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/top.c.o
+[470/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_others.c.o
+[471/650] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+FAILED: CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o 
+/root/llvm-compile-time-tracker/llvm-test-suite-build/tools/timeit --summary CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.time /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++  -DNDEBUG  -fno-experimental-new-pass-manager -O3 -fomit-frame-pointer -flto -DNDEBUG -g   -w -Werror=date-time -fno-exceptions -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+PLEASE submit a bug report to https://bugs.llvm.org/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /root/llvm-compile-time-tracker/llvm-project-build/bin/clang++ -DNDEBUG -fno-experimental-new-pass-manager -O3 -fomit-frame-pointer -flto -DNDEBUG -g -w -Werror=date-time -fno-exceptions -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+1.	<eof> parser at end of file
+2.	Per-module optimization passes
+3.	Running pass 'Function Pass Manager' on module '/root/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp'.
+4.	Running pass 'Canonicalize natural loops' on function '@_ZNSt6vectorI6VectorILi3Ed4FullESaIS2_EEaSERKS4_'
+ #0 0x000055dc598023d4 PrintStackTraceSignalHandler(void*) Signals.cpp:0:0
+ #1 0x000055dc597ffef4 llvm::sys::CleanupOnSignal(unsigned long) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1efaef4)
+ #2 0x000055dc59758748 CrashRecoverySignalHandler(int) CrashRecoveryContext.cpp:0:0
+ #3 0x00007fb8bcd363c0 __restore_rt (/lib/x86_64-linux-gnu/libpthread.so.0+0x153c0)
+ #4 0x000055dc598d9824 simplifyOneLoop(llvm::Loop*, llvm::SmallVectorImpl<llvm::Loop*>&, llvm::DominatorTree*, llvm::LoopInfo*, llvm::ScalarEvolution*, llvm::AssumptionCache*, llvm::MemorySSAUpdater*, bool) LoopSimplify.cpp:0:0
+ #5 0x000055dc598dbee0 llvm::simplifyLoop(llvm::Loop*, llvm::DominatorTree*, llvm::LoopInfo*, llvm::ScalarEvolution*, llvm::AssumptionCache*, llvm::MemorySSAUpdater*, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1fd6ee0)
+ #6 0x000055dc598dd3b6 (anonymous namespace)::LoopSimplify::runOnFunction(llvm::Function&) LoopSimplify.cpp:0:0
+ #7 0x000055dc590e4a60 llvm::FPPassManager::runOnFunction(llvm::Function&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x17dfa60)
+ #8 0x000055dc590e4bd9 llvm::FPPassManager::runOnModule(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x17dfbd9)
+ #9 0x000055dc590e6f60 llvm::legacy::PassManagerImpl::run(llvm::Module&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x17e1f60)
+#10 0x000055dc59b04afc (anonymous namespace)::EmitAssemblyHelper::EmitAssembly(clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) BackendUtil.cpp:0:0
+#11 0x000055dc59b07344 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream> >) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2202344)
+#12 0x000055dc5a88877f clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) crtstuff.c:0:0
+#13 0x000055dc5ac6c639 clang::ParseAST(clang::Sema&, bool, bool) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x3367639)
+#14 0x000055dc5a8873c6 clang::CodeGenAction::ExecuteAction() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2f823c6)
+#15 0x000055dc5a1c2cb1 clang::FrontendAction::Execute() (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x28bdcb1)
+#16 0x000055dc5a15347b clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x284e47b)
+#17 0x000055dc5a29c573 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x2997573)
+#18 0x000055dc5855e134 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xc59134)
+#19 0x000055dc5855b53b ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&) driver.cpp:0:0
+#20 0x000055dc59fe5949 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const::'lambda'()>(long) Job.cpp:0:0
+#21 0x000055dc59758847 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x1e53847)
+#22 0x000055dc59fe5f51 clang::driver::CC1Command::Execute(llvm::ArrayRef<llvm::Optional<llvm::StringRef> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, bool*) const (.part.0) Job.cpp:0:0
+#23 0x000055dc59fb8e2c clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x26b3e2c)
+#24 0x000055dc59fb9849 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) const (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x26b4849)
+#25 0x000055dc59fc34c2 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*> >&) (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0x26be4c2)
+#26 0x000055dc584d8caf main (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xbd3caf)
+#27 0x00007fb8bc8050b3 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x270b3)
+#28 0x000055dc5855b0de _start (/root/llvm-compile-time-tracker/llvm-project-build/bin/clang+++0xc560de)
+clang-13: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+clang version 13.0.0
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /root/llvm-compile-time-tracker/llvm-project-build/bin
+clang-13: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang-13: note: diagnostic msg: /tmp/tramp3d-v4-85d01d.cpp
+clang-13: note: diagnostic msg: /tmp/tramp3d-v4-85d01d.sh
+clang-13: note: diagnostic msg: 
+
+********************
+[472/650] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/clamscan_treewalk.c.o
+[473/650] Linking CXX executable CTMark/7zip/7zip-benchmark
+[474/650] Linking C executable CTMark/lencod/lencod
+[475/650] Linking C executable CTMark/SPASS/SPASS
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
